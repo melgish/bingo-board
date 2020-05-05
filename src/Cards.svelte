@@ -30,6 +30,7 @@
 <div class="no-print">
   <Button on:click="{() => cards = load()}">Generate Cards</Button>
   <Button on:click="{() => print()}">Print</Button>
+  <span>For best results print in landscape</span>
 </div>
 <div class="cards">
   {#each cards as card}
