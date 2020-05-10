@@ -36,7 +36,7 @@
       background-color: black;
       color: white;
       transition: background-color 2s ease;
-      border: 1px solid silver;
+      border: 1px solid #300;
     }
     div.hot {
       background-color: #cc0;

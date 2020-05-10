@@ -17,7 +17,7 @@
     height: 26pt;
     font-size: 26pt;
     font-weight: bold;
-    margin-top: -24px;
+    margin-top: -22px;
    }
 
 
@@ -25,7 +25,7 @@
     div {
       background-color: #600;
       color: #fee;
-      border: 1px solid silver;
+      border: 1px solid #300;
     }
   }
 
