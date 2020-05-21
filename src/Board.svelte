@@ -82,7 +82,7 @@
     border-color: #600;
   }
   .check-card {
-    width: 50%;
+    display: inline-block;
   }
 
  </style>

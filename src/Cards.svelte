@@ -12,7 +12,7 @@
   $: cards = (location && load()) || [];
 
   function load() {
-    return Array.from({length:6}, () => getCard(getSeed()));
+    return Array.from({length:4}, () => getCard(getSeed()));
   }
 
   function print() {
@@ -23,17 +23,22 @@
 <style>
   .cards {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     grid-gap: .25rem;
+  }
+  .frame {
+    display: inline-block;
   }
 </style>
 <div class="no-print">
   <Button on:click="{() => cards = load()}">Generate Cards</Button>
   <Button on:click="{() => print()}">Print</Button>
-  <span>For best results print in landscape</span>
+  <span>For best results print in portrait with minimal margins.</span>
 </div>
-<div class="cards">
-  {#each cards as card}
-    <Card {card}></Card>
-  {/each}
+<div class="frame">
+  <div class="cards">
+    {#each cards as card}
+      <Card {card}></Card>
+    {/each}
+  </div>
 </div>

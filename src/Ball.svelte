@@ -25,10 +25,10 @@
 
   span {
     display: grid;
-    width: 36pt;
-    height: 26pt;
+    width: 40pt;
+    height: 36pt;
     border-radius: 50px;
-    font-size: 18pt;
+    font-size: 24pt;
     font-weight: bold;
   }
   @media screen {
