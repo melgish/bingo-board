@@ -17,7 +17,7 @@ nav {
 }
 .nav-logo {
   display: inline-block;
-  font-size: 18pt;
+  font-size: 16pt;
   font-weight: bold;
   font-variant: small-caps;
   color: #600;
@@ -25,9 +25,10 @@ nav {
 .nav-item {
   border: 2px solid silver;
   border-radius: 1rem;
-  padding: .25rem .75rem;
-  font-size: 18pt;
-  display: inline-block
+  padding: .125rem .75rem;
+  font-size: 14pt;
+  display: inline-block;
+  margin-top: -4px;
 }
 </style>
 

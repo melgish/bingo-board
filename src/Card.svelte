@@ -10,8 +10,8 @@
 <style>
   .card {
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: repeat(5, 3rem);
+    grid-template-columns: repeat(5, .8in);
+    grid-template-rows: .5in repeat(5, .8in) .25in;
     user-select: none;
     margin-bottom: 1rem;
     justify-items: stretch;

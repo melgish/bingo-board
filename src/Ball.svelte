@@ -25,10 +25,10 @@
 
   span {
     display: grid;
-    width: 36pt;
-    height: 26pt;
+    width: 40pt;
+    height: 36pt;
     border-radius: 50px;
-    font-size: 18pt;
+    font-size: 24pt;
     font-weight: bold;
   }
   @media screen {
@@ -36,7 +36,7 @@
       background-color: black;
       color: white;
       transition: background-color 2s ease;
-      border: 1px solid silver;
+      border: 1px solid #300;
     }
     div.hot {
       background-color: #cc0;

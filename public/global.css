@@ -67,7 +67,7 @@ button:focus {
 
 @media print {
   @page {
-    size: letter landscape;
+    size: letter portrait;
   }
   .no-print, .no-print * {
     display: none !important;
