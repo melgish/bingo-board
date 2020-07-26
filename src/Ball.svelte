@@ -1,17 +1,15 @@
 <script>
-  import { createEventDispatcher } from 'svelte';
-
-  // trun when highlighted
+  import { createEventDispatcher } from "svelte";
+  // true when highlighted
   export let lit = false;
-
   const dispatch = createEventDispatcher();
 
   $: hot = false;
 
   function flip() {
     hot = true;
-    dispatch('flip');
-    setTimeout(() => hot = false, 2000);
+    dispatch("flip");
+    setTimeout(() => (hot = false), 2000);
   }
 </script>
 
@@ -62,11 +60,10 @@
       border: 1px solid silver;
     }
   }
-
-
 </style>
-<div
-  class:hot="{hot}"
-  class:lit="{lit}" on:click="{flip}">
-  <span><slot/></span>
+
+<div role="button" class:hot class:lit on:click={flip}>
+  <span>
+    <slot />
+  </span>
 </div>

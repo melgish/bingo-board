@@ -1,13 +1,14 @@
 <script>
   export let disabled = false;
 </script>
+
 <style>
   button {
     font-weight: bold;
     background-color: #600;
     border-color: #300;
     color: white;
-    padding: .5rem 1rem;
+    padding: 0.5rem 1rem;
     border-radius: 0.5rem;
   }
   button:disabled {
@@ -15,4 +16,6 @@
   }
 </style>
 
-<button on:click {disabled}><slot /></button>
+<button on:click type="button" {disabled}>
+  <slot />
+</button>

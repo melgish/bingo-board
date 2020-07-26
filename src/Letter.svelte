@@ -1,9 +1,9 @@
 <script>
-  export let letter = 'B';
+  /** @type string */
+  export let letter = "B";
 </script>
 
 <style>
-
   div {
     display: grid;
     justify-items: center;
@@ -18,8 +18,7 @@
     font-size: 26pt;
     font-weight: bold;
     margin-top: -22px;
-   }
-
+  }
 
   @media screen {
     div {
@@ -29,7 +28,7 @@
     }
   }
 
-  @media print  {
+  @media print {
     div {
       background-color: silver;
       color: black;

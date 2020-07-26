@@ -1,7 +1,7 @@
 <script>
   import Ball from "./Ball.svelte";
   import Letter from "./Letter.svelte";
-  import { GAME } from './bingo-utils.js';
+  import { GAME } from "./bingo-utils.js";
 
   export let card = { rows: [], seed: 0 };
   export let calls = {};
@@ -10,8 +10,8 @@
 <style>
   .card {
     display: grid;
-    grid-template-columns: repeat(5, .8in);
-    grid-template-rows: .5in repeat(5, .8in) .25in;
+    grid-template-columns: repeat(5, 0.8in);
+    grid-template-rows: 0.5in repeat(5, 0.8in) 0.25in;
     user-select: none;
     margin-bottom: 1rem;
     justify-items: stretch;
