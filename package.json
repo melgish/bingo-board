@@ -1,25 +1,27 @@
 {
   "name": "bingo-board",
   "version": "1.0.0",
+  "license": "MIT",
   "scripts": {
     "build": "rollup -c",
     "dev": "rollup -c -w",
-    "start": "sirv public -s"
+    "start": "sirv public -s",
+    "clean": "rimraf public/build"
   },
   "devDependencies": {
-    "@rollup/plugin-commonjs": "11.0.2",
-    "@rollup/plugin-node-resolve": "^7.0.0",
+    "@rollup/plugin-commonjs": "^21.0.0",
+    "@rollup/plugin-node-resolve": "^13.0.5",
     "@types/random-seed": "^0.3.3",
     "random-seed": "^0.3.0",
-    "rollup": "^1.20.0",
-    "rollup-plugin-livereload": "^1.0.0",
-    "rollup-plugin-svelte": "^5.0.3",
-    "rollup-plugin-terser": "^5.1.2",
+    "rimraf": "^3.0.2",
+    "rollup": "^2.58.0",
+    "rollup-plugin-css-only": "^3.1.0",
+    "rollup-plugin-livereload": "^2.0.5",
+    "rollup-plugin-svelte": "^7.1.0",
+    "rollup-plugin-terser": "^7.0.2",
     "shuffle-array": "^1.0.1",
-    "svelte": "^3.0.0",
-    "svelte-routing": "^1.4.2"
-  },
-  "dependencies": {
-    "sirv-cli": "^0.4.4"
+    "sirv-cli": "^1.0.14",
+    "svelte": "^3.43.2",
+    "svelte-routing": "^1.6.0"
   }
 }
