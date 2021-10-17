@@ -1,8 +1,8 @@
 <script>
-  import { onMount } from 'svelte'
-  import Button from './Button.svelte'
-  import Card from './Card.svelte'
-  import { getCard, getSeed } from './bingo-utils.js'
+  import { onMount } from "svelte"
+  import Button from "./Button.svelte"
+  import Card from "./Card.svelte"
+  import { getCard, getSeed } from "./bingo-utils.js"
 
   $: cards = []
 

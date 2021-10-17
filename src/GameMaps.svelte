@@ -1,7 +1,7 @@
 <script>
-  import { onMount } from 'svelte'
-  import GameMap from './GameMap.svelte'
-  import { GAME_MAPS, normals } from './game-maps.js'
+  import { onMount } from "svelte"
+  import GameMap from "./GameMap.svelte"
+  import { GAME_MAPS, normals } from "./game-maps.js"
 
   let active = GAME_MAPS[0]
   let n = 0

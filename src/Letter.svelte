@@ -1,6 +1,6 @@
 <script>
   /** @type string */
-  export let letter = 'B'
+  export let letter = "B"
 </script>
 
 <div>

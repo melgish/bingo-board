@@ -1,4 +1,4 @@
-import { writable } from 'svelte/store'
+import { writable } from "svelte/store"
 
 /**
  * Initial state is an empty object with 'free' space selected

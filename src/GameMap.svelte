@@ -1,5 +1,5 @@
 <script>
-  import { coverAll } from './game-maps.js'
+  import { coverAll } from "./game-maps.js"
 
   // 5x5 array defaults to cover-all
   export let game = coverAll

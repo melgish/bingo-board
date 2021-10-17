@@ -1,11 +1,11 @@
 <script>
-  import Button from './Button.svelte'
-  import Ball from './Ball.svelte'
-  import Letter from './Letter.svelte'
-  import Card from './Card.svelte'
-  import GameMaps from './GameMaps.svelte'
-  import calls from './calls.store.js'
-  import { getCard, BOARD, GAME } from './bingo-utils.js'
+  import Button from "./Button.svelte"
+  import Ball from "./Ball.svelte"
+  import Letter from "./Letter.svelte"
+  import Card from "./Card.svelte"
+  import GameMaps from "./GameMaps.svelte"
+  import calls from "./calls.store.js"
+  import { getCard, BOARD, GAME } from "./bingo-utils.js"
 
   /**
    * card being inspected
@@ -20,7 +20,7 @@
   /**
    *  Create rows to display letter
    */
-  let rows = GAME.split('').map((letter, i) => ({
+  let rows = GAME.split("").map((letter, i) => ({
     letter,
     balls: BOARD[i],
   }))

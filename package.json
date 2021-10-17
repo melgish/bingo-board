@@ -36,9 +36,10 @@
   },
   "prettier": {
     "semi": false,
-    "singleQuote": true,
-    "svelteAllowShorthand": true,
+    "singleQuote": false,
     "svelteSortOrder": "options-scripts-markup-styles",
-    "svelteBracketNewLine": false
+    "svelteBracketNewLine": false,
+    "svelteAllowShorthand": true,
+    "svelteIndentScriptAndStyle": true
   }
 }

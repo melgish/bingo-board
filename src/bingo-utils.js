@@ -1,10 +1,10 @@
-import gen from 'random-seed'
-import shuffle from 'shuffle-array'
+import gen from "random-seed"
+import shuffle from "shuffle-array"
 
-export const GAME = 'BINGO'
+export const GAME = "BINGO"
 
 // Array of indexes 0 - 4 because I'm that lazy
-const BINGO = GAME.split('').map((v, k) => k)
+const BINGO = GAME.split("").map((v, k) => k)
 const FREE = 2
 const RNG = gen.create()
 

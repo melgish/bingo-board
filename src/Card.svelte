@@ -1,7 +1,7 @@
 <script>
-  import Ball from './Ball.svelte'
-  import Letter from './Letter.svelte'
-  import { GAME } from './bingo-utils.js'
+  import Ball from "./Ball.svelte"
+  import Letter from "./Letter.svelte"
+  import { GAME } from "./bingo-utils.js"
 
   export let card = { rows: [], seed: 0 }
   export let calls = {}
@@ -14,7 +14,7 @@
 
   {#each card.rows as row}
     {#each row as col}
-      <Ball lit={calls[col]}>{col || 'free'}</Ball>
+      <Ball lit={calls[col]}>{col || "free"}</Ball>
     {/each}
   {/each}
   <div class="foot">{card.seed}</div>

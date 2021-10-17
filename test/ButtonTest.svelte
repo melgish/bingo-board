@@ -1,7 +1,7 @@
 <script>
-  import Button from '../src/Button.svelte'
+  import Button from "../src/Button.svelte"
   export let disabled = false
-  export let text = 'waiting'
+  export let text = "waiting"
 </script>
 
-<Button {disabled} on:click={() => (text = 'clicked')}>{text}</Button>
+<Button {disabled} on:click={() => (text = "clicked")}>{text}</Button>

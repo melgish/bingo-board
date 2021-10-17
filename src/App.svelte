@@ -1,10 +1,10 @@
 <script>
-  import { Router, Route, Link } from 'svelte-routing'
-  import Board from './Board.svelte'
-  import Cards from './Cards.svelte'
-  import { GAME } from './bingo-utils.js'
+  import { Router, Route, Link } from "svelte-routing"
+  import Board from "./Board.svelte"
+  import Cards from "./Cards.svelte"
+  import { GAME } from "./bingo-utils.js"
 
-  export let url = ''
+  export let url = ""
 </script>
 
 <div class="contianer">

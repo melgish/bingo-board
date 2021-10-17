@@ -1,6 +1,6 @@
-import marks from '../src/marks.store'
+import marks from "../src/marks.store"
 
-describe('marks.store', () => {
+describe("marks.store", () => {
   let store
   let current
   let unsubscribe
@@ -14,23 +14,23 @@ describe('marks.store', () => {
 
   afterEach(() => unsubscribe())
 
-  describe('when initialized', () => {
-    it('should mark the free space', () => {
+  describe("when initialized", () => {
+    it("should mark the free space", () => {
       expect(current).toEqual({ 0: true })
     })
   })
 
-  describe('flip', () => {
-    describe('when ball is falsy', () => {
-      it('should not update subscriptions', () => {
+  describe("flip", () => {
+    describe("when ball is falsy", () => {
+      it("should not update subscriptions", () => {
         store.flip(0)
 
         expect(before).toBe(current)
       })
     })
 
-    describe('when ball is truthy', () => {
-      it('should update subscriptions', () => {
+    describe("when ball is truthy", () => {
+      it("should update subscriptions", () => {
         store.flip(5)
 
         expect(before).not.toBe(current)
@@ -39,8 +39,8 @@ describe('marks.store', () => {
     })
   })
 
-  describe('reset', () => {
-    it('should restore the iniital state', () => {
+  describe("reset", () => {
+    it("should restore the iniital state", () => {
       store.reset()
 
       expect(before).not.toBe(current)

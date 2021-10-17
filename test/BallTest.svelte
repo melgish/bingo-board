@@ -1,5 +1,5 @@
 <script>
-  import Ball from '../src/Ball.svelte'
+  import Ball from "../src/Ball.svelte"
   export let lit = false
 </script>
 
