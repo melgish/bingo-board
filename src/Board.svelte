@@ -1,36 +1,36 @@
 <script>
-  import Button from "./Button.svelte";
-  import Ball from "./Ball.svelte";
-  import Letter from "./Letter.svelte";
-  import Card from "./Card.svelte";
-  import GameMaps from "./GameMaps.svelte";
-  import calls from "./calls.store.js";
-  import { getCard, BOARD, GAME } from "./bingo-utils.js";
+  import Button from './Button.svelte'
+  import Ball from './Ball.svelte'
+  import Letter from './Letter.svelte'
+  import Card from './Card.svelte'
+  import GameMaps from './GameMaps.svelte'
+  import calls from './calls.store.js'
+  import { getCard, BOARD, GAME } from './bingo-utils.js'
 
   /**
    * card being inspected
    */
-  let card = null;
+  let card = null
 
   /**
    * Seed for input / card being inspected
    */
-  let seed = null;
+  let seed = null
 
   /**
    *  Create rows to display letter
    */
-  let rows = GAME.split("").map((letter, i) => ({
+  let rows = GAME.split('').map((letter, i) => ({
     letter,
-    balls: BOARD[i]
-  }));
+    balls: BOARD[i],
+  }))
 
   /**
    * Clear the card being inspected
    */
   function clearCard() {
-    card = null;
-    seed = null;
+    card = null
+    seed = null
   }
 
   /**
@@ -38,7 +38,7 @@
    */
   function checkCard() {
     if (seed > 9999) {
-      card = getCard(seed);
+      card = getCard(seed)
     }
   }
 
@@ -46,8 +46,8 @@
    * Reset the game
    */
   function resetGame() {
-    calls.reset();
-    clearCard();
+    calls.reset()
+    clearCard()
   }
 
   /**
@@ -56,36 +56,9 @@
    * @param {number} ball ball to flip.
    */
   function flip(ball) {
-    calls.flip(ball);
+    calls.flip(ball)
   }
 </script>
-
-<style>
-  .board {
-    display: grid;
-    grid-template-columns: repeat(16, 1fr);
-    grid-template-rows: repeat(5, 3rem);
-    grid-gap: 0.125rem;
-    user-select: none;
-    margin-bottom: .25rem;
-    background-color: #333;
-    justify-items: stretch;
-    align-content: center;
-    padding: 2px;
-    border: 1px solid #600;
-  }
-  input {
-    font-size: 12pt;
-    font-weight: bold;
-    color: #600;
-    border-radius: 0.5rem;
-    border-color: #600;
-  }
-  .check-card {
-    display: inline-block;
-  }
-
- </style>
 
 <div class="board">
   {#each rows as row}
@@ -96,7 +69,7 @@
   {/each}
 </div>
 
-<GameMaps></GameMaps>
+<GameMaps />
 <div>
   <Button on:click={resetGame}>Reset Game</Button>
   <input
@@ -115,7 +88,33 @@
   {/if}
 </div>
 {#if card}
-<div class="check-card">
-  <Card {card} calls={$calls} />
-</div>
+  <div class="check-card">
+    <Card {card} calls={$calls} />
+  </div>
 {/if}
+
+<style>
+  .board {
+    display: grid;
+    grid-template-columns: repeat(16, 1fr);
+    grid-template-rows: repeat(5, 3rem);
+    grid-gap: 0.125rem;
+    user-select: none;
+    margin-bottom: 0.25rem;
+    background-color: #333;
+    justify-items: stretch;
+    align-content: center;
+    padding: 2px;
+    border: 1px solid #600;
+  }
+  input {
+    font-size: 12pt;
+    font-weight: bold;
+    color: #600;
+    border-radius: 0.5rem;
+    border-color: #600;
+  }
+  .check-card {
+    display: inline-block;
+  }
+</style>

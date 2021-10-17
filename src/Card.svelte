@@ -1,11 +1,24 @@
 <script>
-  import Ball from "./Ball.svelte";
-  import Letter from "./Letter.svelte";
-  import { GAME } from "./bingo-utils.js";
+  import Ball from './Ball.svelte'
+  import Letter from './Letter.svelte'
+  import { GAME } from './bingo-utils.js'
 
-  export let card = { rows: [], seed: 0 };
-  export let calls = {};
+  export let card = { rows: [], seed: 0 }
+  export let calls = {}
 </script>
+
+<div class="card" data-testid="card">
+  {#each GAME as letter}
+    <Letter {letter} />
+  {/each}
+
+  {#each card.rows as row}
+    {#each row as col}
+      <Ball lit={calls[col]}>{col || 'free'}</Ball>
+    {/each}
+  {/each}
+  <div class="foot">{card.seed}</div>
+</div>
 
 <style>
   .card {
@@ -40,16 +53,3 @@
     }
   }
 </style>
-
-<div class="card">
-  {#each GAME as letter}
-    <Letter {letter} />
-  {/each}
-
-  {#each card.rows as row}
-    {#each row as col}
-      <Ball lit={calls[col]}>{col || 'free'}</Ball>
-    {/each}
-  {/each}
-  <div class="foot">{card.seed}</div>
-</div>

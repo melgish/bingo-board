@@ -1,7 +1,11 @@
 <script>
   /** @type string */
-  export let letter = "B";
+  export let letter = 'B'
 </script>
+
+<div>
+  <span>{letter}</span>
+</div>
 
 <style>
   div {
@@ -36,7 +40,3 @@
     }
   }
 </style>
-
-<div>
-  <span>{letter}</span>
-</div>

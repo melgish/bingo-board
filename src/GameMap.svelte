@@ -1,14 +1,22 @@
 <script>
-  import { coverAll } from "./game-maps.js";
+  import { coverAll } from './game-maps.js'
 
   // 5x5 array defaults to cover-all
-  export let game = coverAll;
+  export let game = coverAll
 </script>
+
+<div class="grid" on:click>
+  {#each game as row}
+    {#each row as col}
+      <div class:lit={col} />
+    {/each}
+  {/each}
+</div>
 
 <style>
   .grid {
     display: grid;
-    grid-template-rows: repeat(5  1fr);
+    grid-template-rows: repeat(5 1fr);
     grid-template-columns: repeat(5, 1fr);
     grid-gap: 0.125rem;
     background-color: white;
@@ -24,11 +32,3 @@
     background-color: #600;
   }
 </style>
-
-<div class="grid" on:click>
-  {#each game as row}
-    {#each row as col}
-      <div class:lit={col} />
-    {/each}
-  {/each}
-</div>

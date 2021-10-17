@@ -1,8 +1,8 @@
-import { render } from "@testing-library/svelte";
-import Card from "../src/Card.svelte";
-import { GAME, getCard } from "../src/bingo-utils";
+import { render } from '@testing-library/svelte'
+import Card from '../src/Card.svelte'
+import { GAME, getCard } from '../src/bingo-utils'
 
-const card = getCard("12345");
+const card = getCard('12345')
 const calls = {
   // free space
   0: true,
@@ -10,25 +10,19 @@ const calls = {
   [card.rows[0][0]]: true,
   // last box
   [card.rows[4][4]]: true,
-};
+}
 
 describe(Card.name, () => {
-  it("should display all letters", () => {
-    const { getByText } = render(Card);
-    GAME.split("").forEach((c) => {
-      expect(getByText(c)).toBeTruthy();
-    });
-  });
-  it("should display the card", () => {
-    const { getAllByRole, getByText } = render(Card, {
-      props: { card, calls },
-    });
-    const balls = getAllByRole("button");
+  let dom
 
-    expect(balls.length).toBe(25);
-    expect(balls[0]).toHaveClass("lit");
-    expect(balls[12]).toHaveClass("lit");
-    expect(balls[1]).not.toHaveClass("lit");
-    expect(getByText(card.seed.toString())).toBeTruthy();
-  });
-});
+  beforeEach(() => {
+    dom = render(Card, { props: { card, calls } })
+  })
+
+  describe('when loaded', () => {
+    it('should display the card', () => {
+      expect(dom.getByTestId('card')).toMatchSnapshot()
+      expect(dom.getAllByRole('button').length).toBe(25)
+    })
+  })
+})

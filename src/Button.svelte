@@ -1,6 +1,10 @@
 <script>
-  export let disabled = false;
+  export let disabled = false
 </script>
+
+<button on:click type="button" {disabled}>
+  <slot />
+</button>
 
 <style>
   button {
@@ -15,7 +19,3 @@
     background-color: #66000080;
   }
 </style>
-
-<button on:click type="button" {disabled}>
-  <slot />
-</button>
