@@ -1,4 +1,4 @@
-import calls from "../src/calls.store"
+import calls from "./calls.store"
 
 describe("calls.store", () => {
   it("should be a marks.store instance", () => {

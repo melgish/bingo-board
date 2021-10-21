@@ -1,6 +1,6 @@
 import { render } from "@testing-library/svelte"
-import Card from "../src/Card.svelte"
-import { GAME, getCard } from "../src/bingo-utils"
+import Card from "./Card.svelte"
+import { getCard } from "./bingo-utils"
 
 const card = getCard("12345")
 const calls = {

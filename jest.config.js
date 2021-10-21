@@ -1,5 +1,5 @@
 module.exports = {
-  collectCoverageFrom: ["src/**/*"],
+  collectCoverageFrom: ["src/**/*", "!src/__snapshots__/*.snap"],
   coverageProvider: "babel",
   coverageReporters: ["html"],
   moduleFileExtensions: ["js", "svelte"],
@@ -9,4 +9,4 @@ module.exports = {
     "^.+\\.svelte$": "svelte-jester",
     "^.+\\.js$": "babel-jest",
   },
-};
+}

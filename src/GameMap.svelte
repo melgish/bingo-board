@@ -5,7 +5,7 @@
   export let game = coverAll
 </script>
 
-<div class="grid" on:click>
+<div class="grid" on:click role="button">
   {#each game as row}
     {#each row as col}
       <div class:lit={col} />

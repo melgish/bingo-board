@@ -6,18 +6,20 @@
   let active = GAME_MAPS[0]
   let n = 0
 
-  onMount(() => {
-    const i = setInterval(() => {
-      if (active === normals) {
-        n = (n + 1) % normals.length
-      }
-    }, 500)
+  const advanceNormals = () => {
+    if (active === normals) {
+      n = (n + 1) % normals.length
+    }
+  }
 
+  onMount(() => {
+    // Animate normal game every 1/2 second
+    const i = setInterval(advanceNormals, 500)
     return () => clearInterval(i)
   })
 </script>
 
-<div class="games">
+<div class="games" data-testid="games">
   <div class:active={normals == active}>
     <GameMap game={normals[n]} on:click={() => (active = normals)} />
   </div>

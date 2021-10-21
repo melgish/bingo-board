@@ -1,4 +1,4 @@
-import marks from "../src/marks.store"
+import marks from "./marks.store"
 
 describe("marks.store", () => {
   let store

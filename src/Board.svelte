@@ -60,38 +60,40 @@
   }
 </script>
 
-<div class="board">
-  {#each rows as row}
-    <Letter letter={row.letter} />
-    {#each row.balls as ball}
-      <Ball lit={$calls[ball]} on:flip={() => flip(ball)}>{ball}</Ball>
-    {/each}
-  {/each}
-</div>
-
-<GameMaps />
 <div>
-  <Button on:click={resetGame}>Reset Game</Button>
-  <input
-    type="number"
-    min="10000"
-    max="99999"
-    placeholder="card #"
-    bind:value={seed}
-    disabled={card} />
+  <div class="board">
+    {#each rows as row}
+      <Letter letter={row.letter} />
+      {#each row.balls as ball}
+        <Ball lit={$calls[ball]} on:flip={() => flip(ball)}>{ball}</Ball>
+      {/each}
+    {/each}
+  </div>
+
+  <GameMaps />
+  <div>
+    <Button on:click={resetGame}>Reset Game</Button>
+    <input
+      type="number"
+      min="10000"
+      max="99999"
+      placeholder="card #"
+      bind:value={seed}
+      disabled={card} />
+    {#if card}
+      <Button on:click={clearCard}>Clear</Button>
+    {:else}
+      <Button on:click={checkCard} disabled={!(seed && seed > 9999)}>
+        Check Card
+      </Button>
+    {/if}
+  </div>
   {#if card}
-    <Button on:click={clearCard}>Clear</Button>
-  {:else}
-    <Button on:click={checkCard} disabled={!(seed && seed > 9999)}>
-      Check Card
-    </Button>
+    <div class="check-card">
+      <Card {card} calls={$calls} />
+    </div>
   {/if}
 </div>
-{#if card}
-  <div class="check-card">
-    <Card {card} calls={$calls} />
-  </div>
-{/if}
 
 <style>
   .board {
