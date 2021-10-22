@@ -1,8 +1,10 @@
 <script>
   export let disabled = false
+  export let name = undefined
+  export let type = "button"
 </script>
 
-<button on:click type="button" {disabled}>
+<button on:click {type} {disabled} {name}>
   <slot />
 </button>
 
