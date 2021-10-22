@@ -1,46 +1,55 @@
+import { fireEvent } from "@testing-library/dom"
 import { render, act } from "@testing-library/svelte"
 import Ball from "./Ball.svelte"
 
 describe(Ball.name, () => {
-  describe("when button is not lit", () => {
-    it("should not have lit class", () => {
-      const { component, getByRole } = render(Ball)
-      const button = getByRole("button")
+  const SWITCH = "switch"
+  const CHECKED = { checked: true }
+  const UNCHECKED = { checked: false }
+  const HOT = "hot"
+  let dom
+  /** @type HTMLDivElement */
+  let div
 
-      expect(button).not.toHaveClass("lit")
-      expect(button.textContent.trim()).toBe("")
+  describe("when not checked", () => {
+    it("should have aria-checked=false", () => {
+      dom = render(Ball)
+      div = dom.getByRole(SWITCH, UNCHECKED)
+
+      expect(div).toMatchSnapshot()
     })
   })
 
-  describe("when button is lit", () => {
-    it("should have lit class", () => {
-      const props = { lit: true }
-      const { component, getByRole } = render(Ball, { props })
+  describe("when checked", () => {
+    it("should have aria-checked=true", () => {
+      dom = render(Ball, CHECKED)
+      div = dom.getByRole(SWITCH, CHECKED)
 
-      expect(getByRole("button")).toHaveClass("lit")
+      expect(div).toMatchSnapshot()
     })
   })
 
-  describe("when button is clicked", () => {
+  describe("when ball is clicked", () => {
     beforeEach(() => jest.useFakeTimers())
     afterEach(() => jest.useRealTimers())
 
     it("should emit a flip event", async () => {
-      const flip = jest.fn()
-      const { component, getByRole } = render(Ball)
-      const button = getByRole("button")
-      const off = component.$on("flip", flip)
+      dom = render(Ball, UNCHECKED)
+      div = dom.getByRole(SWITCH, UNCHECKED)
+
+      const flipped = jest.fn()
+      const off = dom.component.$on("flip", flipped)
 
       // Click the button
-      await act(() => button.click())
+      await act(() => div.click())
       off()
 
-      expect(flip).toHaveBeenCalled()
-      expect(button).toHaveClass("hot")
+      expect(div).toHaveClass("hot")
+      expect(flipped).toHaveBeenCalled()
 
       await jest.runOnlyPendingTimers()
 
-      expect(button).not.toHaveClass("hot")
+      expect(div).not.toHaveClass("hot")
     })
   })
 })
