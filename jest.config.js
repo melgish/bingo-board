@@ -1,7 +1,15 @@
 module.exports = {
   collectCoverageFrom: ["src/**/*", "!src/__snapshots__/*.snap"],
   coverageProvider: "babel",
-  coverageReporters: ["html"],
+  coverageReporters: [
+    // for the human at the console
+    "text-summary",
+    "html",
+    // for Jenkins statistics
+    "cobertura",
+    // for Sonarqube/CodeCov analysis
+    "lcovonly",
+  ],
   moduleFileExtensions: ["js", "svelte"],
   testEnvironment: "jsdom",
   setupFilesAfterEnv: [
