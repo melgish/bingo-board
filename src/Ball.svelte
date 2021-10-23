@@ -1,29 +1,43 @@
 <script>
-  import { createEventDispatcher } from 'svelte';
+  import { createEventDispatcher } from "svelte"
+  // true when highlighted
+  export let checked = false
+  const dispatch = createEventDispatcher()
 
-  // trun when highlighted
-  export let lit = false;
+  $: hot = false
 
-  const dispatch = createEventDispatcher();
-
-  $: hot = false;
-
+  /**
+   * Sends event that switch wants to be flipped
+   */
   function flip() {
-    hot = true;
-    dispatch('flip');
-    setTimeout(() => hot = false, 2000);
+    hot = true
+    dispatch("flip")
+    setTimeout(() => (hot = false), 2000)
   }
 </script>
 
+<button role="switch" aria-checked={!!checked} class:hot on:click={flip}>
+  <div><slot /></div>
+</button>
+
 <style>
-  div {
+  [role="switch"] {
+    /* strip styling from the button */
+    padding: 0;
+    margin: 0;
+    border: 0;
+    border-radius: 0;
+    /* change container type */
     display: grid;
     justify-items: center;
     align-content: center;
     text-align: center;
   }
-
-  span {
+  [role="switch"]:hover,
+  [role="switch"]:focus {
+    outline: 2px solid red;
+  }
+  div {
     display: grid;
     width: 40pt;
     height: 36pt;
@@ -32,41 +46,34 @@
     font-weight: bold;
   }
   @media screen {
-    div {
+    [role="switch"] {
       background-color: black;
       color: white;
       transition: background-color 2s ease;
       border: 1px solid #300;
     }
-    div.hot {
+    .hot {
       background-color: #cc0;
     }
-    span {
+    div {
       border-radius: 50%;
       border: 1pt solid currentColor;
       transition: background-color 1s ease;
     }
-    .lit span {
+    [aria-checked="true"] div {
       background-color: white;
       color: black;
     }
   }
 
   @media print {
-    div {
+    [role="switch"] {
       background-color: white;
       color: black;
       border: 1px solid black;
     }
-    span {
+    div {
       border: 1px solid silver;
     }
   }
-
-
 </style>
-<div
-  class:hot="{hot}"
-  class:lit="{lit}" on:click="{flip}">
-  <span><slot/></span>
-</div>

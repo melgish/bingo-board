@@ -1,0 +1,268 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GameMaps when interval passes should not update normal to next map 1`] = `
+<button
+  aria-label="Select Game"
+  class="svelte-bvxh5p"
+  type="button"
+>
+  <div
+    class="svelte-bvxh5p filled"
+  />
+  <div
+    class="svelte-bvxh5p filled"
+  />
+  <div
+    class="svelte-bvxh5p filled"
+  />
+  <div
+    class="svelte-bvxh5p filled"
+  />
+  <div
+    class="svelte-bvxh5p filled"
+  />
+  
+  <div
+    class="svelte-bvxh5p"
+  />
+  <div
+    class="svelte-bvxh5p"
+  />
+  <div
+    class="svelte-bvxh5p"
+  />
+  <div
+    class="svelte-bvxh5p"
+  />
+  <div
+    class="svelte-bvxh5p"
+  />
+  
+  <div
+    class="svelte-bvxh5p"
+  />
+  <div
+    class="svelte-bvxh5p"
+  />
+  <div
+    class="svelte-bvxh5p"
+  />
+  <div
+    class="svelte-bvxh5p"
+  />
+  <div
+    class="svelte-bvxh5p"
+  />
+  
+  <div
+    class="svelte-bvxh5p"
+  />
+  <div
+    class="svelte-bvxh5p"
+  />
+  <div
+    class="svelte-bvxh5p"
+  />
+  <div
+    class="svelte-bvxh5p"
+  />
+  <div
+    class="svelte-bvxh5p"
+  />
+  
+  <div
+    class="svelte-bvxh5p"
+  />
+  <div
+    class="svelte-bvxh5p"
+  />
+  <div
+    class="svelte-bvxh5p"
+  />
+  <div
+    class="svelte-bvxh5p"
+  />
+  <div
+    class="svelte-bvxh5p"
+  />
+  
+</button>
+`;
+
+exports[`GameMaps when interval passes should not update normal to next map 2`] = `
+<button
+  aria-label="Select Game"
+  class="svelte-bvxh5p"
+  type="button"
+>
+  <div
+    class="svelte-bvxh5p filled"
+  />
+  <div
+    class="svelte-bvxh5p filled"
+  />
+  <div
+    class="svelte-bvxh5p filled"
+  />
+  <div
+    class="svelte-bvxh5p filled"
+  />
+  <div
+    class="svelte-bvxh5p filled"
+  />
+  
+  <div
+    class="svelte-bvxh5p"
+  />
+  <div
+    class="svelte-bvxh5p"
+  />
+  <div
+    class="svelte-bvxh5p"
+  />
+  <div
+    class="svelte-bvxh5p"
+  />
+  <div
+    class="svelte-bvxh5p"
+  />
+  
+  <div
+    class="svelte-bvxh5p"
+  />
+  <div
+    class="svelte-bvxh5p"
+  />
+  <div
+    class="svelte-bvxh5p"
+  />
+  <div
+    class="svelte-bvxh5p"
+  />
+  <div
+    class="svelte-bvxh5p"
+  />
+  
+  <div
+    class="svelte-bvxh5p"
+  />
+  <div
+    class="svelte-bvxh5p"
+  />
+  <div
+    class="svelte-bvxh5p"
+  />
+  <div
+    class="svelte-bvxh5p"
+  />
+  <div
+    class="svelte-bvxh5p"
+  />
+  
+  <div
+    class="svelte-bvxh5p"
+  />
+  <div
+    class="svelte-bvxh5p"
+  />
+  <div
+    class="svelte-bvxh5p"
+  />
+  <div
+    class="svelte-bvxh5p"
+  />
+  <div
+    class="svelte-bvxh5p"
+  />
+  
+</button>
+`;
+
+exports[`GameMaps when normal game is selected should animate the map 1`] = `
+<button
+  aria-label="Select Game"
+  class="svelte-bvxh5p"
+  type="button"
+>
+  <div
+    class="svelte-bvxh5p"
+  />
+  <div
+    class="svelte-bvxh5p"
+  />
+  <div
+    class="svelte-bvxh5p"
+  />
+  <div
+    class="svelte-bvxh5p"
+  />
+  <div
+    class="svelte-bvxh5p"
+  />
+  
+  <div
+    class="svelte-bvxh5p"
+  />
+  <div
+    class="svelte-bvxh5p"
+  />
+  <div
+    class="svelte-bvxh5p"
+  />
+  <div
+    class="svelte-bvxh5p"
+  />
+  <div
+    class="svelte-bvxh5p"
+  />
+  
+  <div
+    class="svelte-bvxh5p filled"
+  />
+  <div
+    class="svelte-bvxh5p filled"
+  />
+  <div
+    class="svelte-bvxh5p filled"
+  />
+  <div
+    class="svelte-bvxh5p filled"
+  />
+  <div
+    class="svelte-bvxh5p filled"
+  />
+  
+  <div
+    class="svelte-bvxh5p"
+  />
+  <div
+    class="svelte-bvxh5p"
+  />
+  <div
+    class="svelte-bvxh5p"
+  />
+  <div
+    class="svelte-bvxh5p"
+  />
+  <div
+    class="svelte-bvxh5p"
+  />
+  
+  <div
+    class="svelte-bvxh5p"
+  />
+  <div
+    class="svelte-bvxh5p"
+  />
+  <div
+    class="svelte-bvxh5p"
+  />
+  <div
+    class="svelte-bvxh5p"
+  />
+  <div
+    class="svelte-bvxh5p"
+  />
+  
+</button>
+`;

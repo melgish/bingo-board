@@ -1,36 +1,36 @@
 <script>
-  import Button from "./Button.svelte";
-  import Ball from "./Ball.svelte";
-  import Letter from "./Letter.svelte";
-  import Card from "./Card.svelte";
-  import GameMaps from "./GameMaps.svelte";
-  import calls from "./calls.store.js";
-  import { getCard, BOARD, GAME } from "./bingo-utils.js";
+  import Button from "./Button.svelte"
+  import Ball from "./Ball.svelte"
+  import Letter from "./Letter.svelte"
+  import Card from "./Card.svelte"
+  import GameMaps from "./GameMaps.svelte"
+  import calls from "./calls.store"
+  import { getCard, BOARD, GAME } from "./bingo-utils"
 
   /**
    * card being inspected
    */
-  let card = null;
+  let card = null
 
   /**
    * Seed for input / card being inspected
    */
-  let seed = null;
+  let seed = null
 
   /**
    *  Create rows to display letter
    */
   let rows = GAME.split("").map((letter, i) => ({
     letter,
-    balls: BOARD[i]
-  }));
+    balls: BOARD[i],
+  }))
 
   /**
    * Clear the card being inspected
    */
   function clearCard() {
-    card = null;
-    seed = null;
+    card = null
+    seed = null
   }
 
   /**
@@ -38,7 +38,7 @@
    */
   function checkCard() {
     if (seed > 9999) {
-      card = getCard(seed);
+      card = getCard(seed)
     }
   }
 
@@ -46,8 +46,8 @@
    * Reset the game
    */
   function resetGame() {
-    calls.reset();
-    clearCard();
+    calls.reset()
+    clearCard()
   }
 
   /**
@@ -56,9 +56,44 @@
    * @param {number} ball ball to flip.
    */
   function flip(ball) {
-    calls.flip(ball);
+    calls.flip(ball)
   }
 </script>
+
+<div>
+  <div class="board" data-testid="board">
+    {#each rows as row}
+      <Letter letter={row.letter} />
+      {#each row.balls as ball}
+        <Ball checked={$calls[ball]} on:flip={() => flip(ball)}>{ball}</Ball>
+      {/each}
+    {/each}
+  </div>
+
+  <GameMaps />
+  <div>
+    <Button on:click={resetGame}>Reset Game</Button>
+    <input
+      type="number"
+      min="10000"
+      max="99999"
+      placeholder="card #"
+      bind:value={seed}
+      disabled={card} />
+    {#if card}
+      <Button on:click={clearCard}>Clear</Button>
+    {:else}
+      <Button on:click={checkCard} disabled={!(seed && seed > 9999)}>
+        Check Card
+      </Button>
+    {/if}
+  </div>
+  {#if card}
+    <div class="check-card">
+      <Card {card} calls={$calls} />
+    </div>
+  {/if}
+</div>
 
 <style>
   .board {
@@ -67,7 +102,7 @@
     grid-template-rows: repeat(5, 3rem);
     grid-gap: 0.125rem;
     user-select: none;
-    margin-bottom: .25rem;
+    margin-bottom: 0.25rem;
     background-color: #333;
     justify-items: stretch;
     align-content: center;
@@ -84,38 +119,4 @@
   .check-card {
     display: inline-block;
   }
-
- </style>
-
-<div class="board">
-  {#each rows as row}
-    <Letter letter={row.letter} />
-    {#each row.balls as ball}
-      <Ball lit={$calls[ball]} on:flip={() => flip(ball)}>{ball}</Ball>
-    {/each}
-  {/each}
-</div>
-
-<GameMaps></GameMaps>
-<div>
-  <Button on:click={resetGame}>Reset Game</Button>
-  <input
-    type="number"
-    min="10000"
-    max="99999"
-    placeholder="card #"
-    bind:value={seed}
-    disabled={card} />
-  {#if card}
-    <Button on:click={clearCard}>Clear</Button>
-  {:else}
-    <Button on:click={checkCard} disabled={!(seed && seed > 9999)}>
-      Check Card
-    </Button>
-  {/if}
-</div>
-{#if card}
-<div class="check-card">
-  <Card {card} calls={$calls} />
-</div>
-{/if}
+</style>

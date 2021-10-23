@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GameMap when button is clicked should fire an event: letter-x 1`] = `
+Object {
+  "bits": "1000101010001000101010001",
+}
+`;
+
+exports[`GameMap when map is supplied should render the map: letter-t 1`] = `
+Object {
+  "bits": "1111100100001000010000100",
+}
+`;
+
+exports[`GameMap when no map is supplied should default to coverall: all-ones 1`] = `
+Object {
+  "bits": "1111111111111111111111111",
+}
+`;
