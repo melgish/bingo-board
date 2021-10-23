@@ -7,7 +7,9 @@
     "dev": "rollup -c -w",
     "start": "sirv public -s",
     "test": "jest test",
-    "clean": "rimraf public/build"
+    "clean": "rimraf public/build",
+    "ci:build": "rollup -c",
+    "ci:test": "jest test --coverage"
   },
   "devDependencies": {
     "@babel/core": "^7.10.5",
