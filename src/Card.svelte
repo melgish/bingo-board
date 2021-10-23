@@ -14,7 +14,7 @@
 
   {#each card.rows as row}
     {#each row as col}
-      <Ball lit={calls[col]}>{col || "free"}</Ball>
+      <Ball checked={calls[col]}>{col || "free"}</Ball>
     {/each}
   {/each}
   <div class="foot">{card.seed}</div>

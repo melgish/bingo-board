@@ -1,5 +1,9 @@
-import { render, fireEvent } from "@testing-library/svelte"
+import { act, render, fireEvent } from "@testing-library/svelte"
 import Cards from "./Cards.svelte"
+
+const BUTTON = "button"
+const PRINT = { name: /print/i }
+const GENERATE = { name: /generate/i }
 
 // Immutable seed source.
 const mockSeed = { seed: 12345 }
@@ -39,7 +43,7 @@ describe(Cards.name, () => {
 
   describe("when print button is clicked", () => {
     it("should invoke browser print function", async () => {
-      await fireEvent.click(dom.getByText("Print"))
+      await act(() => dom.getByRole(BUTTON, PRINT).click())
 
       expect(window.print).toHaveBeenCalled()
     })
@@ -50,7 +54,7 @@ describe(Cards.name, () => {
       // Change seed for test.
       mockSeed.seed = 54321
 
-      await fireEvent.click(dom.getByText("Generate Cards"))
+      await act(() => dom.getByRole(BUTTON, GENERATE).click())
       const cards = dom.getByTestId("cards")
 
       expect(cards).toMatchSnapshot()

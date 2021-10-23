@@ -1,9 +1,0 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
-
-exports[`Button when rendered should include the name 1`] = `
-<button
-  class="svelte-qnnizk"
-  name="clicky"
-  type="button"
-/>
-`;

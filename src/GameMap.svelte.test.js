@@ -1,39 +1,44 @@
 import { act, render } from "@testing-library/svelte"
 import GameMap from "./GameMap.svelte"
-import { letterT } from "./game-maps"
+import { letterT, letterX } from "./game-maps"
+
+const BUTTON = "button"
+const FILLED = "filled"
 
 describe(GameMap.name, () => {
-  let dom
-  let grid
-
-  beforeEach(() => (dom = render(GameMap)))
+  // process the game into a string of bits
+  const toBit = (div) => {
+    return div.classList.contains(FILLED) ? "1" : "0"
+  }
+  const toBits = (dom) => {
+    const divs = dom.getByRole("button").querySelectorAll("div")
+    return { bits: Array.from(divs, toBit).join("") }
+  }
 
   describe("when no map is supplied", () => {
     it("should default to coverall", async () => {
-      grid = dom.getByRole("button")
+      const dom = render(GameMap)
 
-      // should have 25 lit squares
-      expect(grid.querySelectorAll(".lit").length).toBe(25)
-      expect(dom.container).toMatchSnapshot()
+      expect(toBits(dom)).toMatchSnapshot("all-ones")
     })
   })
 
   describe("when map is supplied", () => {
     it("should render the map", async () => {
-      await act(() => (dom.component.game = letterT))
-      grid = dom.getByRole("button")
+      const dom = render(GameMap, { game: letterT })
 
-      // should only have 9 lit squares
-      expect(grid.querySelectorAll(".lit").length).toBe(9)
-      expect(dom.container).toMatchSnapshot()
+      expect(toBits(dom)).toMatchSnapshot("letter-t")
     })
   })
 
   describe("when button is clicked", () => {
+    let dom
     let click
     let off
 
     beforeEach(() => {
+      dom = render(GameMap, { game: letterX })
+
       click = jest.fn()
       off = dom.component.$on("click", click)
     })
@@ -41,11 +46,10 @@ describe(GameMap.name, () => {
     afterEach(() => off())
 
     it("should fire an event", async () => {
-      const button = dom.getByRole("button")
-
-      await act(() => button.click())
+      await act(() => dom.getByRole(BUTTON).click())
 
       expect(click).toHaveBeenCalled()
+      expect(toBits(dom)).toMatchSnapshot("letter-x")
     })
   })
 })

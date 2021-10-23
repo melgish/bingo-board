@@ -51,260 +51,285 @@ exports[`Card when loaded should display the card 1`] = `
     </span>
   </div>
    
-  <div
-    class="svelte-10u2fis lit"
-    role="button"
+  <button
+    aria-checked="true"
+    class="svelte-1q3vljt"
+    role="switch"
   >
-    <span
-      class="svelte-10u2fis"
+    <div
+      class="svelte-1q3vljt"
     >
       12
-    </span>
-  </div>
-  <div
-    class="svelte-10u2fis"
-    role="button"
+    </div>
+  </button>
+  <button
+    aria-checked="false"
+    class="svelte-1q3vljt"
+    role="switch"
   >
-    <span
-      class="svelte-10u2fis"
+    <div
+      class="svelte-1q3vljt"
     >
       18
-    </span>
-  </div>
-  <div
-    class="svelte-10u2fis"
-    role="button"
+    </div>
+  </button>
+  <button
+    aria-checked="false"
+    class="svelte-1q3vljt"
+    role="switch"
   >
-    <span
-      class="svelte-10u2fis"
+    <div
+      class="svelte-1q3vljt"
     >
       34
-    </span>
-  </div>
-  <div
-    class="svelte-10u2fis"
-    role="button"
+    </div>
+  </button>
+  <button
+    aria-checked="false"
+    class="svelte-1q3vljt"
+    role="switch"
   >
-    <span
-      class="svelte-10u2fis"
+    <div
+      class="svelte-1q3vljt"
     >
       47
-    </span>
-  </div>
-  <div
-    class="svelte-10u2fis"
-    role="button"
+    </div>
+  </button>
+  <button
+    aria-checked="false"
+    class="svelte-1q3vljt"
+    role="switch"
   >
-    <span
-      class="svelte-10u2fis"
+    <div
+      class="svelte-1q3vljt"
     >
       66
-    </span>
-  </div>
+    </div>
+  </button>
   
-  <div
-    class="svelte-10u2fis"
-    role="button"
+  <button
+    aria-checked="false"
+    class="svelte-1q3vljt"
+    role="switch"
   >
-    <span
-      class="svelte-10u2fis"
+    <div
+      class="svelte-1q3vljt"
     >
       13
-    </span>
-  </div>
-  <div
-    class="svelte-10u2fis"
-    role="button"
+    </div>
+  </button>
+  <button
+    aria-checked="false"
+    class="svelte-1q3vljt"
+    role="switch"
   >
-    <span
-      class="svelte-10u2fis"
+    <div
+      class="svelte-1q3vljt"
     >
       16
-    </span>
-  </div>
-  <div
-    class="svelte-10u2fis"
-    role="button"
+    </div>
+  </button>
+  <button
+    aria-checked="false"
+    class="svelte-1q3vljt"
+    role="switch"
   >
-    <span
-      class="svelte-10u2fis"
+    <div
+      class="svelte-1q3vljt"
     >
       32
-    </span>
-  </div>
-  <div
-    class="svelte-10u2fis"
-    role="button"
+    </div>
+  </button>
+  <button
+    aria-checked="false"
+    class="svelte-1q3vljt"
+    role="switch"
   >
-    <span
-      class="svelte-10u2fis"
+    <div
+      class="svelte-1q3vljt"
     >
       53
-    </span>
-  </div>
-  <div
-    class="svelte-10u2fis"
-    role="button"
+    </div>
+  </button>
+  <button
+    aria-checked="false"
+    class="svelte-1q3vljt"
+    role="switch"
   >
-    <span
-      class="svelte-10u2fis"
+    <div
+      class="svelte-1q3vljt"
     >
       62
-    </span>
-  </div>
+    </div>
+  </button>
   
-  <div
-    class="svelte-10u2fis"
-    role="button"
+  <button
+    aria-checked="false"
+    class="svelte-1q3vljt"
+    role="switch"
   >
-    <span
-      class="svelte-10u2fis"
+    <div
+      class="svelte-1q3vljt"
     >
       4
-    </span>
-  </div>
-  <div
-    class="svelte-10u2fis"
-    role="button"
+    </div>
+  </button>
+  <button
+    aria-checked="false"
+    class="svelte-1q3vljt"
+    role="switch"
   >
-    <span
-      class="svelte-10u2fis"
+    <div
+      class="svelte-1q3vljt"
     >
       29
-    </span>
-  </div>
-  <div
-    class="svelte-10u2fis lit"
-    role="button"
+    </div>
+  </button>
+  <button
+    aria-checked="true"
+    class="svelte-1q3vljt"
+    role="switch"
   >
-    <span
-      class="svelte-10u2fis"
+    <div
+      class="svelte-1q3vljt"
     >
       free
-    </span>
-  </div>
-  <div
-    class="svelte-10u2fis"
-    role="button"
+    </div>
+  </button>
+  <button
+    aria-checked="false"
+    class="svelte-1q3vljt"
+    role="switch"
   >
-    <span
-      class="svelte-10u2fis"
+    <div
+      class="svelte-1q3vljt"
     >
       50
-    </span>
-  </div>
-  <div
-    class="svelte-10u2fis"
-    role="button"
+    </div>
+  </button>
+  <button
+    aria-checked="false"
+    class="svelte-1q3vljt"
+    role="switch"
   >
-    <span
-      class="svelte-10u2fis"
+    <div
+      class="svelte-1q3vljt"
     >
       70
-    </span>
-  </div>
+    </div>
+  </button>
   
-  <div
-    class="svelte-10u2fis"
-    role="button"
+  <button
+    aria-checked="false"
+    class="svelte-1q3vljt"
+    role="switch"
   >
-    <span
-      class="svelte-10u2fis"
+    <div
+      class="svelte-1q3vljt"
     >
       7
-    </span>
-  </div>
-  <div
-    class="svelte-10u2fis"
-    role="button"
+    </div>
+  </button>
+  <button
+    aria-checked="false"
+    class="svelte-1q3vljt"
+    role="switch"
   >
-    <span
-      class="svelte-10u2fis"
+    <div
+      class="svelte-1q3vljt"
     >
       23
-    </span>
-  </div>
-  <div
-    class="svelte-10u2fis"
-    role="button"
+    </div>
+  </button>
+  <button
+    aria-checked="false"
+    class="svelte-1q3vljt"
+    role="switch"
   >
-    <span
-      class="svelte-10u2fis"
+    <div
+      class="svelte-1q3vljt"
     >
       37
-    </span>
-  </div>
-  <div
-    class="svelte-10u2fis"
-    role="button"
+    </div>
+  </button>
+  <button
+    aria-checked="false"
+    class="svelte-1q3vljt"
+    role="switch"
   >
-    <span
-      class="svelte-10u2fis"
+    <div
+      class="svelte-1q3vljt"
     >
       56
-    </span>
-  </div>
-  <div
-    class="svelte-10u2fis"
-    role="button"
+    </div>
+  </button>
+  <button
+    aria-checked="false"
+    class="svelte-1q3vljt"
+    role="switch"
   >
-    <span
-      class="svelte-10u2fis"
+    <div
+      class="svelte-1q3vljt"
     >
       72
-    </span>
-  </div>
+    </div>
+  </button>
   
-  <div
-    class="svelte-10u2fis"
-    role="button"
+  <button
+    aria-checked="false"
+    class="svelte-1q3vljt"
+    role="switch"
   >
-    <span
-      class="svelte-10u2fis"
+    <div
+      class="svelte-1q3vljt"
     >
       2
-    </span>
-  </div>
-  <div
-    class="svelte-10u2fis"
-    role="button"
+    </div>
+  </button>
+  <button
+    aria-checked="false"
+    class="svelte-1q3vljt"
+    role="switch"
   >
-    <span
-      class="svelte-10u2fis"
+    <div
+      class="svelte-1q3vljt"
     >
       30
-    </span>
-  </div>
-  <div
-    class="svelte-10u2fis"
-    role="button"
+    </div>
+  </button>
+  <button
+    aria-checked="false"
+    class="svelte-1q3vljt"
+    role="switch"
   >
-    <span
-      class="svelte-10u2fis"
+    <div
+      class="svelte-1q3vljt"
     >
       31
-    </span>
-  </div>
-  <div
-    class="svelte-10u2fis"
-    role="button"
+    </div>
+  </button>
+  <button
+    aria-checked="false"
+    class="svelte-1q3vljt"
+    role="switch"
   >
-    <span
-      class="svelte-10u2fis"
+    <div
+      class="svelte-1q3vljt"
     >
       49
-    </span>
-  </div>
-  <div
-    class="svelte-10u2fis lit"
-    role="button"
+    </div>
+  </button>
+  <button
+    aria-checked="true"
+    class="svelte-1q3vljt"
+    role="switch"
   >
-    <span
-      class="svelte-10u2fis"
+    <div
+      class="svelte-1q3vljt"
     >
       63
-    </span>
-  </div>
+    </div>
+  </button>
   
    
   <div

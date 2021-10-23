@@ -12,13 +12,6 @@ describe(Button.name, () => {
     button = dom.getByRole("button")
   })
 
-  describe("when rendered", () => {
-    it("should include the name", () => {
-      expect(button.name).toBe(clicky)
-      expect(button).toMatchSnapshot()
-    })
-  })
-
   describe("when clicked", () => {
     let clicked
     let off

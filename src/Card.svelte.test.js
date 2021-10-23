@@ -16,13 +16,13 @@ describe(Card.name, () => {
   let dom
 
   beforeEach(() => {
-    dom = render(Card, { props: { card, calls } })
+    dom = render(Card, { card, calls })
   })
 
   describe("when loaded", () => {
     it("should display the card", () => {
       expect(dom.getByTestId("card")).toMatchSnapshot()
-      expect(dom.getAllByRole("button").length).toBe(25)
+      expect(dom.getAllByRole("switch").length).toBe(25)
     })
   })
 })

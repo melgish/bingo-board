@@ -4,8 +4,8 @@
   import Letter from "./Letter.svelte"
   import Card from "./Card.svelte"
   import GameMaps from "./GameMaps.svelte"
-  import calls from "./calls.store.js"
-  import { getCard, BOARD, GAME } from "./bingo-utils.js"
+  import calls from "./calls.store"
+  import { getCard, BOARD, GAME } from "./bingo-utils"
 
   /**
    * card being inspected
@@ -61,11 +61,11 @@
 </script>
 
 <div>
-  <div class="board">
+  <div class="board" data-testid="board">
     {#each rows as row}
       <Letter letter={row.letter} />
       {#each row.balls as ball}
-        <Ball lit={$calls[ball]} on:flip={() => flip(ball)}>{ball}</Ball>
+        <Ball checked={$calls[ball]} on:flip={() => flip(ball)}>{ball}</Ball>
       {/each}
     {/each}
   </div>
