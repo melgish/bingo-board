@@ -1,22 +1,25 @@
-import { render, act } from "@testing-library/svelte"
+import { act, render, screen } from "@testing-library/svelte"
+import userEvent from "@testing-library/user-event"
 import Ball from "./Ball.svelte"
 
+// Ball role is a switch
 const SWITCH = "switch"
+// With checked and unchecked states
 const CHECKED = { checked: true }
 const UNCHECKED = { checked: false }
-const HOT = "hot"
+// And flip event
 const FLIP = "flip"
+// With transition highlight
+const HOT = "hot"
 
-describe(Ball.name, () => {
-  let dom
-  /** @type HTMLDivElement */
-  let div
+beforeAll(() => jest.useFakeTimers())
+afterAll(() => jest.useRealTimers())
 
+describe("Ball", () => {
   describe("when not checked", () => {
     it("should have aria-checked=false", () => {
       const dom = render(Ball)
-
-      expect(dom.getByRole(SWITCH, UNCHECKED)).toMatchSnapshot()
+      expect(screen.getByRole(SWITCH, UNCHECKED)).toMatchSnapshot()
     })
   })
 
@@ -24,7 +27,7 @@ describe(Ball.name, () => {
     it("should have aria-checked=true", () => {
       const dom = render(Ball, CHECKED)
 
-      expect(dom.getByRole(SWITCH, CHECKED)).toMatchSnapshot()
+      expect(screen.getByRole(SWITCH, CHECKED)).toMatchSnapshot()
     })
   })
 
@@ -34,21 +37,15 @@ describe(Ball.name, () => {
 
     beforeEach(() => {
       flipped = jest.fn()
-      jest.useFakeTimers()
-    })
-
-    afterEach(() => {
-      jest.useRealTimers()
-      off()
     })
 
     it("should emit a flip event", async () => {
-      const dom = render(Ball, UNCHECKED)
-      off = dom.component.$on(FLIP, flipped)
-      const el = dom.getByRole(SWITCH, UNCHECKED)
+      const { component } = render(Ball, UNCHECKED)
+      const el = screen.getByRole(SWITCH)
+      const flipped = jest.fn()
+      component.$on(FLIP, flipped)
 
-      // Click the button
-      await act(() => el.click())
+      await act(() => userEvent.click(el))
 
       // Make sure class is added / then removed
       expect(el).toHaveClass(HOT)

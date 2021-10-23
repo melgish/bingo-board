@@ -3,7 +3,7 @@
   import Letter from "./Letter.svelte"
   import { GAME } from "./bingo-utils.js"
 
-  export let card = { rows: [], seed: 0 }
+  export let card
   export let calls = {}
 </script>
 

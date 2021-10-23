@@ -3,17 +3,20 @@ import userEvent from "@testing-library/user-event"
 import Board from "./Board.svelte"
 import calls from "./calls.store"
 
+beforeAll(() => jest.useFakeTimers())
+afterAll(() => jest.useRealTimers())
+
 const SWITCH = "switch"
 const UNCHECKED = { checked: false }
 const BUTTON = "button"
 const RESET = { name: /reset game/i }
+// role of number input
 const SPINBUTTON = "spinbutton"
 const CHECK_CARD = { name: /check card/i }
+// data-testid of card
+const CARD = "card"
 
 describe("Board", () => {
-  beforeAll(() => jest.useFakeTimers())
-  afterAll(() => jest.useRealTimers())
-
   it("should render", () => {
     const { component } = render(Board)
 
@@ -29,13 +32,13 @@ describe("Board", () => {
   })
 
   describe("reset button", () => {
-    it("should reset the game", async () => {
+    it("should reset the game", () => {
       const dom = render(Board)
-      const spy = jest.spyOn(calls, "reset")
+      jest.spyOn(calls, "reset")
 
-      userEvent.click(dom.getByRole(BUTTON, RESET))
+      userEvent.click(screen.getByRole(BUTTON, RESET))
 
-      expect(spy).toHaveBeenCalled()
+      expect(calls.reset).toHaveBeenCalled()
     })
   })
 
@@ -43,13 +46,28 @@ describe("Board", () => {
     it("should create matching card", async () => {
       const dom = render(Board)
 
-      await act(() => userEvent.type(dom.getByRole(SPINBUTTON), "12345"))
+      await act(() => userEvent.type(screen.getByRole(SPINBUTTON), "12345"))
+      await act(() => userEvent.click(screen.getByRole(BUTTON, CHECK_CARD)))
+      await act(() => userEvent.click(screen.getByRole(SWITCH, { name: /15/ })))
 
-      // const button = await dom.findByRole(BUTTON, CHECK_CARD)
+      expect(screen.getByTestId(CARD)).toMatchSnapshot()
 
-      // expect(button).toBeEnabled()
+      await act(() =>
+        userEvent.click(screen.getByRole(BUTTON, { name: /clear/i }))
+      )
 
-      expect(dom.getByRole(BUTTON, CHECK_CARD)).toBeEnabled()
+      expect(screen.queryByTestId(CARD)).toBeFalsy()
+    })
+  })
+
+  describe("clicking balls", () => {
+    it("should update the game", async () => {
+      jest.spyOn(calls, "flip")
+      const { component } = render(Board)
+
+      userEvent.click(screen.getByRole(SWITCH, { name: /15/ }))
+
+      expect(calls.flip).toHaveBeenCalledWith(15)
     })
   })
 })

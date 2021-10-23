@@ -1,12 +1,13 @@
-import { act, render } from "@testing-library/svelte"
+import { act, render, screen } from "@testing-library/svelte"
 import GameMaps from "./GameMaps.svelte"
 import { GAME_MAPS } from "./game-maps"
+
+// Take control of timers to control animations.
+beforeAll(() => jest.useFakeTimers())
+afterAll(() => jest.useRealTimers())
+
 describe("GameMaps", () => {
   let dom
-
-  // Take control of timers to control animations.
-  beforeEach(() => jest.useFakeTimers())
-  afterEach(() => jest.useRealTimers())
 
   const getButton = (index) => dom.getAllByRole("button")[index]
   const clickButton = (index) => act(() => getButton(index).click())

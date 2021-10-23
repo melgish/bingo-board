@@ -9,6 +9,11 @@
   // Generate a set of cards on page load.
   onMount(() => load())
 
+  // Print the current card set.
+  function print() {
+    window.print()
+  }
+
   // Generate a new set of cards on demand.
   function load() {
     cards = Array.from({ length: 4 }, () => getCard(getSeed()))
@@ -17,7 +22,7 @@
 
 <div class="no-print">
   <Button on:click={load}>Generate Cards</Button>
-  <Button on:click={window.print}>Print</Button>
+  <Button on:click={print}>Print</Button>
   <span>For best results print in portrait with minimal margins.</span>
 </div>
 <div class="frame">

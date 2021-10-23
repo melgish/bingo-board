@@ -1,30 +1,15 @@
 import Button from "./Button.svelte"
-import { act, render } from "@testing-library/svelte"
+import { render, screen } from "@testing-library/svelte"
+import userEvent from "@testing-library/user-event"
 
-describe(Button.name, () => {
-  const clicky = "clicky"
-  let dom
-  /** @type HTMLButtonElement */
-  let button
-
-  beforeEach(() => {
-    dom = render(Button, { name: clicky })
-    button = dom.getByRole("button")
-  })
-
+describe("Button", () => {
   describe("when clicked", () => {
-    let clicked
-    let off
-    beforeEach(() => {
-      // Listen to the click event
-      clicked = jest.fn()
-      off = dom.component.$on("click", clicked)
-    })
+    it("should raise an event", () => {
+      const clicked = jest.fn()
+      const { component } = render(Button)
+      component.$on("click", clicked)
 
-    afterEach(() => off())
-
-    it("should raise an event", async () => {
-      await act(() => button.click())
+      userEvent.click(screen.getByRole("button"))
 
       expect(clicked).toHaveBeenCalled()
     })

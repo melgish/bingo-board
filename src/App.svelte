@@ -1,8 +1,8 @@
 <script>
   import { Router, Route, Link } from "svelte-routing"
+  import { GAME } from "./bingo-utils.js"
   import Board from "./Board.svelte"
   import Cards from "./Cards.svelte"
-  import { GAME } from "./bingo-utils.js"
 
   export let url = ""
 </script>
@@ -12,16 +12,15 @@
     <nav class="no-print">
       <div class="nav-logo">Nick's Cheapo {GAME} Game:</div>
       <div class="nav-item">
-        <Link to="/board">Board</Link>
+        <Link to="/">Board</Link>
       </div>
       <div class="nav-item">
         <Link to="/cards">Cards</Link>
       </div>
     </nav>
     <div>
-      <Route path="cards" component={Cards} />
-      <Route path="board" component={Board} />
-      <Route path="" component={Board} />
+      <Route path="cards"><Cards /></Route>
+      <Route><Board /></Route>
     </div>
   </Router>
 </div>

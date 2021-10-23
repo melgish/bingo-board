@@ -5,7 +5,7 @@ import { letterT, letterX } from "./game-maps"
 const BUTTON = "button"
 const FILLED = "filled"
 
-describe(GameMap.name, () => {
+describe("GameMap", () => {
   // process the game into a string of bits
   const toBit = (div) => {
     return div.classList.contains(FILLED) ? "1" : "0"
@@ -16,7 +16,7 @@ describe(GameMap.name, () => {
   }
 
   describe("when no map is supplied", () => {
-    it("should default to coverall", async () => {
+    it("should default to coverall", () => {
       const dom = render(GameMap)
 
       expect(toBits(dom)).toMatchSnapshot("all-ones")
@@ -24,7 +24,7 @@ describe(GameMap.name, () => {
   })
 
   describe("when map is supplied", () => {
-    it("should render the map", async () => {
+    it("should render the map", () => {
       const dom = render(GameMap, { game: letterT })
 
       expect(toBits(dom)).toMatchSnapshot("letter-t")

@@ -1,0 +1,1787 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App when launched should render the board page 1`] = `
+<body>
+  <div>
+    <div
+      class="contianer svelte-6si5an"
+    >
+      <nav
+        class="no-print svelte-6si5an"
+      >
+        <div
+          class="nav-logo svelte-6si5an"
+        >
+          Nick's Cheapo BINGO Game:
+        </div>
+         
+        <div
+          class="nav-item svelte-6si5an"
+        >
+          <a
+            aria-current="page"
+            href="/"
+          >
+            Board
+          </a>
+        </div>
+         
+        <div
+          class="nav-item svelte-6si5an"
+        >
+          <a
+            href="/cards"
+          >
+            Cards
+          </a>
+        </div>
+      </nav>
+       
+      <div>
+        
+         
+        <div>
+          <div
+            class="board svelte-1j38s5i"
+            data-testid="board"
+          >
+            <div
+              class="svelte-14jn1vn"
+            >
+              <span
+                class="svelte-14jn1vn"
+              >
+                B
+              </span>
+            </div>
+             
+            <button
+              aria-checked="false"
+              class="svelte-1q3vljt"
+              role="switch"
+            >
+              <div
+                class="svelte-1q3vljt"
+              >
+                1
+              </div>
+            </button>
+            <button
+              aria-checked="false"
+              class="svelte-1q3vljt"
+              role="switch"
+            >
+              <div
+                class="svelte-1q3vljt"
+              >
+                2
+              </div>
+            </button>
+            <button
+              aria-checked="false"
+              class="svelte-1q3vljt"
+              role="switch"
+            >
+              <div
+                class="svelte-1q3vljt"
+              >
+                3
+              </div>
+            </button>
+            <button
+              aria-checked="false"
+              class="svelte-1q3vljt"
+              role="switch"
+            >
+              <div
+                class="svelte-1q3vljt"
+              >
+                4
+              </div>
+            </button>
+            <button
+              aria-checked="false"
+              class="svelte-1q3vljt"
+              role="switch"
+            >
+              <div
+                class="svelte-1q3vljt"
+              >
+                5
+              </div>
+            </button>
+            <button
+              aria-checked="false"
+              class="svelte-1q3vljt"
+              role="switch"
+            >
+              <div
+                class="svelte-1q3vljt"
+              >
+                6
+              </div>
+            </button>
+            <button
+              aria-checked="false"
+              class="svelte-1q3vljt"
+              role="switch"
+            >
+              <div
+                class="svelte-1q3vljt"
+              >
+                7
+              </div>
+            </button>
+            <button
+              aria-checked="false"
+              class="svelte-1q3vljt"
+              role="switch"
+            >
+              <div
+                class="svelte-1q3vljt"
+              >
+                8
+              </div>
+            </button>
+            <button
+              aria-checked="false"
+              class="svelte-1q3vljt"
+              role="switch"
+            >
+              <div
+                class="svelte-1q3vljt"
+              >
+                9
+              </div>
+            </button>
+            <button
+              aria-checked="false"
+              class="svelte-1q3vljt"
+              role="switch"
+            >
+              <div
+                class="svelte-1q3vljt"
+              >
+                10
+              </div>
+            </button>
+            <button
+              aria-checked="false"
+              class="svelte-1q3vljt"
+              role="switch"
+            >
+              <div
+                class="svelte-1q3vljt"
+              >
+                11
+              </div>
+            </button>
+            <button
+              aria-checked="false"
+              class="svelte-1q3vljt"
+              role="switch"
+            >
+              <div
+                class="svelte-1q3vljt"
+              >
+                12
+              </div>
+            </button>
+            <button
+              aria-checked="false"
+              class="svelte-1q3vljt"
+              role="switch"
+            >
+              <div
+                class="svelte-1q3vljt"
+              >
+                13
+              </div>
+            </button>
+            <button
+              aria-checked="false"
+              class="svelte-1q3vljt"
+              role="switch"
+            >
+              <div
+                class="svelte-1q3vljt"
+              >
+                14
+              </div>
+            </button>
+            <button
+              aria-checked="false"
+              class="svelte-1q3vljt"
+              role="switch"
+            >
+              <div
+                class="svelte-1q3vljt"
+              >
+                15
+              </div>
+            </button>
+            
+            <div
+              class="svelte-14jn1vn"
+            >
+              <span
+                class="svelte-14jn1vn"
+              >
+                I
+              </span>
+            </div>
+             
+            <button
+              aria-checked="false"
+              class="svelte-1q3vljt"
+              role="switch"
+            >
+              <div
+                class="svelte-1q3vljt"
+              >
+                16
+              </div>
+            </button>
+            <button
+              aria-checked="false"
+              class="svelte-1q3vljt"
+              role="switch"
+            >
+              <div
+                class="svelte-1q3vljt"
+              >
+                17
+              </div>
+            </button>
+            <button
+              aria-checked="false"
+              class="svelte-1q3vljt"
+              role="switch"
+            >
+              <div
+                class="svelte-1q3vljt"
+              >
+                18
+              </div>
+            </button>
+            <button
+              aria-checked="false"
+              class="svelte-1q3vljt"
+              role="switch"
+            >
+              <div
+                class="svelte-1q3vljt"
+              >
+                19
+              </div>
+            </button>
+            <button
+              aria-checked="false"
+              class="svelte-1q3vljt"
+              role="switch"
+            >
+              <div
+                class="svelte-1q3vljt"
+              >
+                20
+              </div>
+            </button>
+            <button
+              aria-checked="false"
+              class="svelte-1q3vljt"
+              role="switch"
+            >
+              <div
+                class="svelte-1q3vljt"
+              >
+                21
+              </div>
+            </button>
+            <button
+              aria-checked="false"
+              class="svelte-1q3vljt"
+              role="switch"
+            >
+              <div
+                class="svelte-1q3vljt"
+              >
+                22
+              </div>
+            </button>
+            <button
+              aria-checked="false"
+              class="svelte-1q3vljt"
+              role="switch"
+            >
+              <div
+                class="svelte-1q3vljt"
+              >
+                23
+              </div>
+            </button>
+            <button
+              aria-checked="false"
+              class="svelte-1q3vljt"
+              role="switch"
+            >
+              <div
+                class="svelte-1q3vljt"
+              >
+                24
+              </div>
+            </button>
+            <button
+              aria-checked="false"
+              class="svelte-1q3vljt"
+              role="switch"
+            >
+              <div
+                class="svelte-1q3vljt"
+              >
+                25
+              </div>
+            </button>
+            <button
+              aria-checked="false"
+              class="svelte-1q3vljt"
+              role="switch"
+            >
+              <div
+                class="svelte-1q3vljt"
+              >
+                26
+              </div>
+            </button>
+            <button
+              aria-checked="false"
+              class="svelte-1q3vljt"
+              role="switch"
+            >
+              <div
+                class="svelte-1q3vljt"
+              >
+                27
+              </div>
+            </button>
+            <button
+              aria-checked="false"
+              class="svelte-1q3vljt"
+              role="switch"
+            >
+              <div
+                class="svelte-1q3vljt"
+              >
+                28
+              </div>
+            </button>
+            <button
+              aria-checked="false"
+              class="svelte-1q3vljt"
+              role="switch"
+            >
+              <div
+                class="svelte-1q3vljt"
+              >
+                29
+              </div>
+            </button>
+            <button
+              aria-checked="false"
+              class="svelte-1q3vljt"
+              role="switch"
+            >
+              <div
+                class="svelte-1q3vljt"
+              >
+                30
+              </div>
+            </button>
+            
+            <div
+              class="svelte-14jn1vn"
+            >
+              <span
+                class="svelte-14jn1vn"
+              >
+                N
+              </span>
+            </div>
+             
+            <button
+              aria-checked="false"
+              class="svelte-1q3vljt"
+              role="switch"
+            >
+              <div
+                class="svelte-1q3vljt"
+              >
+                31
+              </div>
+            </button>
+            <button
+              aria-checked="false"
+              class="svelte-1q3vljt"
+              role="switch"
+            >
+              <div
+                class="svelte-1q3vljt"
+              >
+                32
+              </div>
+            </button>
+            <button
+              aria-checked="false"
+              class="svelte-1q3vljt"
+              role="switch"
+            >
+              <div
+                class="svelte-1q3vljt"
+              >
+                33
+              </div>
+            </button>
+            <button
+              aria-checked="false"
+              class="svelte-1q3vljt"
+              role="switch"
+            >
+              <div
+                class="svelte-1q3vljt"
+              >
+                34
+              </div>
+            </button>
+            <button
+              aria-checked="false"
+              class="svelte-1q3vljt"
+              role="switch"
+            >
+              <div
+                class="svelte-1q3vljt"
+              >
+                35
+              </div>
+            </button>
+            <button
+              aria-checked="false"
+              class="svelte-1q3vljt"
+              role="switch"
+            >
+              <div
+                class="svelte-1q3vljt"
+              >
+                36
+              </div>
+            </button>
+            <button
+              aria-checked="false"
+              class="svelte-1q3vljt"
+              role="switch"
+            >
+              <div
+                class="svelte-1q3vljt"
+              >
+                37
+              </div>
+            </button>
+            <button
+              aria-checked="false"
+              class="svelte-1q3vljt"
+              role="switch"
+            >
+              <div
+                class="svelte-1q3vljt"
+              >
+                38
+              </div>
+            </button>
+            <button
+              aria-checked="false"
+              class="svelte-1q3vljt"
+              role="switch"
+            >
+              <div
+                class="svelte-1q3vljt"
+              >
+                39
+              </div>
+            </button>
+            <button
+              aria-checked="false"
+              class="svelte-1q3vljt"
+              role="switch"
+            >
+              <div
+                class="svelte-1q3vljt"
+              >
+                40
+              </div>
+            </button>
+            <button
+              aria-checked="false"
+              class="svelte-1q3vljt"
+              role="switch"
+            >
+              <div
+                class="svelte-1q3vljt"
+              >
+                41
+              </div>
+            </button>
+            <button
+              aria-checked="false"
+              class="svelte-1q3vljt"
+              role="switch"
+            >
+              <div
+                class="svelte-1q3vljt"
+              >
+                42
+              </div>
+            </button>
+            <button
+              aria-checked="false"
+              class="svelte-1q3vljt"
+              role="switch"
+            >
+              <div
+                class="svelte-1q3vljt"
+              >
+                43
+              </div>
+            </button>
+            <button
+              aria-checked="false"
+              class="svelte-1q3vljt"
+              role="switch"
+            >
+              <div
+                class="svelte-1q3vljt"
+              >
+                44
+              </div>
+            </button>
+            <button
+              aria-checked="false"
+              class="svelte-1q3vljt"
+              role="switch"
+            >
+              <div
+                class="svelte-1q3vljt"
+              >
+                45
+              </div>
+            </button>
+            
+            <div
+              class="svelte-14jn1vn"
+            >
+              <span
+                class="svelte-14jn1vn"
+              >
+                G
+              </span>
+            </div>
+             
+            <button
+              aria-checked="false"
+              class="svelte-1q3vljt"
+              role="switch"
+            >
+              <div
+                class="svelte-1q3vljt"
+              >
+                46
+              </div>
+            </button>
+            <button
+              aria-checked="false"
+              class="svelte-1q3vljt"
+              role="switch"
+            >
+              <div
+                class="svelte-1q3vljt"
+              >
+                47
+              </div>
+            </button>
+            <button
+              aria-checked="false"
+              class="svelte-1q3vljt"
+              role="switch"
+            >
+              <div
+                class="svelte-1q3vljt"
+              >
+                48
+              </div>
+            </button>
+            <button
+              aria-checked="false"
+              class="svelte-1q3vljt"
+              role="switch"
+            >
+              <div
+                class="svelte-1q3vljt"
+              >
+                49
+              </div>
+            </button>
+            <button
+              aria-checked="false"
+              class="svelte-1q3vljt"
+              role="switch"
+            >
+              <div
+                class="svelte-1q3vljt"
+              >
+                50
+              </div>
+            </button>
+            <button
+              aria-checked="false"
+              class="svelte-1q3vljt"
+              role="switch"
+            >
+              <div
+                class="svelte-1q3vljt"
+              >
+                51
+              </div>
+            </button>
+            <button
+              aria-checked="false"
+              class="svelte-1q3vljt"
+              role="switch"
+            >
+              <div
+                class="svelte-1q3vljt"
+              >
+                52
+              </div>
+            </button>
+            <button
+              aria-checked="false"
+              class="svelte-1q3vljt"
+              role="switch"
+            >
+              <div
+                class="svelte-1q3vljt"
+              >
+                53
+              </div>
+            </button>
+            <button
+              aria-checked="false"
+              class="svelte-1q3vljt"
+              role="switch"
+            >
+              <div
+                class="svelte-1q3vljt"
+              >
+                54
+              </div>
+            </button>
+            <button
+              aria-checked="false"
+              class="svelte-1q3vljt"
+              role="switch"
+            >
+              <div
+                class="svelte-1q3vljt"
+              >
+                55
+              </div>
+            </button>
+            <button
+              aria-checked="false"
+              class="svelte-1q3vljt"
+              role="switch"
+            >
+              <div
+                class="svelte-1q3vljt"
+              >
+                56
+              </div>
+            </button>
+            <button
+              aria-checked="false"
+              class="svelte-1q3vljt"
+              role="switch"
+            >
+              <div
+                class="svelte-1q3vljt"
+              >
+                57
+              </div>
+            </button>
+            <button
+              aria-checked="false"
+              class="svelte-1q3vljt"
+              role="switch"
+            >
+              <div
+                class="svelte-1q3vljt"
+              >
+                58
+              </div>
+            </button>
+            <button
+              aria-checked="false"
+              class="svelte-1q3vljt"
+              role="switch"
+            >
+              <div
+                class="svelte-1q3vljt"
+              >
+                59
+              </div>
+            </button>
+            <button
+              aria-checked="false"
+              class="svelte-1q3vljt"
+              role="switch"
+            >
+              <div
+                class="svelte-1q3vljt"
+              >
+                60
+              </div>
+            </button>
+            
+            <div
+              class="svelte-14jn1vn"
+            >
+              <span
+                class="svelte-14jn1vn"
+              >
+                O
+              </span>
+            </div>
+             
+            <button
+              aria-checked="false"
+              class="svelte-1q3vljt"
+              role="switch"
+            >
+              <div
+                class="svelte-1q3vljt"
+              >
+                61
+              </div>
+            </button>
+            <button
+              aria-checked="false"
+              class="svelte-1q3vljt"
+              role="switch"
+            >
+              <div
+                class="svelte-1q3vljt"
+              >
+                62
+              </div>
+            </button>
+            <button
+              aria-checked="false"
+              class="svelte-1q3vljt"
+              role="switch"
+            >
+              <div
+                class="svelte-1q3vljt"
+              >
+                63
+              </div>
+            </button>
+            <button
+              aria-checked="false"
+              class="svelte-1q3vljt"
+              role="switch"
+            >
+              <div
+                class="svelte-1q3vljt"
+              >
+                64
+              </div>
+            </button>
+            <button
+              aria-checked="false"
+              class="svelte-1q3vljt"
+              role="switch"
+            >
+              <div
+                class="svelte-1q3vljt"
+              >
+                65
+              </div>
+            </button>
+            <button
+              aria-checked="false"
+              class="svelte-1q3vljt"
+              role="switch"
+            >
+              <div
+                class="svelte-1q3vljt"
+              >
+                66
+              </div>
+            </button>
+            <button
+              aria-checked="false"
+              class="svelte-1q3vljt"
+              role="switch"
+            >
+              <div
+                class="svelte-1q3vljt"
+              >
+                67
+              </div>
+            </button>
+            <button
+              aria-checked="false"
+              class="svelte-1q3vljt"
+              role="switch"
+            >
+              <div
+                class="svelte-1q3vljt"
+              >
+                68
+              </div>
+            </button>
+            <button
+              aria-checked="false"
+              class="svelte-1q3vljt"
+              role="switch"
+            >
+              <div
+                class="svelte-1q3vljt"
+              >
+                69
+              </div>
+            </button>
+            <button
+              aria-checked="false"
+              class="svelte-1q3vljt"
+              role="switch"
+            >
+              <div
+                class="svelte-1q3vljt"
+              >
+                70
+              </div>
+            </button>
+            <button
+              aria-checked="false"
+              class="svelte-1q3vljt"
+              role="switch"
+            >
+              <div
+                class="svelte-1q3vljt"
+              >
+                71
+              </div>
+            </button>
+            <button
+              aria-checked="false"
+              class="svelte-1q3vljt"
+              role="switch"
+            >
+              <div
+                class="svelte-1q3vljt"
+              >
+                72
+              </div>
+            </button>
+            <button
+              aria-checked="false"
+              class="svelte-1q3vljt"
+              role="switch"
+            >
+              <div
+                class="svelte-1q3vljt"
+              >
+                73
+              </div>
+            </button>
+            <button
+              aria-checked="false"
+              class="svelte-1q3vljt"
+              role="switch"
+            >
+              <div
+                class="svelte-1q3vljt"
+              >
+                74
+              </div>
+            </button>
+            <button
+              aria-checked="false"
+              class="svelte-1q3vljt"
+              role="switch"
+            >
+              <div
+                class="svelte-1q3vljt"
+              >
+                75
+              </div>
+            </button>
+            
+          </div>
+           
+          <div
+            class="games svelte-rtcokp"
+            data-testid="games"
+          >
+            <div
+              class="svelte-rtcokp"
+            >
+              <button
+                aria-label="Select Game"
+                class="svelte-bvxh5p"
+                type="button"
+              >
+                <div
+                  class="svelte-bvxh5p filled"
+                />
+                <div
+                  class="svelte-bvxh5p filled"
+                />
+                <div
+                  class="svelte-bvxh5p filled"
+                />
+                <div
+                  class="svelte-bvxh5p filled"
+                />
+                <div
+                  class="svelte-bvxh5p filled"
+                />
+                
+                <div
+                  class="svelte-bvxh5p"
+                />
+                <div
+                  class="svelte-bvxh5p"
+                />
+                <div
+                  class="svelte-bvxh5p"
+                />
+                <div
+                  class="svelte-bvxh5p"
+                />
+                <div
+                  class="svelte-bvxh5p"
+                />
+                
+                <div
+                  class="svelte-bvxh5p"
+                />
+                <div
+                  class="svelte-bvxh5p"
+                />
+                <div
+                  class="svelte-bvxh5p"
+                />
+                <div
+                  class="svelte-bvxh5p"
+                />
+                <div
+                  class="svelte-bvxh5p"
+                />
+                
+                <div
+                  class="svelte-bvxh5p"
+                />
+                <div
+                  class="svelte-bvxh5p"
+                />
+                <div
+                  class="svelte-bvxh5p"
+                />
+                <div
+                  class="svelte-bvxh5p"
+                />
+                <div
+                  class="svelte-bvxh5p"
+                />
+                
+                <div
+                  class="svelte-bvxh5p"
+                />
+                <div
+                  class="svelte-bvxh5p"
+                />
+                <div
+                  class="svelte-bvxh5p"
+                />
+                <div
+                  class="svelte-bvxh5p"
+                />
+                <div
+                  class="svelte-bvxh5p"
+                />
+                
+              </button>
+            </div>
+             
+            <div
+              class="svelte-rtcokp active"
+            >
+              <button
+                aria-label="Select Game"
+                class="svelte-bvxh5p"
+                type="button"
+              >
+                <div
+                  class="svelte-bvxh5p filled"
+                />
+                <div
+                  class="svelte-bvxh5p filled"
+                />
+                <div
+                  class="svelte-bvxh5p filled"
+                />
+                <div
+                  class="svelte-bvxh5p filled"
+                />
+                <div
+                  class="svelte-bvxh5p filled"
+                />
+                
+                <div
+                  class="svelte-bvxh5p filled"
+                />
+                <div
+                  class="svelte-bvxh5p"
+                />
+                <div
+                  class="svelte-bvxh5p"
+                />
+                <div
+                  class="svelte-bvxh5p"
+                />
+                <div
+                  class="svelte-bvxh5p filled"
+                />
+                
+                <div
+                  class="svelte-bvxh5p filled"
+                />
+                <div
+                  class="svelte-bvxh5p"
+                />
+                <div
+                  class="svelte-bvxh5p"
+                />
+                <div
+                  class="svelte-bvxh5p"
+                />
+                <div
+                  class="svelte-bvxh5p filled"
+                />
+                
+                <div
+                  class="svelte-bvxh5p filled"
+                />
+                <div
+                  class="svelte-bvxh5p"
+                />
+                <div
+                  class="svelte-bvxh5p"
+                />
+                <div
+                  class="svelte-bvxh5p"
+                />
+                <div
+                  class="svelte-bvxh5p filled"
+                />
+                
+                <div
+                  class="svelte-bvxh5p filled"
+                />
+                <div
+                  class="svelte-bvxh5p filled"
+                />
+                <div
+                  class="svelte-bvxh5p filled"
+                />
+                <div
+                  class="svelte-bvxh5p filled"
+                />
+                <div
+                  class="svelte-bvxh5p filled"
+                />
+                
+              </button>
+               
+            </div>
+            <div
+              class="svelte-rtcokp"
+            >
+              <button
+                aria-label="Select Game"
+                class="svelte-bvxh5p"
+                type="button"
+              >
+                <div
+                  class="svelte-bvxh5p"
+                />
+                <div
+                  class="svelte-bvxh5p"
+                />
+                <div
+                  class="svelte-bvxh5p"
+                />
+                <div
+                  class="svelte-bvxh5p"
+                />
+                <div
+                  class="svelte-bvxh5p"
+                />
+                
+                <div
+                  class="svelte-bvxh5p"
+                />
+                <div
+                  class="svelte-bvxh5p filled"
+                />
+                <div
+                  class="svelte-bvxh5p filled"
+                />
+                <div
+                  class="svelte-bvxh5p filled"
+                />
+                <div
+                  class="svelte-bvxh5p"
+                />
+                
+                <div
+                  class="svelte-bvxh5p"
+                />
+                <div
+                  class="svelte-bvxh5p filled"
+                />
+                <div
+                  class="svelte-bvxh5p"
+                />
+                <div
+                  class="svelte-bvxh5p filled"
+                />
+                <div
+                  class="svelte-bvxh5p"
+                />
+                
+                <div
+                  class="svelte-bvxh5p"
+                />
+                <div
+                  class="svelte-bvxh5p filled"
+                />
+                <div
+                  class="svelte-bvxh5p filled"
+                />
+                <div
+                  class="svelte-bvxh5p filled"
+                />
+                <div
+                  class="svelte-bvxh5p"
+                />
+                
+                <div
+                  class="svelte-bvxh5p"
+                />
+                <div
+                  class="svelte-bvxh5p"
+                />
+                <div
+                  class="svelte-bvxh5p"
+                />
+                <div
+                  class="svelte-bvxh5p"
+                />
+                <div
+                  class="svelte-bvxh5p"
+                />
+                
+              </button>
+               
+            </div>
+            <div
+              class="svelte-rtcokp"
+            >
+              <button
+                aria-label="Select Game"
+                class="svelte-bvxh5p"
+                type="button"
+              >
+                <div
+                  class="svelte-bvxh5p filled"
+                />
+                <div
+                  class="svelte-bvxh5p filled"
+                />
+                <div
+                  class="svelte-bvxh5p"
+                />
+                <div
+                  class="svelte-bvxh5p filled"
+                />
+                <div
+                  class="svelte-bvxh5p filled"
+                />
+                
+                <div
+                  class="svelte-bvxh5p filled"
+                />
+                <div
+                  class="svelte-bvxh5p filled"
+                />
+                <div
+                  class="svelte-bvxh5p"
+                />
+                <div
+                  class="svelte-bvxh5p filled"
+                />
+                <div
+                  class="svelte-bvxh5p filled"
+                />
+                
+                <div
+                  class="svelte-bvxh5p"
+                />
+                <div
+                  class="svelte-bvxh5p"
+                />
+                <div
+                  class="svelte-bvxh5p"
+                />
+                <div
+                  class="svelte-bvxh5p"
+                />
+                <div
+                  class="svelte-bvxh5p"
+                />
+                
+                <div
+                  class="svelte-bvxh5p filled"
+                />
+                <div
+                  class="svelte-bvxh5p filled"
+                />
+                <div
+                  class="svelte-bvxh5p"
+                />
+                <div
+                  class="svelte-bvxh5p filled"
+                />
+                <div
+                  class="svelte-bvxh5p filled"
+                />
+                
+                <div
+                  class="svelte-bvxh5p filled"
+                />
+                <div
+                  class="svelte-bvxh5p filled"
+                />
+                <div
+                  class="svelte-bvxh5p"
+                />
+                <div
+                  class="svelte-bvxh5p filled"
+                />
+                <div
+                  class="svelte-bvxh5p filled"
+                />
+                
+              </button>
+               
+            </div>
+            <div
+              class="svelte-rtcokp"
+            >
+              <button
+                aria-label="Select Game"
+                class="svelte-bvxh5p"
+                type="button"
+              >
+                <div
+                  class="svelte-bvxh5p filled"
+                />
+                <div
+                  class="svelte-bvxh5p"
+                />
+                <div
+                  class="svelte-bvxh5p"
+                />
+                <div
+                  class="svelte-bvxh5p"
+                />
+                <div
+                  class="svelte-bvxh5p filled"
+                />
+                
+                <div
+                  class="svelte-bvxh5p"
+                />
+                <div
+                  class="svelte-bvxh5p filled"
+                />
+                <div
+                  class="svelte-bvxh5p"
+                />
+                <div
+                  class="svelte-bvxh5p filled"
+                />
+                <div
+                  class="svelte-bvxh5p"
+                />
+                
+                <div
+                  class="svelte-bvxh5p"
+                />
+                <div
+                  class="svelte-bvxh5p"
+                />
+                <div
+                  class="svelte-bvxh5p filled"
+                />
+                <div
+                  class="svelte-bvxh5p"
+                />
+                <div
+                  class="svelte-bvxh5p"
+                />
+                
+                <div
+                  class="svelte-bvxh5p"
+                />
+                <div
+                  class="svelte-bvxh5p filled"
+                />
+                <div
+                  class="svelte-bvxh5p"
+                />
+                <div
+                  class="svelte-bvxh5p filled"
+                />
+                <div
+                  class="svelte-bvxh5p"
+                />
+                
+                <div
+                  class="svelte-bvxh5p filled"
+                />
+                <div
+                  class="svelte-bvxh5p"
+                />
+                <div
+                  class="svelte-bvxh5p"
+                />
+                <div
+                  class="svelte-bvxh5p"
+                />
+                <div
+                  class="svelte-bvxh5p filled"
+                />
+                
+              </button>
+               
+            </div>
+            <div
+              class="svelte-rtcokp"
+            >
+              <button
+                aria-label="Select Game"
+                class="svelte-bvxh5p"
+                type="button"
+              >
+                <div
+                  class="svelte-bvxh5p filled"
+                />
+                <div
+                  class="svelte-bvxh5p filled"
+                />
+                <div
+                  class="svelte-bvxh5p filled"
+                />
+                <div
+                  class="svelte-bvxh5p filled"
+                />
+                <div
+                  class="svelte-bvxh5p filled"
+                />
+                
+                <div
+                  class="svelte-bvxh5p"
+                />
+                <div
+                  class="svelte-bvxh5p"
+                />
+                <div
+                  class="svelte-bvxh5p filled"
+                />
+                <div
+                  class="svelte-bvxh5p"
+                />
+                <div
+                  class="svelte-bvxh5p"
+                />
+                
+                <div
+                  class="svelte-bvxh5p"
+                />
+                <div
+                  class="svelte-bvxh5p"
+                />
+                <div
+                  class="svelte-bvxh5p filled"
+                />
+                <div
+                  class="svelte-bvxh5p"
+                />
+                <div
+                  class="svelte-bvxh5p"
+                />
+                
+                <div
+                  class="svelte-bvxh5p"
+                />
+                <div
+                  class="svelte-bvxh5p"
+                />
+                <div
+                  class="svelte-bvxh5p filled"
+                />
+                <div
+                  class="svelte-bvxh5p"
+                />
+                <div
+                  class="svelte-bvxh5p"
+                />
+                
+                <div
+                  class="svelte-bvxh5p"
+                />
+                <div
+                  class="svelte-bvxh5p"
+                />
+                <div
+                  class="svelte-bvxh5p filled"
+                />
+                <div
+                  class="svelte-bvxh5p"
+                />
+                <div
+                  class="svelte-bvxh5p"
+                />
+                
+              </button>
+               
+            </div>
+            <div
+              class="svelte-rtcokp"
+            >
+              <button
+                aria-label="Select Game"
+                class="svelte-bvxh5p"
+                type="button"
+              >
+                <div
+                  class="svelte-bvxh5p"
+                />
+                <div
+                  class="svelte-bvxh5p"
+                />
+                <div
+                  class="svelte-bvxh5p filled"
+                />
+                <div
+                  class="svelte-bvxh5p"
+                />
+                <div
+                  class="svelte-bvxh5p"
+                />
+                
+                <div
+                  class="svelte-bvxh5p"
+                />
+                <div
+                  class="svelte-bvxh5p"
+                />
+                <div
+                  class="svelte-bvxh5p filled"
+                />
+                <div
+                  class="svelte-bvxh5p"
+                />
+                <div
+                  class="svelte-bvxh5p"
+                />
+                
+                <div
+                  class="svelte-bvxh5p filled"
+                />
+                <div
+                  class="svelte-bvxh5p filled"
+                />
+                <div
+                  class="svelte-bvxh5p filled"
+                />
+                <div
+                  class="svelte-bvxh5p filled"
+                />
+                <div
+                  class="svelte-bvxh5p filled"
+                />
+                
+                <div
+                  class="svelte-bvxh5p"
+                />
+                <div
+                  class="svelte-bvxh5p"
+                />
+                <div
+                  class="svelte-bvxh5p filled"
+                />
+                <div
+                  class="svelte-bvxh5p"
+                />
+                <div
+                  class="svelte-bvxh5p"
+                />
+                
+                <div
+                  class="svelte-bvxh5p"
+                />
+                <div
+                  class="svelte-bvxh5p"
+                />
+                <div
+                  class="svelte-bvxh5p filled"
+                />
+                <div
+                  class="svelte-bvxh5p"
+                />
+                <div
+                  class="svelte-bvxh5p"
+                />
+                
+              </button>
+               
+            </div>
+            <div
+              class="svelte-rtcokp"
+            >
+              <button
+                aria-label="Select Game"
+                class="svelte-bvxh5p"
+                type="button"
+              >
+                <div
+                  class="svelte-bvxh5p filled"
+                />
+                <div
+                  class="svelte-bvxh5p"
+                />
+                <div
+                  class="svelte-bvxh5p"
+                />
+                <div
+                  class="svelte-bvxh5p"
+                />
+                <div
+                  class="svelte-bvxh5p"
+                />
+                
+                <div
+                  class="svelte-bvxh5p filled"
+                />
+                <div
+                  class="svelte-bvxh5p"
+                />
+                <div
+                  class="svelte-bvxh5p"
+                />
+                <div
+                  class="svelte-bvxh5p"
+                />
+                <div
+                  class="svelte-bvxh5p"
+                />
+                
+                <div
+                  class="svelte-bvxh5p filled"
+                />
+                <div
+                  class="svelte-bvxh5p"
+                />
+                <div
+                  class="svelte-bvxh5p"
+                />
+                <div
+                  class="svelte-bvxh5p"
+                />
+                <div
+                  class="svelte-bvxh5p"
+                />
+                
+                <div
+                  class="svelte-bvxh5p filled"
+                />
+                <div
+                  class="svelte-bvxh5p"
+                />
+                <div
+                  class="svelte-bvxh5p"
+                />
+                <div
+                  class="svelte-bvxh5p"
+                />
+                <div
+                  class="svelte-bvxh5p"
+                />
+                
+                <div
+                  class="svelte-bvxh5p filled"
+                />
+                <div
+                  class="svelte-bvxh5p filled"
+                />
+                <div
+                  class="svelte-bvxh5p filled"
+                />
+                <div
+                  class="svelte-bvxh5p filled"
+                />
+                <div
+                  class="svelte-bvxh5p filled"
+                />
+                
+              </button>
+               
+            </div>
+            <div
+              class="svelte-rtcokp"
+            >
+              <button
+                aria-label="Select Game"
+                class="svelte-bvxh5p"
+                type="button"
+              >
+                <div
+                  class="svelte-bvxh5p filled"
+                />
+                <div
+                  class="svelte-bvxh5p filled"
+                />
+                <div
+                  class="svelte-bvxh5p filled"
+                />
+                <div
+                  class="svelte-bvxh5p filled"
+                />
+                <div
+                  class="svelte-bvxh5p filled"
+                />
+                
+                <div
+                  class="svelte-bvxh5p filled"
+                />
+                <div
+                  class="svelte-bvxh5p filled"
+                />
+                <div
+                  class="svelte-bvxh5p filled"
+                />
+                <div
+                  class="svelte-bvxh5p filled"
+                />
+                <div
+                  class="svelte-bvxh5p filled"
+                />
+                
+                <div
+                  class="svelte-bvxh5p filled"
+                />
+                <div
+                  class="svelte-bvxh5p filled"
+                />
+                <div
+                  class="svelte-bvxh5p filled"
+                />
+                <div
+                  class="svelte-bvxh5p filled"
+                />
+                <div
+                  class="svelte-bvxh5p filled"
+                />
+                
+                <div
+                  class="svelte-bvxh5p filled"
+                />
+                <div
+                  class="svelte-bvxh5p filled"
+                />
+                <div
+                  class="svelte-bvxh5p filled"
+                />
+                <div
+                  class="svelte-bvxh5p filled"
+                />
+                <div
+                  class="svelte-bvxh5p filled"
+                />
+                
+                <div
+                  class="svelte-bvxh5p filled"
+                />
+                <div
+                  class="svelte-bvxh5p filled"
+                />
+                <div
+                  class="svelte-bvxh5p filled"
+                />
+                <div
+                  class="svelte-bvxh5p filled"
+                />
+                <div
+                  class="svelte-bvxh5p filled"
+                />
+                
+              </button>
+               
+            </div>
+          </div>
+           
+          <div>
+            <button
+              class="svelte-qnnizk"
+              type="button"
+            >
+              Reset Game
+            </button>
+             
+            <input
+              class="svelte-1j38s5i"
+              max="99999"
+              min="10000"
+              placeholder="card #"
+              type="number"
+            />
+             
+            <button
+              class="svelte-qnnizk"
+              disabled=""
+              type="button"
+            >
+              Check Card
+            </button>
+          </div>
+           
+        </div>
+        
+        
+      </div>
+    </div>
+  </div>
+</body>
+`;

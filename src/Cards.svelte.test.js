@@ -1,9 +1,14 @@
-import { act, render, fireEvent } from "@testing-library/svelte"
+import { render, screen } from "@testing-library/svelte"
+import userEvent from "@testing-library/user-event"
 import Cards from "./Cards.svelte"
 
+// buttons on screen
 const BUTTON = "button"
+// button text queries
 const PRINT = { name: /print/i }
-const GENERATE = { name: /generate/i }
+const GENERATE = { name: /generate cards/i }
+// test id
+const CARD = "card"
 
 // Immutable seed source.
 const mockSeed = { seed: 12345 }
@@ -16,46 +21,43 @@ jest.mock("../src/bingo-utils", () => ({
   getSeed: () => mockSeed.seed,
 }))
 
-describe(Cards.name, () => {
-  let dom
-
+describe("Cards", () => {
   beforeEach(() => {
     // Reset seed before each test.
     mockSeed.seed = 12345
 
-    jest.spyOn(window, "print").mockImplementationOnce(jest.fn())
-
-    dom = render(Cards)
-  })
-
-  afterEach(() => {
-    jest.restoreAllMocks()
+    jest.spyOn(window, "print").mockImplementation(jest.fn())
   })
 
   describe("when loading", () => {
-    it("should display Cards", () => {
-      const cards = dom.getByTestId("cards")
+    it("should display 4 cards", () => {
+      const dom = render(Cards)
+      const cards = screen.getAllByTestId(CARD)
 
-      expect(cards.childElementCount).toBe(4)
+      expect(cards.length).toBe(4)
       expect(cards).toMatchSnapshot()
     })
   })
 
   describe("when print button is clicked", () => {
-    it("should invoke browser print function", async () => {
-      await act(() => dom.getByRole(BUTTON, PRINT).click())
+    it("should invoke browser print function", () => {
+      const dom = render(Cards)
+
+      userEvent.click(screen.getByRole(BUTTON, PRINT))
 
       expect(window.print).toHaveBeenCalled()
     })
   })
 
   describe("when generate button is clicked", () => {
-    it("should generate new set of cards", async () => {
-      // Change seed for test.
+    it("should generate new set of cards", () => {
+      const dom = render(Cards)
+      // Change seed before click for test.
       mockSeed.seed = 54321
 
-      await act(() => dom.getByRole(BUTTON, GENERATE).click())
-      const cards = dom.getByTestId("cards")
+      userEvent.click(screen.getByRole(BUTTON, GENERATE))
+
+      const cards = screen.getAllByTestId(CARD)
 
       expect(cards).toMatchSnapshot()
     })
