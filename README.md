@@ -1,6 +1,6 @@
 # bingo-board
 
-[![main](https://github.com/melgish/bingo-board/actions/workflows/nodejs.yml/badge.svg)](https://github.com/melgish/bingo-board/actions/workflows/build.yml)
+[![main](https://github.com/melgish/bingo-board/actions/workflows/build.yml/badge.svg)](https://github.com/melgish/bingo-board/actions/workflows/build.yml)
 ![GitHub last commit](https://img.shields.io/github/last-commit/melgish/bingo-board)
 [![codecov](https://codecov.io/gh/melgish/bingo-board/branch/main/graph/badge.svg?token=JFKE4V0N4Y)](https://codecov.io/gh/melgish/bingo-board)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
