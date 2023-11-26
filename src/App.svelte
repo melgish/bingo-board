@@ -1,8 +1,9 @@
-<script>
+<script lang="ts">
+  /// <reference types="svelte-routing/types" />
   import { Router, Route, Link } from "svelte-routing"
-  import { GAME } from "./bingo-utils.js"
-  import Board from "./Board.svelte"
-  import Cards from "./Cards.svelte"
+  import { GAME } from "./lib/bingo-utils"
+  import Board from "./lib/Board.svelte"
+  import Cards from "./lib/Cards.svelte"
 
   export let url = ""
 </script>

@@ -1,0 +1,268 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`GameMaps > when interval passes > should not update normal to next map 1`] = `
+<button
+  aria-label="Select Game"
+  class="s-Foe4RCTFnPEn"
+  type="button"
+>
+  <div
+    class="s-Foe4RCTFnPEn filled"
+  />
+  <div
+    class="s-Foe4RCTFnPEn filled"
+  />
+  <div
+    class="s-Foe4RCTFnPEn filled"
+  />
+  <div
+    class="s-Foe4RCTFnPEn filled"
+  />
+  <div
+    class="s-Foe4RCTFnPEn filled"
+  />
+  
+  <div
+    class="s-Foe4RCTFnPEn"
+  />
+  <div
+    class="s-Foe4RCTFnPEn"
+  />
+  <div
+    class="s-Foe4RCTFnPEn"
+  />
+  <div
+    class="s-Foe4RCTFnPEn"
+  />
+  <div
+    class="s-Foe4RCTFnPEn"
+  />
+  
+  <div
+    class="s-Foe4RCTFnPEn"
+  />
+  <div
+    class="s-Foe4RCTFnPEn"
+  />
+  <div
+    class="s-Foe4RCTFnPEn"
+  />
+  <div
+    class="s-Foe4RCTFnPEn"
+  />
+  <div
+    class="s-Foe4RCTFnPEn"
+  />
+  
+  <div
+    class="s-Foe4RCTFnPEn"
+  />
+  <div
+    class="s-Foe4RCTFnPEn"
+  />
+  <div
+    class="s-Foe4RCTFnPEn"
+  />
+  <div
+    class="s-Foe4RCTFnPEn"
+  />
+  <div
+    class="s-Foe4RCTFnPEn"
+  />
+  
+  <div
+    class="s-Foe4RCTFnPEn"
+  />
+  <div
+    class="s-Foe4RCTFnPEn"
+  />
+  <div
+    class="s-Foe4RCTFnPEn"
+  />
+  <div
+    class="s-Foe4RCTFnPEn"
+  />
+  <div
+    class="s-Foe4RCTFnPEn"
+  />
+  
+</button>
+`;
+
+exports[`GameMaps > when interval passes > should not update normal to next map 2`] = `
+<button
+  aria-label="Select Game"
+  class="s-Foe4RCTFnPEn"
+  type="button"
+>
+  <div
+    class="s-Foe4RCTFnPEn filled"
+  />
+  <div
+    class="s-Foe4RCTFnPEn filled"
+  />
+  <div
+    class="s-Foe4RCTFnPEn filled"
+  />
+  <div
+    class="s-Foe4RCTFnPEn filled"
+  />
+  <div
+    class="s-Foe4RCTFnPEn filled"
+  />
+  
+  <div
+    class="s-Foe4RCTFnPEn"
+  />
+  <div
+    class="s-Foe4RCTFnPEn"
+  />
+  <div
+    class="s-Foe4RCTFnPEn"
+  />
+  <div
+    class="s-Foe4RCTFnPEn"
+  />
+  <div
+    class="s-Foe4RCTFnPEn"
+  />
+  
+  <div
+    class="s-Foe4RCTFnPEn"
+  />
+  <div
+    class="s-Foe4RCTFnPEn"
+  />
+  <div
+    class="s-Foe4RCTFnPEn"
+  />
+  <div
+    class="s-Foe4RCTFnPEn"
+  />
+  <div
+    class="s-Foe4RCTFnPEn"
+  />
+  
+  <div
+    class="s-Foe4RCTFnPEn"
+  />
+  <div
+    class="s-Foe4RCTFnPEn"
+  />
+  <div
+    class="s-Foe4RCTFnPEn"
+  />
+  <div
+    class="s-Foe4RCTFnPEn"
+  />
+  <div
+    class="s-Foe4RCTFnPEn"
+  />
+  
+  <div
+    class="s-Foe4RCTFnPEn"
+  />
+  <div
+    class="s-Foe4RCTFnPEn"
+  />
+  <div
+    class="s-Foe4RCTFnPEn"
+  />
+  <div
+    class="s-Foe4RCTFnPEn"
+  />
+  <div
+    class="s-Foe4RCTFnPEn"
+  />
+  
+</button>
+`;
+
+exports[`GameMaps > when normal game is selected > should animate the map 1`] = `
+<button
+  aria-label="Select Game"
+  class="s-Foe4RCTFnPEn"
+  type="button"
+>
+  <div
+    class="s-Foe4RCTFnPEn"
+  />
+  <div
+    class="s-Foe4RCTFnPEn"
+  />
+  <div
+    class="s-Foe4RCTFnPEn"
+  />
+  <div
+    class="s-Foe4RCTFnPEn"
+  />
+  <div
+    class="s-Foe4RCTFnPEn"
+  />
+  
+  <div
+    class="s-Foe4RCTFnPEn"
+  />
+  <div
+    class="s-Foe4RCTFnPEn"
+  />
+  <div
+    class="s-Foe4RCTFnPEn"
+  />
+  <div
+    class="s-Foe4RCTFnPEn"
+  />
+  <div
+    class="s-Foe4RCTFnPEn"
+  />
+  
+  <div
+    class="s-Foe4RCTFnPEn filled"
+  />
+  <div
+    class="s-Foe4RCTFnPEn filled"
+  />
+  <div
+    class="s-Foe4RCTFnPEn filled"
+  />
+  <div
+    class="s-Foe4RCTFnPEn filled"
+  />
+  <div
+    class="s-Foe4RCTFnPEn filled"
+  />
+  
+  <div
+    class="s-Foe4RCTFnPEn"
+  />
+  <div
+    class="s-Foe4RCTFnPEn"
+  />
+  <div
+    class="s-Foe4RCTFnPEn"
+  />
+  <div
+    class="s-Foe4RCTFnPEn"
+  />
+  <div
+    class="s-Foe4RCTFnPEn"
+  />
+  
+  <div
+    class="s-Foe4RCTFnPEn"
+  />
+  <div
+    class="s-Foe4RCTFnPEn"
+  />
+  <div
+    class="s-Foe4RCTFnPEn"
+  />
+  <div
+    class="s-Foe4RCTFnPEn"
+  />
+  <div
+    class="s-Foe4RCTFnPEn"
+  />
+  
+</button>
+`;
