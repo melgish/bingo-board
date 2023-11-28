@@ -48,18 +48,32 @@ describe("Board", () => {
   })
 
   describe("card # input", () => {
-    it("should create matching card", async () => {
-      render(Board)
+    describe("when seed is valid", () => {
+      it("should create matching card", async () => {
+        render(Board)
 
-      await fireEvent.input(screen.getByRole(SPINBUTTON), {
-        target: { value: "12345" },
+        await fireEvent.input(screen.getByRole(SPINBUTTON), {
+          target: { value: "12345" },
+        })
+        await fireEvent.click(screen.getByRole(BUTTON, CHECK_CARD))
+        await fireEvent.click(screen.getByRole(SWITCH, { name: /15/ }))
+
+        expect(screen.getByTestId(CARD)).toMatchSnapshot()
+        await fireEvent.click(screen.getByRole(BUTTON, { name: /clear/i }))
+        expect(screen.queryByTestId(CARD)).toBeFalsy()
       })
-      await fireEvent.click(screen.getByRole(BUTTON, CHECK_CARD))
-      await fireEvent.click(screen.getByRole(SWITCH, { name: /15/ }))
+    })
 
-      expect(screen.getByTestId(CARD)).toMatchSnapshot()
-      await fireEvent.click(screen.getByRole(BUTTON, { name: /clear/i }))
-      expect(screen.queryByTestId(CARD)).toBeFalsy()
+    describe("when seed is not valid", () => {
+      it("should disable the check card button", async () => {
+        render(Board)
+
+        await fireEvent.input(screen.getByRole(SPINBUTTON), {
+              target: { value: "5555" },
+        })
+
+        expect(screen.getByRole(BUTTON, CHECK_CARD)).toBeDisabled();
+      })
     })
   })
 

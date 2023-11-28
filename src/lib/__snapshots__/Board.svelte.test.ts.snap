@@ -1,6 +1,6 @@
 // Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
-exports[`Board > card # input > should create matching card 1`] = `
+exports[`Board > card # input > when seed is valid > should create matching card 1`] = `
 <div
   class="card s-rd2yZI2QwEJR"
   data-testid="card"
