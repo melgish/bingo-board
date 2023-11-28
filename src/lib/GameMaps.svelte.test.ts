@@ -1,5 +1,5 @@
 import { afterAll, beforeAll, describe, expect, it, vi } from "vitest";
-import { fireEvent, render, screen } from "@testing-library/svelte"
+import { act, fireEvent, render, screen } from "@testing-library/svelte"
 import GameMaps from "./GameMaps.svelte"
 import { GAME_MAPS } from "./game-maps"
 
@@ -32,8 +32,8 @@ describe("GameMaps", () => {
 
       expect(getButton(0)).toMatchSnapshot()
 
-      vi.runOnlyPendingTimers()
-      vi.runOnlyPendingTimers()
+      await act(() => vi.runOnlyPendingTimers())
+      await act(() => vi.runOnlyPendingTimers())
 
       expect(getButton(0)).toMatchSnapshot()
     })
@@ -45,8 +45,8 @@ describe("GameMaps", () => {
 
       await fireEvent.click(getButton(0));
 
-      vi.runOnlyPendingTimers()
-      vi.runOnlyPendingTimers()
+      await act(() => vi.runOnlyPendingTimers())
+      await act(() => vi.runOnlyPendingTimers())
 
       expect(getButton(0)).toMatchSnapshot()
     })
