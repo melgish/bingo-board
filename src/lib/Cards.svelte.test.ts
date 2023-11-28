@@ -32,7 +32,7 @@ describe("Cards", () => {
 
   describe("when loading", () => {
     it("should display 4 cards", () => {
-      const dom = render(Cards)
+      render(Cards)
       const cards = screen.getAllByTestId(CARD)
 
       expect(cards.length).toBe(4)

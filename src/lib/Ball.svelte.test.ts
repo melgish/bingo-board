@@ -46,12 +46,6 @@ describe("Ball", () => {
   })
 
   describe("when ball is clicked", () => {
-    let flipped
-
-    beforeEach(() => {
-      flipped = vi.fn()
-    })
-
     it("should emit a flip event", async () => {
       const { component } = render(Ball, UNCHECKED)
       const el = screen.getByRole(SWITCH)

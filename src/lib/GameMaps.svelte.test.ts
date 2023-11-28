@@ -32,8 +32,8 @@ describe("GameMaps", () => {
 
       expect(getButton(0)).toMatchSnapshot()
 
-      await vi.runOnlyPendingTimers()
-      await vi.runOnlyPendingTimers()
+      vi.runOnlyPendingTimers()
+      vi.runOnlyPendingTimers()
 
       expect(getButton(0)).toMatchSnapshot()
     })
@@ -45,8 +45,8 @@ describe("GameMaps", () => {
 
       await fireEvent.click(getButton(0));
 
-      await vi.runOnlyPendingTimers()
-      await vi.runOnlyPendingTimers()
+      vi.runOnlyPendingTimers()
+      vi.runOnlyPendingTimers()
 
       expect(getButton(0)).toMatchSnapshot()
     })
