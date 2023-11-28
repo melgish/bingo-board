@@ -1,12 +1,4 @@
-import {
-  afterAll,
-  beforeAll,
-  beforeEach,
-  describe,
-  expect,
-  it,
-  vi,
-} from "vitest"
+import { afterAll, beforeAll, describe, expect, it, vi } from "vitest"
 import { act, fireEvent, render, screen } from "@testing-library/svelte"
 import Ball from "./Ball.svelte"
 

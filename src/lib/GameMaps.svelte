@@ -3,7 +3,7 @@
   import GameMap from "./GameMap.svelte"
   import { GAME_MAPS, normals } from "./game-maps"
 
-  let active: (typeof normals)|(typeof normals[0]) = GAME_MAPS[0]
+  let active: typeof normals | (typeof normals)[0] = GAME_MAPS[0]
   let n = 0
 
   const advanceNormals = () => {

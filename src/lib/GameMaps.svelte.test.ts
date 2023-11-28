@@ -1,10 +1,10 @@
-import { afterAll, beforeAll, describe, expect, it, vi } from "vitest";
+import { afterAll, beforeAll, describe, expect, it, vi } from "vitest"
 import { act, fireEvent, render, screen } from "@testing-library/svelte"
 import GameMaps from "./GameMaps.svelte"
 import { GAME_MAPS } from "./game-maps"
 
-function getButton(index: number)  {
-  return screen.getAllByRole("button")[index];
+function getButton(index: number) {
+  return screen.getAllByRole("button")[index]
 }
 
 // Take control of timers to control animations.
@@ -18,7 +18,7 @@ afterAll(() => {
 describe("GameMaps", () => {
   describe("when rendered", () => {
     it("should display all maps", async () => {
-      render(GameMaps);
+      render(GameMaps)
       const games = screen.getAllByRole("button")
 
       // Should have 1 for each map, plus normals
@@ -28,7 +28,7 @@ describe("GameMaps", () => {
 
   describe("when interval passes", () => {
     it("should not update normal to next map", async () => {
-      render(GameMaps);
+      render(GameMaps)
 
       expect(getButton(0)).toMatchSnapshot()
 
@@ -41,9 +41,9 @@ describe("GameMaps", () => {
 
   describe("when normal game is selected", () => {
     it("should animate the map", async () => {
-      render(GameMaps);
+      render(GameMaps)
 
-      await fireEvent.click(getButton(0));
+      await fireEvent.click(getButton(0))
 
       await act(() => vi.runOnlyPendingTimers())
       await act(() => vi.runOnlyPendingTimers())

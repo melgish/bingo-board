@@ -69,10 +69,10 @@ describe("Board", () => {
         render(Board)
 
         await fireEvent.input(screen.getByRole(SPINBUTTON), {
-              target: { value: "5555" },
+          target: { value: "5555" },
         })
 
-        expect(screen.getByRole(BUTTON, CHECK_CARD)).toBeDisabled();
+        expect(screen.getByRole(BUTTON, CHECK_CARD)).toBeDisabled()
       })
     })
   })
