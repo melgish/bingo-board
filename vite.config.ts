@@ -7,7 +7,7 @@ export default defineConfig({
   test: {
     coverage: {
       provider: "v8",
-      reporter: ['text-summary', 'html', 'lcovonly']
+      reporter: ['text-summary', 'lcovonly', 'cobertura']
     },
     environment: "jsdom",
     setupFiles: [
