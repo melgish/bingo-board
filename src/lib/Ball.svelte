@@ -35,7 +35,8 @@
   }
   [role="switch"]:hover,
   [role="switch"]:focus {
-    outline: 2px solid red;
+    outline: 3px solid red;
+    outline-offset: -3px;
   }
   div {
     display: grid;
