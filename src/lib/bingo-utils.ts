@@ -41,5 +41,5 @@ export function getCard(seed: number) {
   // Arrange in rows
   const rows = BINGO.map((i) => BINGO.map((j) => cols[j][i]))
 
-  return { seed, rows } as { seed: number, rows: number[][] }
+  return { seed, rows } as { seed: number; rows: number[][] }
 }

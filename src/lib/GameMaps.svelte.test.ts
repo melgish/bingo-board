@@ -7,6 +7,12 @@ function getButton(index: number) {
   return screen.getAllByRole("button")[index]
 }
 
+function getIndexOfActiveButton() {
+  return screen
+    .getAllByRole("button")
+    .findIndex((b) => b.parentElement?.classList.contains("active"))
+}
+
 // Take control of timers to control animations.
 beforeAll(() => {
   vi.useFakeTimers()
@@ -49,6 +55,23 @@ describe("GameMaps", () => {
       await act(() => vi.runOnlyPendingTimers())
 
       expect(getButton(0)).toMatchSnapshot()
+    })
+  })
+
+  describe("when game map is clicked", () => {
+    it("should select the active game", async () => {
+      const { component } = render(GameMaps)
+      const games = screen.getAllByRole("button")
+
+      const before = getIndexOfActiveButton()
+
+      expect(before).toBe(1)
+
+      await fireEvent.click(getButton(3))
+
+      const after = getIndexOfActiveButton()
+
+      expect(after).toBe(3)
     })
   })
 })

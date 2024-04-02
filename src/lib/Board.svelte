@@ -83,9 +83,7 @@
     {#if card}
       <Button on:click={clearCard}>Clear</Button>
     {:else}
-      <Button on:click={checkCard} disabled={!(seed && seed > 9999)}>
-        Check Card
-      </Button>
+      <Button on:click={checkCard} disabled={seed <= 9999}>Check Card</Button>
     {/if}
   </div>
   {#if card}
