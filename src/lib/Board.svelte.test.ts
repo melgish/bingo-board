@@ -1,5 +1,13 @@
-import { afterAll, beforeAll, describe, expect, it, vi } from "vitest"
-import { fireEvent, render, screen } from "@testing-library/svelte"
+import {
+  afterAll,
+  beforeAll,
+  beforeEach,
+  describe,
+  expect,
+  it,
+  vi,
+} from "vitest"
+import { act, fireEvent, render, screen } from "@testing-library/svelte"
 import Board from "./Board.svelte"
 import calls from "./calls.store"
 
@@ -22,23 +30,24 @@ const CHECK_CARD = { name: /check card/i }
 const CARD = "card"
 
 describe("Board", () => {
-  it("should render", () => {
-    const { container } = render(Board)
+  let rendered: ReturnType<typeof render>
 
-    expect(container).toMatchSnapshot()
+  beforeEach(() => {
+    rendered = render(Board)
+  })
+
+  it("should render", () => {
+    expect(rendered.container).toMatchSnapshot()
   })
 
   describe("when game starts", () => {
     it("should not have any lit balls", () => {
-      render(Board)
-
       expect(screen.getAllByRole(SWITCH, UNCHECKED).length).toBe(75)
     })
   })
 
   describe("reset button", () => {
     it("should reset the game", async () => {
-      render(Board)
       vi.spyOn(calls, "reset")
 
       await fireEvent.click(screen.getByRole(BUTTON, RESET))
@@ -50,27 +59,28 @@ describe("Board", () => {
   describe("card # input", () => {
     describe("when seed is valid", () => {
       it("should create matching card", async () => {
-        render(Board)
-
         await fireEvent.input(screen.getByRole(SPINBUTTON), {
           target: { value: "12345" },
         })
+        expect(screen.getByRole(BUTTON, CHECK_CARD)).not.toBeDisabled()
         await fireEvent.click(screen.getByRole(BUTTON, CHECK_CARD))
         await fireEvent.click(screen.getByRole(SWITCH, { name: /15/ }))
 
         expect(screen.getByTestId(CARD)).toMatchSnapshot()
+
         await fireEvent.click(screen.getByRole(BUTTON, { name: /clear/i }))
+
         expect(screen.queryByTestId(CARD)).toBeFalsy()
       })
     })
 
     describe("when seed is not valid", () => {
       it("should disable the check card button", async () => {
-        render(Board)
-
-        await fireEvent.input(screen.getByRole(SPINBUTTON), {
-          target: { value: "5555" },
-        })
+        await act(() =>
+          fireEvent.input(screen.getByRole(SPINBUTTON), {
+            target: { value: "5555" },
+          }),
+        )
 
         expect(screen.getByRole(BUTTON, CHECK_CARD)).toBeDisabled()
       })
@@ -80,7 +90,6 @@ describe("Board", () => {
   describe("clicking balls", () => {
     it("should update the game", async () => {
       vi.spyOn(calls, "flip")
-      render(Board)
 
       await fireEvent.click(screen.getByRole(SWITCH, { name: /15/ }))
 
