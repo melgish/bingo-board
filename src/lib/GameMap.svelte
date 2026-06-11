@@ -1,13 +1,19 @@
-<script>
+<script lang="ts">
   import { coverAll } from "./game-maps"
-  // 5x5 array defaults to cover-all
-  export let game = coverAll
+
+  interface Props {
+    // 5x5 array defaults to cover-all
+    game?: any
+    onclick?: () => void;
+  }
+
+  let { game = coverAll, onclick }: Props = $props()
 </script>
 
-<button type="button" on:click aria-label="Select Game">
+<button type="button" onclick={onclick} aria-label="Select Game">
   {#each game as row}
     {#each row as col}
-      <div class:filled={col} />
+      <div class:filled={col}></div>
     {/each}
   {/each}
 </button>

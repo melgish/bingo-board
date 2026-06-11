@@ -1,26 +1,32 @@
-import { defineConfig } from 'vitest/config'
-import { svelte } from '@sveltejs/vite-plugin-svelte'
+import { defineConfig } from "vitest/config";
+import { svelte } from "@sveltejs/vite-plugin-svelte";
+import { svelteTesting } from '@testing-library/svelte/vite';
 
-let reporter = ["text-summary", "html"];
-if (process.env.CI) {
-  // Include CI reports
-  reporter = ["lcovonly", "cobertura"];
-}
+// Include CI reports
+const reporter = process.env.CI
+	? ["lcovonly", "cobertura"]
+	: ["text-summary", "html"];
+
 // https://vitejs.dev/config/
-export default defineConfig({
-  plugins: [svelte()],
-  test: {
-    coverage: {
-      provider: "v8",
-      reporter: reporter,
-      include: ["src/**/*.*"],
-    },
-    environment: "jsdom",
-    setupFiles: [
-      "src/vitest.setup.ts"
-    ],
-    alias: [
-      { find: /^svelte$/, replacement: "svelte/internal" }
-    ]
-  }
-})
+export default defineConfig(({mode}) => {
+	const isTest = mode === 'test' || process.env.NODE_ENV === 'test';
+	return {
+		plugins: [svelte({
+			compilerOptions: {
+				// Lock down hash names for unit test snapshots
+				cssHash: isTest
+					? ({name}) => `svelte-${name}`
+					: undefined
+			}
+		}), svelteTesting()],
+		test: {
+			coverage: {
+				provider: "v8",
+				reporter,
+				include: ["src/**/*.*"],
+			},
+			environment: "jsdom",
+			setupFiles: ["src/vitest.setup.ts"],
+		},
+	};
+});

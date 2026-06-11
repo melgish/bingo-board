@@ -3,8 +3,12 @@
   import Letter from "./Letter.svelte"
   import { GAME } from "./bingo-utils"
 
-  export let card: { seed: number; rows: number[][] }
-  export let calls: { [key: number]: boolean } = {}
+  interface Props {
+    card: { seed: number; rows: number[][] }
+    calls?: { [key: number]: boolean }
+  }
+
+  let { card, calls = {} }: Props = $props()
 </script>
 
 <div class="card" data-testid="card">

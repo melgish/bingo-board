@@ -1,23 +1,29 @@
-<script>
-  import { createEventDispatcher } from "svelte"
-  // true when highlighted
-  export let checked = false
-  const dispatch = createEventDispatcher()
+<script lang="ts">
+  // spell-checker: ignore onflip
 
-  $: hot = false
+  interface Props {
+    // true when highlighted
+    checked?: boolean
+    children?: import("svelte").Snippet
+    onflip?: () => void
+  }
+
+  let { checked, children, onflip }: Props = $props()
+
+  let hot = $state(false)
 
   /**
    * Sends event that switch wants to be flipped
    */
   function flip() {
     hot = true
-    dispatch("flip")
+    onflip?.()
     setTimeout(() => (hot = false), 2000)
   }
 </script>
 
-<button role="switch" aria-checked={!!checked} class:hot on:click={flip}>
-  <div><slot /></div>
+<button role="switch" aria-checked={!!checked} class:hot onclick={flip}>
+  <div>{@render children?.()}</div>
 </button>
 
 <style>

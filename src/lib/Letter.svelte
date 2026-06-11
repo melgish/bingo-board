@@ -1,6 +1,10 @@
-<script>
-  /** @type string */
-  export let letter = "B"
+<script lang="ts">
+  interface Props {
+    /** @type string */
+    letter?: string
+  }
+
+  let { letter = "B" }: Props = $props()
 </script>
 
 <div>

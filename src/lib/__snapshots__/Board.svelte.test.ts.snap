@@ -2,338 +2,370 @@
 
 exports[`Board > card # input > when seed is valid > should create matching card 1`] = `
 <div
-  class="card svelte-ayymqd"
+  class="card svelte-Card"
   data-testid="card"
 >
   <div
-    class="svelte-14jn1vn"
+    class="svelte-Letter"
   >
     <span
-      class="svelte-14jn1vn"
+      class="svelte-Letter"
     >
       B
     </span>
   </div>
   <div
-    class="svelte-14jn1vn"
+    class="svelte-Letter"
   >
     <span
-      class="svelte-14jn1vn"
+      class="svelte-Letter"
     >
       I
     </span>
   </div>
   <div
-    class="svelte-14jn1vn"
+    class="svelte-Letter"
   >
     <span
-      class="svelte-14jn1vn"
+      class="svelte-Letter"
     >
       N
     </span>
   </div>
   <div
-    class="svelte-14jn1vn"
+    class="svelte-Letter"
   >
     <span
-      class="svelte-14jn1vn"
+      class="svelte-Letter"
     >
       G
     </span>
   </div>
   <div
-    class="svelte-14jn1vn"
+    class="svelte-Letter"
   >
     <span
-      class="svelte-14jn1vn"
+      class="svelte-Letter"
     >
       O
     </span>
   </div>
+  <!---->
    
+  <!---->
   <button
     aria-checked="false"
-    class="svelte-kyk9bz"
+    class="svelte-Ball"
     role="switch"
   >
     <div
-      class="svelte-kyk9bz"
+      class="svelte-Ball"
     >
       12
+      <!---->
     </div>
   </button>
   <button
     aria-checked="false"
-    class="svelte-kyk9bz"
+    class="svelte-Ball"
     role="switch"
   >
     <div
-      class="svelte-kyk9bz"
+      class="svelte-Ball"
     >
       18
+      <!---->
     </div>
   </button>
   <button
     aria-checked="false"
-    class="svelte-kyk9bz"
+    class="svelte-Ball"
     role="switch"
   >
     <div
-      class="svelte-kyk9bz"
+      class="svelte-Ball"
     >
       34
+      <!---->
     </div>
   </button>
   <button
     aria-checked="false"
-    class="svelte-kyk9bz"
+    class="svelte-Ball"
     role="switch"
   >
     <div
-      class="svelte-kyk9bz"
+      class="svelte-Ball"
     >
       47
+      <!---->
     </div>
   </button>
   <button
     aria-checked="false"
-    class="svelte-kyk9bz"
+    class="svelte-Ball"
     role="switch"
   >
     <div
-      class="svelte-kyk9bz"
+      class="svelte-Ball"
     >
       66
+      <!---->
     </div>
   </button>
   
+  <!---->
   <button
     aria-checked="false"
-    class="svelte-kyk9bz"
+    class="svelte-Ball"
     role="switch"
   >
     <div
-      class="svelte-kyk9bz"
+      class="svelte-Ball"
     >
       13
+      <!---->
     </div>
   </button>
   <button
     aria-checked="false"
-    class="svelte-kyk9bz"
+    class="svelte-Ball"
     role="switch"
   >
     <div
-      class="svelte-kyk9bz"
+      class="svelte-Ball"
     >
       16
+      <!---->
     </div>
   </button>
   <button
     aria-checked="false"
-    class="svelte-kyk9bz"
+    class="svelte-Ball"
     role="switch"
   >
     <div
-      class="svelte-kyk9bz"
+      class="svelte-Ball"
     >
       32
+      <!---->
     </div>
   </button>
   <button
     aria-checked="false"
-    class="svelte-kyk9bz"
+    class="svelte-Ball"
     role="switch"
   >
     <div
-      class="svelte-kyk9bz"
+      class="svelte-Ball"
     >
       53
+      <!---->
     </div>
   </button>
   <button
     aria-checked="false"
-    class="svelte-kyk9bz"
+    class="svelte-Ball"
     role="switch"
   >
     <div
-      class="svelte-kyk9bz"
+      class="svelte-Ball"
     >
       62
+      <!---->
     </div>
   </button>
   
+  <!---->
   <button
     aria-checked="false"
-    class="svelte-kyk9bz"
+    class="svelte-Ball"
     role="switch"
   >
     <div
-      class="svelte-kyk9bz"
+      class="svelte-Ball"
     >
       4
+      <!---->
     </div>
   </button>
   <button
     aria-checked="false"
-    class="svelte-kyk9bz"
+    class="svelte-Ball"
     role="switch"
   >
     <div
-      class="svelte-kyk9bz"
+      class="svelte-Ball"
     >
       29
+      <!---->
     </div>
   </button>
   <button
     aria-checked="true"
-    class="svelte-kyk9bz"
+    class="svelte-Ball"
     role="switch"
   >
     <div
-      class="svelte-kyk9bz"
+      class="svelte-Ball"
     >
       free
+      <!---->
     </div>
   </button>
   <button
     aria-checked="false"
-    class="svelte-kyk9bz"
+    class="svelte-Ball"
     role="switch"
   >
     <div
-      class="svelte-kyk9bz"
+      class="svelte-Ball"
     >
       50
+      <!---->
     </div>
   </button>
   <button
     aria-checked="false"
-    class="svelte-kyk9bz"
+    class="svelte-Ball"
     role="switch"
   >
     <div
-      class="svelte-kyk9bz"
+      class="svelte-Ball"
     >
       70
+      <!---->
     </div>
   </button>
   
+  <!---->
   <button
     aria-checked="false"
-    class="svelte-kyk9bz"
+    class="svelte-Ball"
     role="switch"
   >
     <div
-      class="svelte-kyk9bz"
+      class="svelte-Ball"
     >
       7
+      <!---->
     </div>
   </button>
   <button
     aria-checked="false"
-    class="svelte-kyk9bz"
+    class="svelte-Ball"
     role="switch"
   >
     <div
-      class="svelte-kyk9bz"
+      class="svelte-Ball"
     >
       23
+      <!---->
     </div>
   </button>
   <button
     aria-checked="false"
-    class="svelte-kyk9bz"
+    class="svelte-Ball"
     role="switch"
   >
     <div
-      class="svelte-kyk9bz"
+      class="svelte-Ball"
     >
       37
+      <!---->
     </div>
   </button>
   <button
     aria-checked="false"
-    class="svelte-kyk9bz"
+    class="svelte-Ball"
     role="switch"
   >
     <div
-      class="svelte-kyk9bz"
+      class="svelte-Ball"
     >
       56
+      <!---->
     </div>
   </button>
   <button
     aria-checked="false"
-    class="svelte-kyk9bz"
+    class="svelte-Ball"
     role="switch"
   >
     <div
-      class="svelte-kyk9bz"
+      class="svelte-Ball"
     >
       72
+      <!---->
     </div>
   </button>
   
+  <!---->
   <button
     aria-checked="false"
-    class="svelte-kyk9bz"
+    class="svelte-Ball"
     role="switch"
   >
     <div
-      class="svelte-kyk9bz"
+      class="svelte-Ball"
     >
       2
+      <!---->
     </div>
   </button>
   <button
     aria-checked="false"
-    class="svelte-kyk9bz"
+    class="svelte-Ball"
     role="switch"
   >
     <div
-      class="svelte-kyk9bz"
+      class="svelte-Ball"
     >
       30
+      <!---->
     </div>
   </button>
   <button
     aria-checked="false"
-    class="svelte-kyk9bz"
+    class="svelte-Ball"
     role="switch"
   >
     <div
-      class="svelte-kyk9bz"
+      class="svelte-Ball"
     >
       31
+      <!---->
     </div>
   </button>
   <button
     aria-checked="false"
-    class="svelte-kyk9bz"
+    class="svelte-Ball"
     role="switch"
   >
     <div
-      class="svelte-kyk9bz"
+      class="svelte-Ball"
     >
       49
+      <!---->
     </div>
   </button>
   <button
     aria-checked="false"
-    class="svelte-kyk9bz"
+    class="svelte-Ball"
     role="switch"
   >
     <div
-      class="svelte-kyk9bz"
+      class="svelte-Ball"
     >
       63
+      <!---->
     </div>
   </button>
   
+  <!---->
    
   <div
-    class="foot svelte-ayymqd"
+    class="foot svelte-Card"
   >
     12345
   </div>
@@ -344,1726 +376,1871 @@ exports[`Board > should render 1`] = `
 <div>
   <div>
     <div
-      class="board svelte-1j38s5i"
+      class="board svelte-Board"
       data-testid="board"
     >
+      <!---->
       <div
-        class="svelte-14jn1vn"
+        class="svelte-Letter"
       >
         <span
-          class="svelte-14jn1vn"
+          class="svelte-Letter"
         >
           B
         </span>
       </div>
+      <!---->
        
       <button
         aria-checked="false"
-        class="svelte-kyk9bz"
+        class="svelte-Ball"
         role="switch"
       >
         <div
-          class="svelte-kyk9bz"
+          class="svelte-Ball"
         >
           1
+          <!---->
         </div>
       </button>
       <button
         aria-checked="false"
-        class="svelte-kyk9bz"
+        class="svelte-Ball"
         role="switch"
       >
         <div
-          class="svelte-kyk9bz"
+          class="svelte-Ball"
         >
           2
+          <!---->
         </div>
       </button>
       <button
         aria-checked="false"
-        class="svelte-kyk9bz"
+        class="svelte-Ball"
         role="switch"
       >
         <div
-          class="svelte-kyk9bz"
+          class="svelte-Ball"
         >
           3
+          <!---->
         </div>
       </button>
       <button
         aria-checked="false"
-        class="svelte-kyk9bz"
+        class="svelte-Ball"
         role="switch"
       >
         <div
-          class="svelte-kyk9bz"
+          class="svelte-Ball"
         >
           4
+          <!---->
         </div>
       </button>
       <button
         aria-checked="false"
-        class="svelte-kyk9bz"
+        class="svelte-Ball"
         role="switch"
       >
         <div
-          class="svelte-kyk9bz"
+          class="svelte-Ball"
         >
           5
+          <!---->
         </div>
       </button>
       <button
         aria-checked="false"
-        class="svelte-kyk9bz"
+        class="svelte-Ball"
         role="switch"
       >
         <div
-          class="svelte-kyk9bz"
+          class="svelte-Ball"
         >
           6
+          <!---->
         </div>
       </button>
       <button
         aria-checked="false"
-        class="svelte-kyk9bz"
+        class="svelte-Ball"
         role="switch"
       >
         <div
-          class="svelte-kyk9bz"
+          class="svelte-Ball"
         >
           7
+          <!---->
         </div>
       </button>
       <button
         aria-checked="false"
-        class="svelte-kyk9bz"
+        class="svelte-Ball"
         role="switch"
       >
         <div
-          class="svelte-kyk9bz"
+          class="svelte-Ball"
         >
           8
+          <!---->
         </div>
       </button>
       <button
         aria-checked="false"
-        class="svelte-kyk9bz"
+        class="svelte-Ball"
         role="switch"
       >
         <div
-          class="svelte-kyk9bz"
+          class="svelte-Ball"
         >
           9
+          <!---->
         </div>
       </button>
       <button
         aria-checked="false"
-        class="svelte-kyk9bz"
+        class="svelte-Ball"
         role="switch"
       >
         <div
-          class="svelte-kyk9bz"
+          class="svelte-Ball"
         >
           10
+          <!---->
         </div>
       </button>
       <button
         aria-checked="false"
-        class="svelte-kyk9bz"
+        class="svelte-Ball"
         role="switch"
       >
         <div
-          class="svelte-kyk9bz"
+          class="svelte-Ball"
         >
           11
+          <!---->
         </div>
       </button>
       <button
         aria-checked="false"
-        class="svelte-kyk9bz"
+        class="svelte-Ball"
         role="switch"
       >
         <div
-          class="svelte-kyk9bz"
+          class="svelte-Ball"
         >
           12
+          <!---->
         </div>
       </button>
       <button
         aria-checked="false"
-        class="svelte-kyk9bz"
+        class="svelte-Ball"
         role="switch"
       >
         <div
-          class="svelte-kyk9bz"
+          class="svelte-Ball"
         >
           13
+          <!---->
         </div>
       </button>
       <button
         aria-checked="false"
-        class="svelte-kyk9bz"
+        class="svelte-Ball"
         role="switch"
       >
         <div
-          class="svelte-kyk9bz"
+          class="svelte-Ball"
         >
           14
+          <!---->
         </div>
       </button>
       <button
         aria-checked="false"
-        class="svelte-kyk9bz"
+        class="svelte-Ball"
         role="switch"
       >
         <div
-          class="svelte-kyk9bz"
+          class="svelte-Ball"
         >
           15
+          <!---->
         </div>
       </button>
-      
+      <!---->
+      <!---->
       <div
-        class="svelte-14jn1vn"
+        class="svelte-Letter"
       >
         <span
-          class="svelte-14jn1vn"
+          class="svelte-Letter"
         >
           I
         </span>
       </div>
+      <!---->
        
       <button
         aria-checked="false"
-        class="svelte-kyk9bz"
+        class="svelte-Ball"
         role="switch"
       >
         <div
-          class="svelte-kyk9bz"
+          class="svelte-Ball"
         >
           16
+          <!---->
         </div>
       </button>
       <button
         aria-checked="false"
-        class="svelte-kyk9bz"
+        class="svelte-Ball"
         role="switch"
       >
         <div
-          class="svelte-kyk9bz"
+          class="svelte-Ball"
         >
           17
+          <!---->
         </div>
       </button>
       <button
         aria-checked="false"
-        class="svelte-kyk9bz"
+        class="svelte-Ball"
         role="switch"
       >
         <div
-          class="svelte-kyk9bz"
+          class="svelte-Ball"
         >
           18
+          <!---->
         </div>
       </button>
       <button
         aria-checked="false"
-        class="svelte-kyk9bz"
+        class="svelte-Ball"
         role="switch"
       >
         <div
-          class="svelte-kyk9bz"
+          class="svelte-Ball"
         >
           19
+          <!---->
         </div>
       </button>
       <button
         aria-checked="false"
-        class="svelte-kyk9bz"
+        class="svelte-Ball"
         role="switch"
       >
         <div
-          class="svelte-kyk9bz"
+          class="svelte-Ball"
         >
           20
+          <!---->
         </div>
       </button>
       <button
         aria-checked="false"
-        class="svelte-kyk9bz"
+        class="svelte-Ball"
         role="switch"
       >
         <div
-          class="svelte-kyk9bz"
+          class="svelte-Ball"
         >
           21
+          <!---->
         </div>
       </button>
       <button
         aria-checked="false"
-        class="svelte-kyk9bz"
+        class="svelte-Ball"
         role="switch"
       >
         <div
-          class="svelte-kyk9bz"
+          class="svelte-Ball"
         >
           22
+          <!---->
         </div>
       </button>
       <button
         aria-checked="false"
-        class="svelte-kyk9bz"
+        class="svelte-Ball"
         role="switch"
       >
         <div
-          class="svelte-kyk9bz"
+          class="svelte-Ball"
         >
           23
+          <!---->
         </div>
       </button>
       <button
         aria-checked="false"
-        class="svelte-kyk9bz"
+        class="svelte-Ball"
         role="switch"
       >
         <div
-          class="svelte-kyk9bz"
+          class="svelte-Ball"
         >
           24
+          <!---->
         </div>
       </button>
       <button
         aria-checked="false"
-        class="svelte-kyk9bz"
+        class="svelte-Ball"
         role="switch"
       >
         <div
-          class="svelte-kyk9bz"
+          class="svelte-Ball"
         >
           25
+          <!---->
         </div>
       </button>
       <button
         aria-checked="false"
-        class="svelte-kyk9bz"
+        class="svelte-Ball"
         role="switch"
       >
         <div
-          class="svelte-kyk9bz"
+          class="svelte-Ball"
         >
           26
+          <!---->
         </div>
       </button>
       <button
         aria-checked="false"
-        class="svelte-kyk9bz"
+        class="svelte-Ball"
         role="switch"
       >
         <div
-          class="svelte-kyk9bz"
+          class="svelte-Ball"
         >
           27
+          <!---->
         </div>
       </button>
       <button
         aria-checked="false"
-        class="svelte-kyk9bz"
+        class="svelte-Ball"
         role="switch"
       >
         <div
-          class="svelte-kyk9bz"
+          class="svelte-Ball"
         >
           28
+          <!---->
         </div>
       </button>
       <button
         aria-checked="false"
-        class="svelte-kyk9bz"
+        class="svelte-Ball"
         role="switch"
       >
         <div
-          class="svelte-kyk9bz"
+          class="svelte-Ball"
         >
           29
+          <!---->
         </div>
       </button>
       <button
         aria-checked="false"
-        class="svelte-kyk9bz"
+        class="svelte-Ball"
         role="switch"
       >
         <div
-          class="svelte-kyk9bz"
+          class="svelte-Ball"
         >
           30
+          <!---->
         </div>
       </button>
-      
+      <!---->
+      <!---->
       <div
-        class="svelte-14jn1vn"
+        class="svelte-Letter"
       >
         <span
-          class="svelte-14jn1vn"
+          class="svelte-Letter"
         >
           N
         </span>
       </div>
+      <!---->
        
       <button
         aria-checked="false"
-        class="svelte-kyk9bz"
+        class="svelte-Ball"
         role="switch"
       >
         <div
-          class="svelte-kyk9bz"
+          class="svelte-Ball"
         >
           31
+          <!---->
         </div>
       </button>
       <button
         aria-checked="false"
-        class="svelte-kyk9bz"
+        class="svelte-Ball"
         role="switch"
       >
         <div
-          class="svelte-kyk9bz"
+          class="svelte-Ball"
         >
           32
+          <!---->
         </div>
       </button>
       <button
         aria-checked="false"
-        class="svelte-kyk9bz"
+        class="svelte-Ball"
         role="switch"
       >
         <div
-          class="svelte-kyk9bz"
+          class="svelte-Ball"
         >
           33
+          <!---->
         </div>
       </button>
       <button
         aria-checked="false"
-        class="svelte-kyk9bz"
+        class="svelte-Ball"
         role="switch"
       >
         <div
-          class="svelte-kyk9bz"
+          class="svelte-Ball"
         >
           34
+          <!---->
         </div>
       </button>
       <button
         aria-checked="false"
-        class="svelte-kyk9bz"
+        class="svelte-Ball"
         role="switch"
       >
         <div
-          class="svelte-kyk9bz"
+          class="svelte-Ball"
         >
           35
+          <!---->
         </div>
       </button>
       <button
         aria-checked="false"
-        class="svelte-kyk9bz"
+        class="svelte-Ball"
         role="switch"
       >
         <div
-          class="svelte-kyk9bz"
+          class="svelte-Ball"
         >
           36
+          <!---->
         </div>
       </button>
       <button
         aria-checked="false"
-        class="svelte-kyk9bz"
+        class="svelte-Ball"
         role="switch"
       >
         <div
-          class="svelte-kyk9bz"
+          class="svelte-Ball"
         >
           37
+          <!---->
         </div>
       </button>
       <button
         aria-checked="false"
-        class="svelte-kyk9bz"
+        class="svelte-Ball"
         role="switch"
       >
         <div
-          class="svelte-kyk9bz"
+          class="svelte-Ball"
         >
           38
+          <!---->
         </div>
       </button>
       <button
         aria-checked="false"
-        class="svelte-kyk9bz"
+        class="svelte-Ball"
         role="switch"
       >
         <div
-          class="svelte-kyk9bz"
+          class="svelte-Ball"
         >
           39
+          <!---->
         </div>
       </button>
       <button
         aria-checked="false"
-        class="svelte-kyk9bz"
+        class="svelte-Ball"
         role="switch"
       >
         <div
-          class="svelte-kyk9bz"
+          class="svelte-Ball"
         >
           40
+          <!---->
         </div>
       </button>
       <button
         aria-checked="false"
-        class="svelte-kyk9bz"
+        class="svelte-Ball"
         role="switch"
       >
         <div
-          class="svelte-kyk9bz"
+          class="svelte-Ball"
         >
           41
+          <!---->
         </div>
       </button>
       <button
         aria-checked="false"
-        class="svelte-kyk9bz"
+        class="svelte-Ball"
         role="switch"
       >
         <div
-          class="svelte-kyk9bz"
+          class="svelte-Ball"
         >
           42
+          <!---->
         </div>
       </button>
       <button
         aria-checked="false"
-        class="svelte-kyk9bz"
+        class="svelte-Ball"
         role="switch"
       >
         <div
-          class="svelte-kyk9bz"
+          class="svelte-Ball"
         >
           43
+          <!---->
         </div>
       </button>
       <button
         aria-checked="false"
-        class="svelte-kyk9bz"
+        class="svelte-Ball"
         role="switch"
       >
         <div
-          class="svelte-kyk9bz"
+          class="svelte-Ball"
         >
           44
+          <!---->
         </div>
       </button>
       <button
         aria-checked="false"
-        class="svelte-kyk9bz"
+        class="svelte-Ball"
         role="switch"
       >
         <div
-          class="svelte-kyk9bz"
+          class="svelte-Ball"
         >
           45
+          <!---->
         </div>
       </button>
-      
+      <!---->
+      <!---->
       <div
-        class="svelte-14jn1vn"
+        class="svelte-Letter"
       >
         <span
-          class="svelte-14jn1vn"
+          class="svelte-Letter"
         >
           G
         </span>
       </div>
+      <!---->
        
       <button
         aria-checked="false"
-        class="svelte-kyk9bz"
+        class="svelte-Ball"
         role="switch"
       >
         <div
-          class="svelte-kyk9bz"
+          class="svelte-Ball"
         >
           46
+          <!---->
         </div>
       </button>
       <button
         aria-checked="false"
-        class="svelte-kyk9bz"
+        class="svelte-Ball"
         role="switch"
       >
         <div
-          class="svelte-kyk9bz"
+          class="svelte-Ball"
         >
           47
+          <!---->
         </div>
       </button>
       <button
         aria-checked="false"
-        class="svelte-kyk9bz"
+        class="svelte-Ball"
         role="switch"
       >
         <div
-          class="svelte-kyk9bz"
+          class="svelte-Ball"
         >
           48
+          <!---->
         </div>
       </button>
       <button
         aria-checked="false"
-        class="svelte-kyk9bz"
+        class="svelte-Ball"
         role="switch"
       >
         <div
-          class="svelte-kyk9bz"
+          class="svelte-Ball"
         >
           49
+          <!---->
         </div>
       </button>
       <button
         aria-checked="false"
-        class="svelte-kyk9bz"
+        class="svelte-Ball"
         role="switch"
       >
         <div
-          class="svelte-kyk9bz"
+          class="svelte-Ball"
         >
           50
+          <!---->
         </div>
       </button>
       <button
         aria-checked="false"
-        class="svelte-kyk9bz"
+        class="svelte-Ball"
         role="switch"
       >
         <div
-          class="svelte-kyk9bz"
+          class="svelte-Ball"
         >
           51
+          <!---->
         </div>
       </button>
       <button
         aria-checked="false"
-        class="svelte-kyk9bz"
+        class="svelte-Ball"
         role="switch"
       >
         <div
-          class="svelte-kyk9bz"
+          class="svelte-Ball"
         >
           52
+          <!---->
         </div>
       </button>
       <button
         aria-checked="false"
-        class="svelte-kyk9bz"
+        class="svelte-Ball"
         role="switch"
       >
         <div
-          class="svelte-kyk9bz"
+          class="svelte-Ball"
         >
           53
+          <!---->
         </div>
       </button>
       <button
         aria-checked="false"
-        class="svelte-kyk9bz"
+        class="svelte-Ball"
         role="switch"
       >
         <div
-          class="svelte-kyk9bz"
+          class="svelte-Ball"
         >
           54
+          <!---->
         </div>
       </button>
       <button
         aria-checked="false"
-        class="svelte-kyk9bz"
+        class="svelte-Ball"
         role="switch"
       >
         <div
-          class="svelte-kyk9bz"
+          class="svelte-Ball"
         >
           55
+          <!---->
         </div>
       </button>
       <button
         aria-checked="false"
-        class="svelte-kyk9bz"
+        class="svelte-Ball"
         role="switch"
       >
         <div
-          class="svelte-kyk9bz"
+          class="svelte-Ball"
         >
           56
+          <!---->
         </div>
       </button>
       <button
         aria-checked="false"
-        class="svelte-kyk9bz"
+        class="svelte-Ball"
         role="switch"
       >
         <div
-          class="svelte-kyk9bz"
+          class="svelte-Ball"
         >
           57
+          <!---->
         </div>
       </button>
       <button
         aria-checked="false"
-        class="svelte-kyk9bz"
+        class="svelte-Ball"
         role="switch"
       >
         <div
-          class="svelte-kyk9bz"
+          class="svelte-Ball"
         >
           58
+          <!---->
         </div>
       </button>
       <button
         aria-checked="false"
-        class="svelte-kyk9bz"
+        class="svelte-Ball"
         role="switch"
       >
         <div
-          class="svelte-kyk9bz"
+          class="svelte-Ball"
         >
           59
+          <!---->
         </div>
       </button>
       <button
         aria-checked="false"
-        class="svelte-kyk9bz"
+        class="svelte-Ball"
         role="switch"
       >
         <div
-          class="svelte-kyk9bz"
+          class="svelte-Ball"
         >
           60
+          <!---->
         </div>
       </button>
-      
+      <!---->
+      <!---->
       <div
-        class="svelte-14jn1vn"
+        class="svelte-Letter"
       >
         <span
-          class="svelte-14jn1vn"
+          class="svelte-Letter"
         >
           O
         </span>
       </div>
+      <!---->
        
       <button
         aria-checked="false"
-        class="svelte-kyk9bz"
+        class="svelte-Ball"
         role="switch"
       >
         <div
-          class="svelte-kyk9bz"
+          class="svelte-Ball"
         >
           61
+          <!---->
         </div>
       </button>
       <button
         aria-checked="false"
-        class="svelte-kyk9bz"
+        class="svelte-Ball"
         role="switch"
       >
         <div
-          class="svelte-kyk9bz"
+          class="svelte-Ball"
         >
           62
+          <!---->
         </div>
       </button>
       <button
         aria-checked="false"
-        class="svelte-kyk9bz"
+        class="svelte-Ball"
         role="switch"
       >
         <div
-          class="svelte-kyk9bz"
+          class="svelte-Ball"
         >
           63
+          <!---->
         </div>
       </button>
       <button
         aria-checked="false"
-        class="svelte-kyk9bz"
+        class="svelte-Ball"
         role="switch"
       >
         <div
-          class="svelte-kyk9bz"
+          class="svelte-Ball"
         >
           64
+          <!---->
         </div>
       </button>
       <button
         aria-checked="false"
-        class="svelte-kyk9bz"
+        class="svelte-Ball"
         role="switch"
       >
         <div
-          class="svelte-kyk9bz"
+          class="svelte-Ball"
         >
           65
+          <!---->
         </div>
       </button>
       <button
         aria-checked="false"
-        class="svelte-kyk9bz"
+        class="svelte-Ball"
         role="switch"
       >
         <div
-          class="svelte-kyk9bz"
+          class="svelte-Ball"
         >
           66
+          <!---->
         </div>
       </button>
       <button
         aria-checked="false"
-        class="svelte-kyk9bz"
+        class="svelte-Ball"
         role="switch"
       >
         <div
-          class="svelte-kyk9bz"
+          class="svelte-Ball"
         >
           67
+          <!---->
         </div>
       </button>
       <button
         aria-checked="false"
-        class="svelte-kyk9bz"
+        class="svelte-Ball"
         role="switch"
       >
         <div
-          class="svelte-kyk9bz"
+          class="svelte-Ball"
         >
           68
+          <!---->
         </div>
       </button>
       <button
         aria-checked="false"
-        class="svelte-kyk9bz"
+        class="svelte-Ball"
         role="switch"
       >
         <div
-          class="svelte-kyk9bz"
+          class="svelte-Ball"
         >
           69
+          <!---->
         </div>
       </button>
       <button
         aria-checked="false"
-        class="svelte-kyk9bz"
+        class="svelte-Ball"
         role="switch"
       >
         <div
-          class="svelte-kyk9bz"
+          class="svelte-Ball"
         >
           70
+          <!---->
         </div>
       </button>
       <button
         aria-checked="false"
-        class="svelte-kyk9bz"
+        class="svelte-Ball"
         role="switch"
       >
         <div
-          class="svelte-kyk9bz"
+          class="svelte-Ball"
         >
           71
+          <!---->
         </div>
       </button>
       <button
         aria-checked="false"
-        class="svelte-kyk9bz"
+        class="svelte-Ball"
         role="switch"
       >
         <div
-          class="svelte-kyk9bz"
+          class="svelte-Ball"
         >
           72
+          <!---->
         </div>
       </button>
       <button
         aria-checked="false"
-        class="svelte-kyk9bz"
+        class="svelte-Ball"
         role="switch"
       >
         <div
-          class="svelte-kyk9bz"
+          class="svelte-Ball"
         >
           73
+          <!---->
         </div>
       </button>
       <button
         aria-checked="false"
-        class="svelte-kyk9bz"
+        class="svelte-Ball"
         role="switch"
       >
         <div
-          class="svelte-kyk9bz"
+          class="svelte-Ball"
         >
           74
+          <!---->
         </div>
       </button>
       <button
         aria-checked="false"
-        class="svelte-kyk9bz"
+        class="svelte-Ball"
         role="switch"
       >
         <div
-          class="svelte-kyk9bz"
+          class="svelte-Ball"
         >
           75
+          <!---->
         </div>
       </button>
+      <!---->
       
     </div>
      
     <div
-      class="games svelte-rtcokp"
+      class="games svelte-GameMaps"
       data-testid="games"
     >
       <div
-        class="svelte-rtcokp"
+        class="svelte-GameMaps"
       >
         <button
           aria-label="Select Game"
-          class="svelte-bvxh5p"
+          class="svelte-GameMap"
           type="button"
         >
+          <!---->
           <div
-            class="svelte-bvxh5p filled"
+            class="svelte-GameMap filled"
           />
           <div
-            class="svelte-bvxh5p filled"
+            class="svelte-GameMap filled"
           />
           <div
-            class="svelte-bvxh5p filled"
+            class="svelte-GameMap filled"
           />
           <div
-            class="svelte-bvxh5p filled"
+            class="svelte-GameMap filled"
           />
           <div
-            class="svelte-bvxh5p filled"
-          />
-          
-          <div
-            class="svelte-bvxh5p"
-          />
-          <div
-            class="svelte-bvxh5p"
-          />
-          <div
-            class="svelte-bvxh5p"
-          />
-          <div
-            class="svelte-bvxh5p"
-          />
-          <div
-            class="svelte-bvxh5p"
+            class="svelte-GameMap filled"
           />
           
+          <!---->
           <div
-            class="svelte-bvxh5p"
+            class="svelte-GameMap"
           />
           <div
-            class="svelte-bvxh5p"
+            class="svelte-GameMap"
           />
           <div
-            class="svelte-bvxh5p"
+            class="svelte-GameMap"
           />
           <div
-            class="svelte-bvxh5p"
+            class="svelte-GameMap"
           />
           <div
-            class="svelte-bvxh5p"
-          />
-          
-          <div
-            class="svelte-bvxh5p"
-          />
-          <div
-            class="svelte-bvxh5p"
-          />
-          <div
-            class="svelte-bvxh5p"
-          />
-          <div
-            class="svelte-bvxh5p"
-          />
-          <div
-            class="svelte-bvxh5p"
+            class="svelte-GameMap"
           />
           
+          <!---->
           <div
-            class="svelte-bvxh5p"
+            class="svelte-GameMap"
           />
           <div
-            class="svelte-bvxh5p"
+            class="svelte-GameMap"
           />
           <div
-            class="svelte-bvxh5p"
+            class="svelte-GameMap"
           />
           <div
-            class="svelte-bvxh5p"
+            class="svelte-GameMap"
           />
           <div
-            class="svelte-bvxh5p"
+            class="svelte-GameMap"
           />
+          
+          <!---->
+          <div
+            class="svelte-GameMap"
+          />
+          <div
+            class="svelte-GameMap"
+          />
+          <div
+            class="svelte-GameMap"
+          />
+          <div
+            class="svelte-GameMap"
+          />
+          <div
+            class="svelte-GameMap"
+          />
+          
+          <!---->
+          <div
+            class="svelte-GameMap"
+          />
+          <div
+            class="svelte-GameMap"
+          />
+          <div
+            class="svelte-GameMap"
+          />
+          <div
+            class="svelte-GameMap"
+          />
+          <div
+            class="svelte-GameMap"
+          />
+          
           
         </button>
+        <!---->
       </div>
        
       <div
-        class="svelte-rtcokp active"
+        class="active svelte-GameMaps"
       >
         <button
           aria-label="Select Game"
-          class="svelte-bvxh5p"
+          class="svelte-GameMap"
           type="button"
         >
+          <!---->
           <div
-            class="svelte-bvxh5p filled"
+            class="svelte-GameMap filled"
           />
           <div
-            class="svelte-bvxh5p filled"
+            class="svelte-GameMap filled"
           />
           <div
-            class="svelte-bvxh5p filled"
+            class="svelte-GameMap filled"
           />
           <div
-            class="svelte-bvxh5p filled"
+            class="svelte-GameMap filled"
           />
           <div
-            class="svelte-bvxh5p filled"
-          />
-          
-          <div
-            class="svelte-bvxh5p filled"
-          />
-          <div
-            class="svelte-bvxh5p"
-          />
-          <div
-            class="svelte-bvxh5p"
-          />
-          <div
-            class="svelte-bvxh5p"
-          />
-          <div
-            class="svelte-bvxh5p filled"
+            class="svelte-GameMap filled"
           />
           
+          <!---->
           <div
-            class="svelte-bvxh5p filled"
+            class="svelte-GameMap filled"
           />
           <div
-            class="svelte-bvxh5p"
+            class="svelte-GameMap"
           />
           <div
-            class="svelte-bvxh5p"
+            class="svelte-GameMap"
           />
           <div
-            class="svelte-bvxh5p"
+            class="svelte-GameMap"
           />
           <div
-            class="svelte-bvxh5p filled"
-          />
-          
-          <div
-            class="svelte-bvxh5p filled"
-          />
-          <div
-            class="svelte-bvxh5p"
-          />
-          <div
-            class="svelte-bvxh5p"
-          />
-          <div
-            class="svelte-bvxh5p"
-          />
-          <div
-            class="svelte-bvxh5p filled"
+            class="svelte-GameMap filled"
           />
           
+          <!---->
           <div
-            class="svelte-bvxh5p filled"
+            class="svelte-GameMap filled"
           />
           <div
-            class="svelte-bvxh5p filled"
+            class="svelte-GameMap"
           />
           <div
-            class="svelte-bvxh5p filled"
+            class="svelte-GameMap"
           />
           <div
-            class="svelte-bvxh5p filled"
+            class="svelte-GameMap"
           />
           <div
-            class="svelte-bvxh5p filled"
+            class="svelte-GameMap filled"
           />
+          
+          <!---->
+          <div
+            class="svelte-GameMap filled"
+          />
+          <div
+            class="svelte-GameMap"
+          />
+          <div
+            class="svelte-GameMap"
+          />
+          <div
+            class="svelte-GameMap"
+          />
+          <div
+            class="svelte-GameMap filled"
+          />
+          
+          <!---->
+          <div
+            class="svelte-GameMap filled"
+          />
+          <div
+            class="svelte-GameMap filled"
+          />
+          <div
+            class="svelte-GameMap filled"
+          />
+          <div
+            class="svelte-GameMap filled"
+          />
+          <div
+            class="svelte-GameMap filled"
+          />
+          
           
         </button>
-         
+        <!---->
       </div>
       <div
-        class="svelte-rtcokp"
+        class="svelte-GameMaps"
       >
         <button
           aria-label="Select Game"
-          class="svelte-bvxh5p"
+          class="svelte-GameMap"
           type="button"
         >
+          <!---->
           <div
-            class="svelte-bvxh5p"
+            class="svelte-GameMap"
           />
           <div
-            class="svelte-bvxh5p"
+            class="svelte-GameMap"
           />
           <div
-            class="svelte-bvxh5p"
+            class="svelte-GameMap"
           />
           <div
-            class="svelte-bvxh5p"
+            class="svelte-GameMap"
           />
           <div
-            class="svelte-bvxh5p"
-          />
-          
-          <div
-            class="svelte-bvxh5p"
-          />
-          <div
-            class="svelte-bvxh5p filled"
-          />
-          <div
-            class="svelte-bvxh5p filled"
-          />
-          <div
-            class="svelte-bvxh5p filled"
-          />
-          <div
-            class="svelte-bvxh5p"
+            class="svelte-GameMap"
           />
           
+          <!---->
           <div
-            class="svelte-bvxh5p"
+            class="svelte-GameMap"
           />
           <div
-            class="svelte-bvxh5p filled"
+            class="svelte-GameMap filled"
           />
           <div
-            class="svelte-bvxh5p"
+            class="svelte-GameMap filled"
           />
           <div
-            class="svelte-bvxh5p filled"
+            class="svelte-GameMap filled"
           />
           <div
-            class="svelte-bvxh5p"
-          />
-          
-          <div
-            class="svelte-bvxh5p"
-          />
-          <div
-            class="svelte-bvxh5p filled"
-          />
-          <div
-            class="svelte-bvxh5p filled"
-          />
-          <div
-            class="svelte-bvxh5p filled"
-          />
-          <div
-            class="svelte-bvxh5p"
+            class="svelte-GameMap"
           />
           
+          <!---->
           <div
-            class="svelte-bvxh5p"
+            class="svelte-GameMap"
           />
           <div
-            class="svelte-bvxh5p"
+            class="svelte-GameMap filled"
           />
           <div
-            class="svelte-bvxh5p"
+            class="svelte-GameMap"
           />
           <div
-            class="svelte-bvxh5p"
+            class="svelte-GameMap filled"
           />
           <div
-            class="svelte-bvxh5p"
+            class="svelte-GameMap"
           />
+          
+          <!---->
+          <div
+            class="svelte-GameMap"
+          />
+          <div
+            class="svelte-GameMap filled"
+          />
+          <div
+            class="svelte-GameMap filled"
+          />
+          <div
+            class="svelte-GameMap filled"
+          />
+          <div
+            class="svelte-GameMap"
+          />
+          
+          <!---->
+          <div
+            class="svelte-GameMap"
+          />
+          <div
+            class="svelte-GameMap"
+          />
+          <div
+            class="svelte-GameMap"
+          />
+          <div
+            class="svelte-GameMap"
+          />
+          <div
+            class="svelte-GameMap"
+          />
+          
           
         </button>
-         
+        <!---->
       </div>
       <div
-        class="svelte-rtcokp"
+        class="svelte-GameMaps"
       >
         <button
           aria-label="Select Game"
-          class="svelte-bvxh5p"
+          class="svelte-GameMap"
           type="button"
         >
+          <!---->
           <div
-            class="svelte-bvxh5p filled"
+            class="svelte-GameMap filled"
           />
           <div
-            class="svelte-bvxh5p filled"
+            class="svelte-GameMap filled"
           />
           <div
-            class="svelte-bvxh5p"
+            class="svelte-GameMap"
           />
           <div
-            class="svelte-bvxh5p filled"
+            class="svelte-GameMap filled"
           />
           <div
-            class="svelte-bvxh5p filled"
-          />
-          
-          <div
-            class="svelte-bvxh5p filled"
-          />
-          <div
-            class="svelte-bvxh5p filled"
-          />
-          <div
-            class="svelte-bvxh5p"
-          />
-          <div
-            class="svelte-bvxh5p filled"
-          />
-          <div
-            class="svelte-bvxh5p filled"
+            class="svelte-GameMap filled"
           />
           
+          <!---->
           <div
-            class="svelte-bvxh5p"
+            class="svelte-GameMap filled"
           />
           <div
-            class="svelte-bvxh5p"
+            class="svelte-GameMap filled"
           />
           <div
-            class="svelte-bvxh5p"
+            class="svelte-GameMap"
           />
           <div
-            class="svelte-bvxh5p"
+            class="svelte-GameMap filled"
           />
           <div
-            class="svelte-bvxh5p"
-          />
-          
-          <div
-            class="svelte-bvxh5p filled"
-          />
-          <div
-            class="svelte-bvxh5p filled"
-          />
-          <div
-            class="svelte-bvxh5p"
-          />
-          <div
-            class="svelte-bvxh5p filled"
-          />
-          <div
-            class="svelte-bvxh5p filled"
+            class="svelte-GameMap filled"
           />
           
+          <!---->
           <div
-            class="svelte-bvxh5p filled"
+            class="svelte-GameMap"
           />
           <div
-            class="svelte-bvxh5p filled"
+            class="svelte-GameMap"
           />
           <div
-            class="svelte-bvxh5p"
+            class="svelte-GameMap"
           />
           <div
-            class="svelte-bvxh5p filled"
+            class="svelte-GameMap"
           />
           <div
-            class="svelte-bvxh5p filled"
+            class="svelte-GameMap"
           />
+          
+          <!---->
+          <div
+            class="svelte-GameMap filled"
+          />
+          <div
+            class="svelte-GameMap filled"
+          />
+          <div
+            class="svelte-GameMap"
+          />
+          <div
+            class="svelte-GameMap filled"
+          />
+          <div
+            class="svelte-GameMap filled"
+          />
+          
+          <!---->
+          <div
+            class="svelte-GameMap filled"
+          />
+          <div
+            class="svelte-GameMap filled"
+          />
+          <div
+            class="svelte-GameMap"
+          />
+          <div
+            class="svelte-GameMap filled"
+          />
+          <div
+            class="svelte-GameMap filled"
+          />
+          
           
         </button>
-         
+        <!---->
       </div>
       <div
-        class="svelte-rtcokp"
+        class="svelte-GameMaps"
       >
         <button
           aria-label="Select Game"
-          class="svelte-bvxh5p"
+          class="svelte-GameMap"
           type="button"
         >
+          <!---->
           <div
-            class="svelte-bvxh5p filled"
+            class="svelte-GameMap filled"
           />
           <div
-            class="svelte-bvxh5p"
+            class="svelte-GameMap"
           />
           <div
-            class="svelte-bvxh5p"
+            class="svelte-GameMap"
           />
           <div
-            class="svelte-bvxh5p"
+            class="svelte-GameMap"
           />
           <div
-            class="svelte-bvxh5p filled"
-          />
-          
-          <div
-            class="svelte-bvxh5p"
-          />
-          <div
-            class="svelte-bvxh5p filled"
-          />
-          <div
-            class="svelte-bvxh5p"
-          />
-          <div
-            class="svelte-bvxh5p filled"
-          />
-          <div
-            class="svelte-bvxh5p"
+            class="svelte-GameMap filled"
           />
           
+          <!---->
           <div
-            class="svelte-bvxh5p"
+            class="svelte-GameMap"
           />
           <div
-            class="svelte-bvxh5p"
+            class="svelte-GameMap filled"
           />
           <div
-            class="svelte-bvxh5p filled"
+            class="svelte-GameMap"
           />
           <div
-            class="svelte-bvxh5p"
+            class="svelte-GameMap filled"
           />
           <div
-            class="svelte-bvxh5p"
-          />
-          
-          <div
-            class="svelte-bvxh5p"
-          />
-          <div
-            class="svelte-bvxh5p filled"
-          />
-          <div
-            class="svelte-bvxh5p"
-          />
-          <div
-            class="svelte-bvxh5p filled"
-          />
-          <div
-            class="svelte-bvxh5p"
+            class="svelte-GameMap"
           />
           
+          <!---->
           <div
-            class="svelte-bvxh5p filled"
+            class="svelte-GameMap"
           />
           <div
-            class="svelte-bvxh5p"
+            class="svelte-GameMap"
           />
           <div
-            class="svelte-bvxh5p"
+            class="svelte-GameMap filled"
           />
           <div
-            class="svelte-bvxh5p"
+            class="svelte-GameMap"
           />
           <div
-            class="svelte-bvxh5p filled"
+            class="svelte-GameMap"
           />
+          
+          <!---->
+          <div
+            class="svelte-GameMap"
+          />
+          <div
+            class="svelte-GameMap filled"
+          />
+          <div
+            class="svelte-GameMap"
+          />
+          <div
+            class="svelte-GameMap filled"
+          />
+          <div
+            class="svelte-GameMap"
+          />
+          
+          <!---->
+          <div
+            class="svelte-GameMap filled"
+          />
+          <div
+            class="svelte-GameMap"
+          />
+          <div
+            class="svelte-GameMap"
+          />
+          <div
+            class="svelte-GameMap"
+          />
+          <div
+            class="svelte-GameMap filled"
+          />
+          
           
         </button>
-         
+        <!---->
       </div>
       <div
-        class="svelte-rtcokp"
+        class="svelte-GameMaps"
       >
         <button
           aria-label="Select Game"
-          class="svelte-bvxh5p"
+          class="svelte-GameMap"
           type="button"
         >
+          <!---->
           <div
-            class="svelte-bvxh5p filled"
+            class="svelte-GameMap filled"
           />
           <div
-            class="svelte-bvxh5p filled"
+            class="svelte-GameMap filled"
           />
           <div
-            class="svelte-bvxh5p filled"
+            class="svelte-GameMap filled"
           />
           <div
-            class="svelte-bvxh5p filled"
+            class="svelte-GameMap filled"
           />
           <div
-            class="svelte-bvxh5p filled"
-          />
-          
-          <div
-            class="svelte-bvxh5p"
-          />
-          <div
-            class="svelte-bvxh5p"
-          />
-          <div
-            class="svelte-bvxh5p filled"
-          />
-          <div
-            class="svelte-bvxh5p"
-          />
-          <div
-            class="svelte-bvxh5p"
+            class="svelte-GameMap filled"
           />
           
+          <!---->
           <div
-            class="svelte-bvxh5p"
+            class="svelte-GameMap"
           />
           <div
-            class="svelte-bvxh5p"
+            class="svelte-GameMap"
           />
           <div
-            class="svelte-bvxh5p filled"
+            class="svelte-GameMap filled"
           />
           <div
-            class="svelte-bvxh5p"
+            class="svelte-GameMap"
           />
           <div
-            class="svelte-bvxh5p"
-          />
-          
-          <div
-            class="svelte-bvxh5p"
-          />
-          <div
-            class="svelte-bvxh5p"
-          />
-          <div
-            class="svelte-bvxh5p filled"
-          />
-          <div
-            class="svelte-bvxh5p"
-          />
-          <div
-            class="svelte-bvxh5p"
+            class="svelte-GameMap"
           />
           
+          <!---->
           <div
-            class="svelte-bvxh5p"
+            class="svelte-GameMap"
           />
           <div
-            class="svelte-bvxh5p"
+            class="svelte-GameMap"
           />
           <div
-            class="svelte-bvxh5p filled"
+            class="svelte-GameMap filled"
           />
           <div
-            class="svelte-bvxh5p"
+            class="svelte-GameMap"
           />
           <div
-            class="svelte-bvxh5p"
+            class="svelte-GameMap"
           />
+          
+          <!---->
+          <div
+            class="svelte-GameMap"
+          />
+          <div
+            class="svelte-GameMap"
+          />
+          <div
+            class="svelte-GameMap filled"
+          />
+          <div
+            class="svelte-GameMap"
+          />
+          <div
+            class="svelte-GameMap"
+          />
+          
+          <!---->
+          <div
+            class="svelte-GameMap"
+          />
+          <div
+            class="svelte-GameMap"
+          />
+          <div
+            class="svelte-GameMap filled"
+          />
+          <div
+            class="svelte-GameMap"
+          />
+          <div
+            class="svelte-GameMap"
+          />
+          
           
         </button>
-         
+        <!---->
       </div>
       <div
-        class="svelte-rtcokp"
+        class="svelte-GameMaps"
       >
         <button
           aria-label="Select Game"
-          class="svelte-bvxh5p"
+          class="svelte-GameMap"
           type="button"
         >
+          <!---->
           <div
-            class="svelte-bvxh5p"
+            class="svelte-GameMap"
           />
           <div
-            class="svelte-bvxh5p"
+            class="svelte-GameMap"
           />
           <div
-            class="svelte-bvxh5p filled"
+            class="svelte-GameMap filled"
           />
           <div
-            class="svelte-bvxh5p"
+            class="svelte-GameMap"
           />
           <div
-            class="svelte-bvxh5p"
-          />
-          
-          <div
-            class="svelte-bvxh5p"
-          />
-          <div
-            class="svelte-bvxh5p"
-          />
-          <div
-            class="svelte-bvxh5p filled"
-          />
-          <div
-            class="svelte-bvxh5p"
-          />
-          <div
-            class="svelte-bvxh5p"
+            class="svelte-GameMap"
           />
           
+          <!---->
           <div
-            class="svelte-bvxh5p filled"
+            class="svelte-GameMap"
           />
           <div
-            class="svelte-bvxh5p filled"
+            class="svelte-GameMap"
           />
           <div
-            class="svelte-bvxh5p filled"
+            class="svelte-GameMap filled"
           />
           <div
-            class="svelte-bvxh5p filled"
+            class="svelte-GameMap"
           />
           <div
-            class="svelte-bvxh5p filled"
-          />
-          
-          <div
-            class="svelte-bvxh5p"
-          />
-          <div
-            class="svelte-bvxh5p"
-          />
-          <div
-            class="svelte-bvxh5p filled"
-          />
-          <div
-            class="svelte-bvxh5p"
-          />
-          <div
-            class="svelte-bvxh5p"
+            class="svelte-GameMap"
           />
           
+          <!---->
           <div
-            class="svelte-bvxh5p"
+            class="svelte-GameMap filled"
           />
           <div
-            class="svelte-bvxh5p"
+            class="svelte-GameMap filled"
           />
           <div
-            class="svelte-bvxh5p filled"
+            class="svelte-GameMap filled"
           />
           <div
-            class="svelte-bvxh5p"
+            class="svelte-GameMap filled"
           />
           <div
-            class="svelte-bvxh5p"
+            class="svelte-GameMap filled"
           />
+          
+          <!---->
+          <div
+            class="svelte-GameMap"
+          />
+          <div
+            class="svelte-GameMap"
+          />
+          <div
+            class="svelte-GameMap filled"
+          />
+          <div
+            class="svelte-GameMap"
+          />
+          <div
+            class="svelte-GameMap"
+          />
+          
+          <!---->
+          <div
+            class="svelte-GameMap"
+          />
+          <div
+            class="svelte-GameMap"
+          />
+          <div
+            class="svelte-GameMap filled"
+          />
+          <div
+            class="svelte-GameMap"
+          />
+          <div
+            class="svelte-GameMap"
+          />
+          
           
         </button>
-         
+        <!---->
       </div>
       <div
-        class="svelte-rtcokp"
+        class="svelte-GameMaps"
       >
         <button
           aria-label="Select Game"
-          class="svelte-bvxh5p"
+          class="svelte-GameMap"
           type="button"
         >
+          <!---->
           <div
-            class="svelte-bvxh5p filled"
+            class="svelte-GameMap filled"
           />
           <div
-            class="svelte-bvxh5p"
+            class="svelte-GameMap"
           />
           <div
-            class="svelte-bvxh5p"
+            class="svelte-GameMap"
           />
           <div
-            class="svelte-bvxh5p"
+            class="svelte-GameMap"
           />
           <div
-            class="svelte-bvxh5p"
-          />
-          
-          <div
-            class="svelte-bvxh5p filled"
-          />
-          <div
-            class="svelte-bvxh5p"
-          />
-          <div
-            class="svelte-bvxh5p"
-          />
-          <div
-            class="svelte-bvxh5p"
-          />
-          <div
-            class="svelte-bvxh5p"
+            class="svelte-GameMap"
           />
           
+          <!---->
           <div
-            class="svelte-bvxh5p filled"
+            class="svelte-GameMap filled"
           />
           <div
-            class="svelte-bvxh5p"
+            class="svelte-GameMap"
           />
           <div
-            class="svelte-bvxh5p"
+            class="svelte-GameMap"
           />
           <div
-            class="svelte-bvxh5p"
+            class="svelte-GameMap"
           />
           <div
-            class="svelte-bvxh5p"
-          />
-          
-          <div
-            class="svelte-bvxh5p filled"
-          />
-          <div
-            class="svelte-bvxh5p"
-          />
-          <div
-            class="svelte-bvxh5p"
-          />
-          <div
-            class="svelte-bvxh5p"
-          />
-          <div
-            class="svelte-bvxh5p"
+            class="svelte-GameMap"
           />
           
+          <!---->
           <div
-            class="svelte-bvxh5p filled"
+            class="svelte-GameMap filled"
           />
           <div
-            class="svelte-bvxh5p filled"
+            class="svelte-GameMap"
           />
           <div
-            class="svelte-bvxh5p filled"
+            class="svelte-GameMap"
           />
           <div
-            class="svelte-bvxh5p filled"
+            class="svelte-GameMap"
           />
           <div
-            class="svelte-bvxh5p filled"
+            class="svelte-GameMap"
           />
+          
+          <!---->
+          <div
+            class="svelte-GameMap filled"
+          />
+          <div
+            class="svelte-GameMap"
+          />
+          <div
+            class="svelte-GameMap"
+          />
+          <div
+            class="svelte-GameMap"
+          />
+          <div
+            class="svelte-GameMap"
+          />
+          
+          <!---->
+          <div
+            class="svelte-GameMap filled"
+          />
+          <div
+            class="svelte-GameMap filled"
+          />
+          <div
+            class="svelte-GameMap filled"
+          />
+          <div
+            class="svelte-GameMap filled"
+          />
+          <div
+            class="svelte-GameMap filled"
+          />
+          
           
         </button>
-         
+        <!---->
       </div>
       <div
-        class="svelte-rtcokp"
+        class="svelte-GameMaps"
       >
         <button
           aria-label="Select Game"
-          class="svelte-bvxh5p"
+          class="svelte-GameMap"
           type="button"
         >
+          <!---->
           <div
-            class="svelte-bvxh5p filled"
+            class="svelte-GameMap filled"
           />
           <div
-            class="svelte-bvxh5p filled"
+            class="svelte-GameMap filled"
           />
           <div
-            class="svelte-bvxh5p filled"
+            class="svelte-GameMap filled"
           />
           <div
-            class="svelte-bvxh5p filled"
+            class="svelte-GameMap filled"
           />
           <div
-            class="svelte-bvxh5p filled"
-          />
-          
-          <div
-            class="svelte-bvxh5p filled"
-          />
-          <div
-            class="svelte-bvxh5p filled"
-          />
-          <div
-            class="svelte-bvxh5p filled"
-          />
-          <div
-            class="svelte-bvxh5p filled"
-          />
-          <div
-            class="svelte-bvxh5p filled"
+            class="svelte-GameMap filled"
           />
           
+          <!---->
           <div
-            class="svelte-bvxh5p filled"
+            class="svelte-GameMap filled"
           />
           <div
-            class="svelte-bvxh5p filled"
+            class="svelte-GameMap filled"
           />
           <div
-            class="svelte-bvxh5p filled"
+            class="svelte-GameMap filled"
           />
           <div
-            class="svelte-bvxh5p filled"
+            class="svelte-GameMap filled"
           />
           <div
-            class="svelte-bvxh5p filled"
-          />
-          
-          <div
-            class="svelte-bvxh5p filled"
-          />
-          <div
-            class="svelte-bvxh5p filled"
-          />
-          <div
-            class="svelte-bvxh5p filled"
-          />
-          <div
-            class="svelte-bvxh5p filled"
-          />
-          <div
-            class="svelte-bvxh5p filled"
+            class="svelte-GameMap filled"
           />
           
+          <!---->
           <div
-            class="svelte-bvxh5p filled"
+            class="svelte-GameMap filled"
           />
           <div
-            class="svelte-bvxh5p filled"
+            class="svelte-GameMap filled"
           />
           <div
-            class="svelte-bvxh5p filled"
+            class="svelte-GameMap filled"
           />
           <div
-            class="svelte-bvxh5p filled"
+            class="svelte-GameMap filled"
           />
           <div
-            class="svelte-bvxh5p filled"
+            class="svelte-GameMap filled"
           />
+          
+          <!---->
+          <div
+            class="svelte-GameMap filled"
+          />
+          <div
+            class="svelte-GameMap filled"
+          />
+          <div
+            class="svelte-GameMap filled"
+          />
+          <div
+            class="svelte-GameMap filled"
+          />
+          <div
+            class="svelte-GameMap filled"
+          />
+          
+          <!---->
+          <div
+            class="svelte-GameMap filled"
+          />
+          <div
+            class="svelte-GameMap filled"
+          />
+          <div
+            class="svelte-GameMap filled"
+          />
+          <div
+            class="svelte-GameMap filled"
+          />
+          <div
+            class="svelte-GameMap filled"
+          />
+          
           
         </button>
-         
+        <!---->
       </div>
+      <!---->
     </div>
+    <!---->
      
     <div>
       <button
-        class="svelte-qnnizk"
+        class="svelte-Button"
         type="button"
       >
         Reset Game
+        <!---->
       </button>
+      <!---->
        
       <input
-        class="svelte-1j38s5i"
+        class="svelte-Board"
         max="99999"
         min="10000"
         placeholder="card #"
@@ -2071,14 +2248,18 @@ exports[`Board > should render 1`] = `
       />
        
       <button
-        class="svelte-qnnizk"
+        class="svelte-Button"
         disabled=""
         type="button"
       >
         Check Card
+        <!---->
       </button>
+      <!---->
     </div>
      
+    <!---->
   </div>
+  
 </div>
 `;

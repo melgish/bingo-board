@@ -34,13 +34,12 @@ describe("GameMap", () => {
 
   describe("when button is clicked", () => {
     it("should fire an event", async () => {
-      const { component } = render(GameMap, { game: letterX })
-      const click = vi.fn()
-      component.$on("click", click)
+      const onclick = vi.fn()
+      render(GameMap, { game: letterX, onclick })
 
       await fireEvent.click(screen.getByRole(BUTTON))
 
-      expect(click).toHaveBeenCalled()
+      expect(onclick).toHaveBeenCalled()
       expect(toBits()).toMatchSnapshot("letter-x")
     })
   })

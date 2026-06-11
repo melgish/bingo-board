@@ -3,88 +3,94 @@
 exports[`GameMaps > when interval passes > should not update normal to next map 1`] = `
 <button
   aria-label="Select Game"
-  class="svelte-bvxh5p"
+  class="svelte-GameMap"
   type="button"
 >
+  <!---->
   <div
-    class="svelte-bvxh5p filled"
+    class="svelte-GameMap filled"
   />
   <div
-    class="svelte-bvxh5p filled"
+    class="svelte-GameMap filled"
   />
   <div
-    class="svelte-bvxh5p filled"
+    class="svelte-GameMap filled"
   />
   <div
-    class="svelte-bvxh5p filled"
+    class="svelte-GameMap filled"
   />
   <div
-    class="svelte-bvxh5p filled"
-  />
-  
-  <div
-    class="svelte-bvxh5p"
-  />
-  <div
-    class="svelte-bvxh5p"
-  />
-  <div
-    class="svelte-bvxh5p"
-  />
-  <div
-    class="svelte-bvxh5p"
-  />
-  <div
-    class="svelte-bvxh5p"
+    class="svelte-GameMap filled"
   />
   
+  <!---->
   <div
-    class="svelte-bvxh5p"
+    class="svelte-GameMap"
   />
   <div
-    class="svelte-bvxh5p"
+    class="svelte-GameMap"
   />
   <div
-    class="svelte-bvxh5p"
+    class="svelte-GameMap"
   />
   <div
-    class="svelte-bvxh5p"
+    class="svelte-GameMap"
   />
   <div
-    class="svelte-bvxh5p"
-  />
-  
-  <div
-    class="svelte-bvxh5p"
-  />
-  <div
-    class="svelte-bvxh5p"
-  />
-  <div
-    class="svelte-bvxh5p"
-  />
-  <div
-    class="svelte-bvxh5p"
-  />
-  <div
-    class="svelte-bvxh5p"
+    class="svelte-GameMap"
   />
   
+  <!---->
   <div
-    class="svelte-bvxh5p"
+    class="svelte-GameMap"
   />
   <div
-    class="svelte-bvxh5p"
+    class="svelte-GameMap"
   />
   <div
-    class="svelte-bvxh5p"
+    class="svelte-GameMap"
   />
   <div
-    class="svelte-bvxh5p"
+    class="svelte-GameMap"
   />
   <div
-    class="svelte-bvxh5p"
+    class="svelte-GameMap"
   />
+  
+  <!---->
+  <div
+    class="svelte-GameMap"
+  />
+  <div
+    class="svelte-GameMap"
+  />
+  <div
+    class="svelte-GameMap"
+  />
+  <div
+    class="svelte-GameMap"
+  />
+  <div
+    class="svelte-GameMap"
+  />
+  
+  <!---->
+  <div
+    class="svelte-GameMap"
+  />
+  <div
+    class="svelte-GameMap"
+  />
+  <div
+    class="svelte-GameMap"
+  />
+  <div
+    class="svelte-GameMap"
+  />
+  <div
+    class="svelte-GameMap"
+  />
+  
   
 </button>
 `;
@@ -92,88 +98,94 @@ exports[`GameMaps > when interval passes > should not update normal to next map 
 exports[`GameMaps > when interval passes > should not update normal to next map 2`] = `
 <button
   aria-label="Select Game"
-  class="svelte-bvxh5p"
+  class="svelte-GameMap"
   type="button"
 >
+  <!---->
   <div
-    class="svelte-bvxh5p filled"
+    class="svelte-GameMap filled"
   />
   <div
-    class="svelte-bvxh5p filled"
+    class="svelte-GameMap filled"
   />
   <div
-    class="svelte-bvxh5p filled"
+    class="svelte-GameMap filled"
   />
   <div
-    class="svelte-bvxh5p filled"
+    class="svelte-GameMap filled"
   />
   <div
-    class="svelte-bvxh5p filled"
-  />
-  
-  <div
-    class="svelte-bvxh5p"
-  />
-  <div
-    class="svelte-bvxh5p"
-  />
-  <div
-    class="svelte-bvxh5p"
-  />
-  <div
-    class="svelte-bvxh5p"
-  />
-  <div
-    class="svelte-bvxh5p"
+    class="svelte-GameMap filled"
   />
   
+  <!---->
   <div
-    class="svelte-bvxh5p"
+    class="svelte-GameMap"
   />
   <div
-    class="svelte-bvxh5p"
+    class="svelte-GameMap"
   />
   <div
-    class="svelte-bvxh5p"
+    class="svelte-GameMap"
   />
   <div
-    class="svelte-bvxh5p"
+    class="svelte-GameMap"
   />
   <div
-    class="svelte-bvxh5p"
-  />
-  
-  <div
-    class="svelte-bvxh5p"
-  />
-  <div
-    class="svelte-bvxh5p"
-  />
-  <div
-    class="svelte-bvxh5p"
-  />
-  <div
-    class="svelte-bvxh5p"
-  />
-  <div
-    class="svelte-bvxh5p"
+    class="svelte-GameMap"
   />
   
+  <!---->
   <div
-    class="svelte-bvxh5p"
+    class="svelte-GameMap"
   />
   <div
-    class="svelte-bvxh5p"
+    class="svelte-GameMap"
   />
   <div
-    class="svelte-bvxh5p"
+    class="svelte-GameMap"
   />
   <div
-    class="svelte-bvxh5p"
+    class="svelte-GameMap"
   />
   <div
-    class="svelte-bvxh5p"
+    class="svelte-GameMap"
   />
+  
+  <!---->
+  <div
+    class="svelte-GameMap"
+  />
+  <div
+    class="svelte-GameMap"
+  />
+  <div
+    class="svelte-GameMap"
+  />
+  <div
+    class="svelte-GameMap"
+  />
+  <div
+    class="svelte-GameMap"
+  />
+  
+  <!---->
+  <div
+    class="svelte-GameMap"
+  />
+  <div
+    class="svelte-GameMap"
+  />
+  <div
+    class="svelte-GameMap"
+  />
+  <div
+    class="svelte-GameMap"
+  />
+  <div
+    class="svelte-GameMap"
+  />
+  
   
 </button>
 `;
@@ -181,88 +193,94 @@ exports[`GameMaps > when interval passes > should not update normal to next map 
 exports[`GameMaps > when normal game is selected > should animate the map 1`] = `
 <button
   aria-label="Select Game"
-  class="svelte-bvxh5p"
+  class="svelte-GameMap"
   type="button"
 >
+  <!---->
   <div
-    class="svelte-bvxh5p"
+    class="svelte-GameMap"
   />
   <div
-    class="svelte-bvxh5p"
+    class="svelte-GameMap"
   />
   <div
-    class="svelte-bvxh5p"
+    class="svelte-GameMap"
   />
   <div
-    class="svelte-bvxh5p"
+    class="svelte-GameMap"
   />
   <div
-    class="svelte-bvxh5p"
-  />
-  
-  <div
-    class="svelte-bvxh5p"
-  />
-  <div
-    class="svelte-bvxh5p"
-  />
-  <div
-    class="svelte-bvxh5p"
-  />
-  <div
-    class="svelte-bvxh5p"
-  />
-  <div
-    class="svelte-bvxh5p"
+    class="svelte-GameMap"
   />
   
+  <!---->
   <div
-    class="svelte-bvxh5p filled"
+    class="svelte-GameMap"
   />
   <div
-    class="svelte-bvxh5p filled"
+    class="svelte-GameMap"
   />
   <div
-    class="svelte-bvxh5p filled"
+    class="svelte-GameMap"
   />
   <div
-    class="svelte-bvxh5p filled"
+    class="svelte-GameMap"
   />
   <div
-    class="svelte-bvxh5p filled"
-  />
-  
-  <div
-    class="svelte-bvxh5p"
-  />
-  <div
-    class="svelte-bvxh5p"
-  />
-  <div
-    class="svelte-bvxh5p"
-  />
-  <div
-    class="svelte-bvxh5p"
-  />
-  <div
-    class="svelte-bvxh5p"
+    class="svelte-GameMap"
   />
   
+  <!---->
   <div
-    class="svelte-bvxh5p"
+    class="svelte-GameMap filled"
   />
   <div
-    class="svelte-bvxh5p"
+    class="svelte-GameMap filled"
   />
   <div
-    class="svelte-bvxh5p"
+    class="svelte-GameMap filled"
   />
   <div
-    class="svelte-bvxh5p"
+    class="svelte-GameMap filled"
   />
   <div
-    class="svelte-bvxh5p"
+    class="svelte-GameMap filled"
   />
+  
+  <!---->
+  <div
+    class="svelte-GameMap"
+  />
+  <div
+    class="svelte-GameMap"
+  />
+  <div
+    class="svelte-GameMap"
+  />
+  <div
+    class="svelte-GameMap"
+  />
+  <div
+    class="svelte-GameMap"
+  />
+  
+  <!---->
+  <div
+    class="svelte-GameMap"
+  />
+  <div
+    class="svelte-GameMap"
+  />
+  <div
+    class="svelte-GameMap"
+  />
+  <div
+    class="svelte-GameMap"
+  />
+  <div
+    class="svelte-GameMap"
+  />
+  
   
 </button>
 `;

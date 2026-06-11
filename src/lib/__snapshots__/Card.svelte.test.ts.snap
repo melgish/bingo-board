@@ -2,338 +2,370 @@
 
 exports[`Card > when loaded > should display the card 1`] = `
 <div
-  class="card svelte-ayymqd"
+  class="card svelte-Card"
   data-testid="card"
 >
   <div
-    class="svelte-14jn1vn"
+    class="svelte-Letter"
   >
     <span
-      class="svelte-14jn1vn"
+      class="svelte-Letter"
     >
       B
     </span>
   </div>
   <div
-    class="svelte-14jn1vn"
+    class="svelte-Letter"
   >
     <span
-      class="svelte-14jn1vn"
+      class="svelte-Letter"
     >
       I
     </span>
   </div>
   <div
-    class="svelte-14jn1vn"
+    class="svelte-Letter"
   >
     <span
-      class="svelte-14jn1vn"
+      class="svelte-Letter"
     >
       N
     </span>
   </div>
   <div
-    class="svelte-14jn1vn"
+    class="svelte-Letter"
   >
     <span
-      class="svelte-14jn1vn"
+      class="svelte-Letter"
     >
       G
     </span>
   </div>
   <div
-    class="svelte-14jn1vn"
+    class="svelte-Letter"
   >
     <span
-      class="svelte-14jn1vn"
+      class="svelte-Letter"
     >
       O
     </span>
   </div>
+  <!---->
    
+  <!---->
   <button
     aria-checked="true"
-    class="svelte-kyk9bz"
+    class="svelte-Ball"
     role="switch"
   >
     <div
-      class="svelte-kyk9bz"
+      class="svelte-Ball"
     >
       12
+      <!---->
     </div>
   </button>
   <button
     aria-checked="false"
-    class="svelte-kyk9bz"
+    class="svelte-Ball"
     role="switch"
   >
     <div
-      class="svelte-kyk9bz"
+      class="svelte-Ball"
     >
       18
+      <!---->
     </div>
   </button>
   <button
     aria-checked="false"
-    class="svelte-kyk9bz"
+    class="svelte-Ball"
     role="switch"
   >
     <div
-      class="svelte-kyk9bz"
+      class="svelte-Ball"
     >
       34
+      <!---->
     </div>
   </button>
   <button
     aria-checked="false"
-    class="svelte-kyk9bz"
+    class="svelte-Ball"
     role="switch"
   >
     <div
-      class="svelte-kyk9bz"
+      class="svelte-Ball"
     >
       47
+      <!---->
     </div>
   </button>
   <button
     aria-checked="false"
-    class="svelte-kyk9bz"
+    class="svelte-Ball"
     role="switch"
   >
     <div
-      class="svelte-kyk9bz"
+      class="svelte-Ball"
     >
       66
+      <!---->
     </div>
   </button>
   
+  <!---->
   <button
     aria-checked="false"
-    class="svelte-kyk9bz"
+    class="svelte-Ball"
     role="switch"
   >
     <div
-      class="svelte-kyk9bz"
+      class="svelte-Ball"
     >
       13
+      <!---->
     </div>
   </button>
   <button
     aria-checked="false"
-    class="svelte-kyk9bz"
+    class="svelte-Ball"
     role="switch"
   >
     <div
-      class="svelte-kyk9bz"
+      class="svelte-Ball"
     >
       16
+      <!---->
     </div>
   </button>
   <button
     aria-checked="false"
-    class="svelte-kyk9bz"
+    class="svelte-Ball"
     role="switch"
   >
     <div
-      class="svelte-kyk9bz"
+      class="svelte-Ball"
     >
       32
+      <!---->
     </div>
   </button>
   <button
     aria-checked="false"
-    class="svelte-kyk9bz"
+    class="svelte-Ball"
     role="switch"
   >
     <div
-      class="svelte-kyk9bz"
+      class="svelte-Ball"
     >
       53
+      <!---->
     </div>
   </button>
   <button
     aria-checked="false"
-    class="svelte-kyk9bz"
+    class="svelte-Ball"
     role="switch"
   >
     <div
-      class="svelte-kyk9bz"
+      class="svelte-Ball"
     >
       62
+      <!---->
     </div>
   </button>
   
+  <!---->
   <button
     aria-checked="false"
-    class="svelte-kyk9bz"
+    class="svelte-Ball"
     role="switch"
   >
     <div
-      class="svelte-kyk9bz"
+      class="svelte-Ball"
     >
       4
+      <!---->
     </div>
   </button>
   <button
     aria-checked="false"
-    class="svelte-kyk9bz"
+    class="svelte-Ball"
     role="switch"
   >
     <div
-      class="svelte-kyk9bz"
+      class="svelte-Ball"
     >
       29
+      <!---->
     </div>
   </button>
   <button
     aria-checked="true"
-    class="svelte-kyk9bz"
+    class="svelte-Ball"
     role="switch"
   >
     <div
-      class="svelte-kyk9bz"
+      class="svelte-Ball"
     >
       free
+      <!---->
     </div>
   </button>
   <button
     aria-checked="false"
-    class="svelte-kyk9bz"
+    class="svelte-Ball"
     role="switch"
   >
     <div
-      class="svelte-kyk9bz"
+      class="svelte-Ball"
     >
       50
+      <!---->
     </div>
   </button>
   <button
     aria-checked="false"
-    class="svelte-kyk9bz"
+    class="svelte-Ball"
     role="switch"
   >
     <div
-      class="svelte-kyk9bz"
+      class="svelte-Ball"
     >
       70
+      <!---->
     </div>
   </button>
   
+  <!---->
   <button
     aria-checked="false"
-    class="svelte-kyk9bz"
+    class="svelte-Ball"
     role="switch"
   >
     <div
-      class="svelte-kyk9bz"
+      class="svelte-Ball"
     >
       7
+      <!---->
     </div>
   </button>
   <button
     aria-checked="false"
-    class="svelte-kyk9bz"
+    class="svelte-Ball"
     role="switch"
   >
     <div
-      class="svelte-kyk9bz"
+      class="svelte-Ball"
     >
       23
+      <!---->
     </div>
   </button>
   <button
     aria-checked="false"
-    class="svelte-kyk9bz"
+    class="svelte-Ball"
     role="switch"
   >
     <div
-      class="svelte-kyk9bz"
+      class="svelte-Ball"
     >
       37
+      <!---->
     </div>
   </button>
   <button
     aria-checked="false"
-    class="svelte-kyk9bz"
+    class="svelte-Ball"
     role="switch"
   >
     <div
-      class="svelte-kyk9bz"
+      class="svelte-Ball"
     >
       56
+      <!---->
     </div>
   </button>
   <button
     aria-checked="false"
-    class="svelte-kyk9bz"
+    class="svelte-Ball"
     role="switch"
   >
     <div
-      class="svelte-kyk9bz"
+      class="svelte-Ball"
     >
       72
+      <!---->
     </div>
   </button>
   
+  <!---->
   <button
     aria-checked="false"
-    class="svelte-kyk9bz"
+    class="svelte-Ball"
     role="switch"
   >
     <div
-      class="svelte-kyk9bz"
+      class="svelte-Ball"
     >
       2
+      <!---->
     </div>
   </button>
   <button
     aria-checked="false"
-    class="svelte-kyk9bz"
+    class="svelte-Ball"
     role="switch"
   >
     <div
-      class="svelte-kyk9bz"
+      class="svelte-Ball"
     >
       30
+      <!---->
     </div>
   </button>
   <button
     aria-checked="false"
-    class="svelte-kyk9bz"
+    class="svelte-Ball"
     role="switch"
   >
     <div
-      class="svelte-kyk9bz"
+      class="svelte-Ball"
     >
       31
+      <!---->
     </div>
   </button>
   <button
     aria-checked="false"
-    class="svelte-kyk9bz"
+    class="svelte-Ball"
     role="switch"
   >
     <div
-      class="svelte-kyk9bz"
+      class="svelte-Ball"
     >
       49
+      <!---->
     </div>
   </button>
   <button
     aria-checked="true"
-    class="svelte-kyk9bz"
+    class="svelte-Ball"
     role="switch"
   >
     <div
-      class="svelte-kyk9bz"
+      class="svelte-Ball"
     >
       63
+      <!---->
     </div>
   </button>
   
+  <!---->
    
   <div
-    class="foot svelte-ayymqd"
+    class="foot svelte-Card"
   >
     12345
   </div>

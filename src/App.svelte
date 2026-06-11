@@ -5,7 +5,11 @@
   import Board from "./lib/Board.svelte"
   import Cards from "./lib/Cards.svelte"
 
-  export let url = ""
+  interface Props {
+    url?: string
+  }
+
+  let { url = "" }: Props = $props()
 </script>
 
 <div class="contianer">
