@@ -1,4 +1,5 @@
 <script lang="ts">
+  // spell-checker: ignore onflip
   import Button from "./Button.svelte"
   import Ball from "./Ball.svelte"
   import Letter from "./Letter.svelte"
@@ -10,12 +11,12 @@
   /**
    * card being inspected
    */
-  let card = null as ReturnType<typeof getCard> | null
+  let card = $state(null as ReturnType<typeof getCard> | null)
 
   /**
    * Seed for input / card being inspected
    */
-  let seed = 0
+  let seed = $state(0)
 
   /**
    *  Create rows to display letter
@@ -65,14 +66,14 @@
     {#each rows as row}
       <Letter letter={row.letter} />
       {#each row.balls as ball}
-        <Ball checked={$calls[ball]} on:flip={() => flip(ball)}>{ball}</Ball>
+        <Ball checked={$calls[ball]} onflip={() => flip(ball)}>{ball}</Ball>
       {/each}
     {/each}
   </div>
 
   <GameMaps />
   <div>
-    <Button on:click={resetGame}>Reset Game</Button>
+    <Button onclick={resetGame}>Reset Game</Button>
     <input
       type="number"
       min="10000"
@@ -81,9 +82,9 @@
       bind:value={seed}
       disabled={!!card} />
     {#if card}
-      <Button on:click={clearCard}>Clear</Button>
+      <Button onclick={clearCard}>Clear</Button>
     {:else}
-      <Button on:click={checkCard} disabled={seed <= 9999}>Check Card</Button>
+      <Button onclick={checkCard} disabled={seed <= 9999}>Check Card</Button>
     {/if}
   </div>
   {#if card}

@@ -1,369 +1,371 @@
 // Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
-exports[`Proxy<Card> > when loaded > should display the card 1`] = `
+exports[`Card > when loaded > should display the card 1`] = `
 <div
-  class="card s-rd2yZI2QwEJR"
+  class="card svelte-Card"
   data-testid="card"
 >
   <div
-    class="s-RS4ZBOUWIyHj"
+    class="svelte-Letter"
   >
     <span
-      class="s-RS4ZBOUWIyHj"
+      class="svelte-Letter"
     >
       B
     </span>
   </div>
-  <!--&lt;Letter&gt;-->
   <div
-    class="s-RS4ZBOUWIyHj"
+    class="svelte-Letter"
   >
     <span
-      class="s-RS4ZBOUWIyHj"
+      class="svelte-Letter"
     >
       I
     </span>
   </div>
-  <!--&lt;Letter&gt;-->
   <div
-    class="s-RS4ZBOUWIyHj"
+    class="svelte-Letter"
   >
     <span
-      class="s-RS4ZBOUWIyHj"
+      class="svelte-Letter"
     >
       N
     </span>
   </div>
-  <!--&lt;Letter&gt;-->
   <div
-    class="s-RS4ZBOUWIyHj"
+    class="svelte-Letter"
   >
     <span
-      class="s-RS4ZBOUWIyHj"
+      class="svelte-Letter"
     >
       G
     </span>
   </div>
-  <!--&lt;Letter&gt;-->
   <div
-    class="s-RS4ZBOUWIyHj"
+    class="svelte-Letter"
   >
     <span
-      class="s-RS4ZBOUWIyHj"
+      class="svelte-Letter"
     >
       O
     </span>
   </div>
-  <!--&lt;Letter&gt;-->
+  <!---->
    
+  <!---->
   <button
     aria-checked="true"
-    class="s-H7--1TZSAuX0"
+    class="svelte-Ball"
     role="switch"
   >
     <div
-      class="s-H7--1TZSAuX0"
+      class="svelte-Ball"
     >
       12
+      <!---->
     </div>
   </button>
-  <!--&lt;Ball&gt;-->
   <button
     aria-checked="false"
-    class="s-H7--1TZSAuX0"
+    class="svelte-Ball"
     role="switch"
   >
     <div
-      class="s-H7--1TZSAuX0"
+      class="svelte-Ball"
     >
       18
+      <!---->
     </div>
   </button>
-  <!--&lt;Ball&gt;-->
   <button
     aria-checked="false"
-    class="s-H7--1TZSAuX0"
+    class="svelte-Ball"
     role="switch"
   >
     <div
-      class="s-H7--1TZSAuX0"
+      class="svelte-Ball"
     >
       34
+      <!---->
     </div>
   </button>
-  <!--&lt;Ball&gt;-->
   <button
     aria-checked="false"
-    class="s-H7--1TZSAuX0"
+    class="svelte-Ball"
     role="switch"
   >
     <div
-      class="s-H7--1TZSAuX0"
+      class="svelte-Ball"
     >
       47
+      <!---->
     </div>
   </button>
-  <!--&lt;Ball&gt;-->
   <button
     aria-checked="false"
-    class="s-H7--1TZSAuX0"
+    class="svelte-Ball"
     role="switch"
   >
     <div
-      class="s-H7--1TZSAuX0"
+      class="svelte-Ball"
     >
       66
+      <!---->
     </div>
   </button>
-  <!--&lt;Ball&gt;-->
   
+  <!---->
   <button
     aria-checked="false"
-    class="s-H7--1TZSAuX0"
+    class="svelte-Ball"
     role="switch"
   >
     <div
-      class="s-H7--1TZSAuX0"
+      class="svelte-Ball"
     >
       13
+      <!---->
     </div>
   </button>
-  <!--&lt;Ball&gt;-->
   <button
     aria-checked="false"
-    class="s-H7--1TZSAuX0"
+    class="svelte-Ball"
     role="switch"
   >
     <div
-      class="s-H7--1TZSAuX0"
+      class="svelte-Ball"
     >
       16
+      <!---->
     </div>
   </button>
-  <!--&lt;Ball&gt;-->
   <button
     aria-checked="false"
-    class="s-H7--1TZSAuX0"
+    class="svelte-Ball"
     role="switch"
   >
     <div
-      class="s-H7--1TZSAuX0"
+      class="svelte-Ball"
     >
       32
+      <!---->
     </div>
   </button>
-  <!--&lt;Ball&gt;-->
   <button
     aria-checked="false"
-    class="s-H7--1TZSAuX0"
+    class="svelte-Ball"
     role="switch"
   >
     <div
-      class="s-H7--1TZSAuX0"
+      class="svelte-Ball"
     >
       53
+      <!---->
     </div>
   </button>
-  <!--&lt;Ball&gt;-->
   <button
     aria-checked="false"
-    class="s-H7--1TZSAuX0"
+    class="svelte-Ball"
     role="switch"
   >
     <div
-      class="s-H7--1TZSAuX0"
+      class="svelte-Ball"
     >
       62
+      <!---->
     </div>
   </button>
-  <!--&lt;Ball&gt;-->
   
+  <!---->
   <button
     aria-checked="false"
-    class="s-H7--1TZSAuX0"
+    class="svelte-Ball"
     role="switch"
   >
     <div
-      class="s-H7--1TZSAuX0"
+      class="svelte-Ball"
     >
       4
+      <!---->
     </div>
   </button>
-  <!--&lt;Ball&gt;-->
   <button
     aria-checked="false"
-    class="s-H7--1TZSAuX0"
+    class="svelte-Ball"
     role="switch"
   >
     <div
-      class="s-H7--1TZSAuX0"
+      class="svelte-Ball"
     >
       29
+      <!---->
     </div>
   </button>
-  <!--&lt;Ball&gt;-->
   <button
     aria-checked="true"
-    class="s-H7--1TZSAuX0"
+    class="svelte-Ball"
     role="switch"
   >
     <div
-      class="s-H7--1TZSAuX0"
+      class="svelte-Ball"
     >
       free
+      <!---->
     </div>
   </button>
-  <!--&lt;Ball&gt;-->
   <button
     aria-checked="false"
-    class="s-H7--1TZSAuX0"
+    class="svelte-Ball"
     role="switch"
   >
     <div
-      class="s-H7--1TZSAuX0"
+      class="svelte-Ball"
     >
       50
+      <!---->
     </div>
   </button>
-  <!--&lt;Ball&gt;-->
   <button
     aria-checked="false"
-    class="s-H7--1TZSAuX0"
+    class="svelte-Ball"
     role="switch"
   >
     <div
-      class="s-H7--1TZSAuX0"
+      class="svelte-Ball"
     >
       70
+      <!---->
     </div>
   </button>
-  <!--&lt;Ball&gt;-->
   
+  <!---->
   <button
     aria-checked="false"
-    class="s-H7--1TZSAuX0"
+    class="svelte-Ball"
     role="switch"
   >
     <div
-      class="s-H7--1TZSAuX0"
+      class="svelte-Ball"
     >
       7
+      <!---->
     </div>
   </button>
-  <!--&lt;Ball&gt;-->
   <button
     aria-checked="false"
-    class="s-H7--1TZSAuX0"
+    class="svelte-Ball"
     role="switch"
   >
     <div
-      class="s-H7--1TZSAuX0"
+      class="svelte-Ball"
     >
       23
+      <!---->
     </div>
   </button>
-  <!--&lt;Ball&gt;-->
   <button
     aria-checked="false"
-    class="s-H7--1TZSAuX0"
+    class="svelte-Ball"
     role="switch"
   >
     <div
-      class="s-H7--1TZSAuX0"
+      class="svelte-Ball"
     >
       37
+      <!---->
     </div>
   </button>
-  <!--&lt;Ball&gt;-->
   <button
     aria-checked="false"
-    class="s-H7--1TZSAuX0"
+    class="svelte-Ball"
     role="switch"
   >
     <div
-      class="s-H7--1TZSAuX0"
+      class="svelte-Ball"
     >
       56
+      <!---->
     </div>
   </button>
-  <!--&lt;Ball&gt;-->
   <button
     aria-checked="false"
-    class="s-H7--1TZSAuX0"
+    class="svelte-Ball"
     role="switch"
   >
     <div
-      class="s-H7--1TZSAuX0"
+      class="svelte-Ball"
     >
       72
+      <!---->
     </div>
   </button>
-  <!--&lt;Ball&gt;-->
   
+  <!---->
   <button
     aria-checked="false"
-    class="s-H7--1TZSAuX0"
+    class="svelte-Ball"
     role="switch"
   >
     <div
-      class="s-H7--1TZSAuX0"
+      class="svelte-Ball"
     >
       2
+      <!---->
     </div>
   </button>
-  <!--&lt;Ball&gt;-->
   <button
     aria-checked="false"
-    class="s-H7--1TZSAuX0"
+    class="svelte-Ball"
     role="switch"
   >
     <div
-      class="s-H7--1TZSAuX0"
+      class="svelte-Ball"
     >
       30
+      <!---->
     </div>
   </button>
-  <!--&lt;Ball&gt;-->
   <button
     aria-checked="false"
-    class="s-H7--1TZSAuX0"
+    class="svelte-Ball"
     role="switch"
   >
     <div
-      class="s-H7--1TZSAuX0"
+      class="svelte-Ball"
     >
       31
+      <!---->
     </div>
   </button>
-  <!--&lt;Ball&gt;-->
   <button
     aria-checked="false"
-    class="s-H7--1TZSAuX0"
+    class="svelte-Ball"
     role="switch"
   >
     <div
-      class="s-H7--1TZSAuX0"
+      class="svelte-Ball"
     >
       49
+      <!---->
     </div>
   </button>
-  <!--&lt;Ball&gt;-->
   <button
     aria-checked="true"
-    class="s-H7--1TZSAuX0"
+    class="svelte-Ball"
     role="switch"
   >
     <div
-      class="s-H7--1TZSAuX0"
+      class="svelte-Ball"
     >
       63
+      <!---->
     </div>
   </button>
-  <!--&lt;Ball&gt;-->
   
+  <!---->
    
   <div
-    class="foot s-rd2yZI2QwEJR"
+    class="foot svelte-Card"
   >
     12345
   </div>

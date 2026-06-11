@@ -4,7 +4,7 @@
   import Card from "./Card.svelte"
   import { getCard, getSeed } from "./bingo-utils"
 
-  $: cards = [] as ReturnType<typeof getCard>[]
+  let cards = $state([] as ReturnType<typeof getCard>[])
 
   // Generate a set of cards on page load.
   onMount(() => load())
@@ -21,8 +21,8 @@
 </script>
 
 <div class="no-print">
-  <Button on:click={load}>Generate Cards</Button>
-  <Button on:click={print}>Print</Button>
+  <Button onclick={load}>Generate Cards</Button>
+  <Button onclick={print}>Print</Button>
   <span>For best results print in portrait with minimal margins.</span>
 </div>
 <div class="frame">

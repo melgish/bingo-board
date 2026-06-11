@@ -3,11 +3,12 @@
   import GameMap from "./GameMap.svelte"
   import { GAME_MAPS, normals } from "./game-maps"
 
-  let active: typeof normals | (typeof normals)[0] = GAME_MAPS[0]
-  let n = 0
+  // Need RAW here for reference equality.
+  let active: typeof normals | (typeof normals)[0] = $state.raw(GAME_MAPS[0])
+  let n = $state(0)
 
   const advanceNormals = () => {
-    if (active === normals) {
+    if (active == normals) {
       n = (n + 1) % normals.length
     }
   }
@@ -20,12 +21,12 @@
 </script>
 
 <div class="games" data-testid="games">
-  <div class:active={normals == active}>
-    <GameMap game={normals[n]} on:click={() => (active = normals)} />
+  <div class={{ "active": normals == active}}>
+    <GameMap game={normals[n]} onclick={() => (active = normals)} />
   </div>
   {#each GAME_MAPS as game}
-    <div class:active={game == active}>
-      <GameMap {game} on:click={() => (active = game)} />
+    <div class={{ active: game == active }}>
+      <GameMap {game} onclick={() => (active = game)} />
     </div>
   {/each}
 </div>

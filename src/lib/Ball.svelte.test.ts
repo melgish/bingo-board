@@ -1,5 +1,6 @@
-import { afterAll, beforeAll, describe, expect, it, vi } from "vitest"
+// spell-checker: ignore onflip
 import { act, fireEvent, render, screen } from "@testing-library/svelte"
+import { afterAll, beforeAll, describe, expect, it, vi } from "vitest"
 import Ball from "./Ball.svelte"
 
 // Ball role is a switch
@@ -7,8 +8,6 @@ const SWITCH = "switch"
 // With checked and unchecked states
 const CHECKED = { checked: true }
 const UNCHECKED = { checked: false }
-// And flip event
-const FLIP = "flip"
 // With transition highlight
 const HOT = "hot"
 
@@ -39,17 +38,15 @@ describe("Ball", () => {
 
   describe("when ball is clicked", () => {
     it("should emit a flip event", async () => {
-      const { component } = render(Ball, UNCHECKED)
+      const onflip = vi.fn()
+      render(Ball, { checked: true, onflip })
       const el = screen.getByRole(SWITCH)
-      const flipped = vi.fn()
-
-      component.$on(FLIP, flipped)
 
       await fireEvent.click(el)
 
       // Make sure class is added / then removed
       expect(el).toHaveClass("hot")
-      expect(flipped).toHaveBeenCalled()
+      expect(onflip).toHaveBeenCalled()
 
       await act(() => vi.runOnlyPendingTimers())
 

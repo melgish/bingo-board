@@ -5,14 +5,13 @@ import Button from "./Button.svelte"
 describe("Button", () => {
   describe("when clicked", () => {
     it("should raise an event", async () => {
-      const clicked = vi.fn()
+      const onclick = vi.fn()
 
-      const { component } = render(Button)
-      component.$on("click", clicked)
+      render(Button, { onclick })
 
       await fireEvent.click(screen.getByRole("button"))
 
-      expect(clicked).toHaveBeenCalled()
+      expect(onclick).toHaveBeenCalled()
     })
   })
 })

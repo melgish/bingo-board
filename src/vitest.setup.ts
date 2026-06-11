@@ -5,7 +5,7 @@ import { cleanup } from "@testing-library/svelte"
 // auto cleanup dom after every test
 afterEach(() => cleanup())
 
-Object.assign(global, {
+Object.assign(window, {
   // kludge because window.scrollTo isn't in js-dom
   scrollTo: vi.fn(),
 })
