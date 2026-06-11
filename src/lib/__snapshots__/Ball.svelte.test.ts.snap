@@ -3,11 +3,11 @@
 exports[`Ball > when checked > should have aria-checked=true 1`] = `
 <button
   aria-checked="true"
-  class="s-H7--1TZSAuX0"
+  class="svelte-kyk9bz"
   role="switch"
 >
   <div
-    class="s-H7--1TZSAuX0"
+    class="svelte-kyk9bz"
   />
 </button>
 `;
@@ -15,11 +15,11 @@ exports[`Ball > when checked > should have aria-checked=true 1`] = `
 exports[`Ball > when not checked > should have aria-checked=false 1`] = `
 <button
   aria-checked="false"
-  class="s-H7--1TZSAuX0"
+  class="svelte-kyk9bz"
   role="switch"
 >
   <div
-    class="s-H7--1TZSAuX0"
+    class="svelte-kyk9bz"
   />
 </button>
 `;
