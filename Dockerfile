@@ -1,8 +1,7 @@
-FROM node:20-alpine AS base
+FROM node:20-alpine AS build
 WORKDIR /app
 
 # Install production dependencies.
-FROM base AS deps
 COPY package*.json .
 RUN npm ci --ignore-scripts
 
